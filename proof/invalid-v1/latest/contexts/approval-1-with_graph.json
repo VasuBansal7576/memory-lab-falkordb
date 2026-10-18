@@ -1,0 +1,72 @@
+{
+  "candidates": [],
+  "paths": [
+    {
+      "edges": [
+        {
+          "object": "release-steward",
+          "predicate": "APPROVED_BY",
+          "source_ids": [
+            "atlas-approval"
+          ],
+          "subject": "atlas-releases"
+        },
+        {
+          "object": "noah",
+          "predicate": "HELD_BY",
+          "source_ids": [
+            "steward-assignment"
+          ],
+          "subject": "release-steward"
+        },
+        {
+          "object": "mira",
+          "predicate": "DELEGATES_TO",
+          "source_ids": [
+            "release-delegation"
+          ],
+          "subject": "noah"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "atlas-releases",
+          "kind": "Policy",
+          "name": "Atlas releases"
+        },
+        {
+          "id": "release-steward",
+          "kind": "Role",
+          "name": "Release Steward"
+        },
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah"
+        },
+        {
+          "id": "mira",
+          "kind": "Person",
+          "name": "Mira"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "document_id": "atlas-approval",
+      "quote": "Atlas releases are approved by Release Steward.",
+      "title": "Atlas release approval policy"
+    },
+    {
+      "document_id": "steward-assignment",
+      "quote": "Release Steward is held by Noah.",
+      "title": "Release Steward assignment"
+    },
+    {
+      "document_id": "release-delegation",
+      "quote": "Noah delegates to Mira.",
+      "title": "Release delegation notice"
+    }
+  ]
+}

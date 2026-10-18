@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14ed2-eb0a-7ba3-9ebb-6faf1344dd12"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answer\":\"Alex could refer to Alex Morgan in the design practice or Alex Rivera in operations.\",\"answer_entities\":[\"Alex Morgan\",\"Alex Rivera\"],\"source_ids\":[\"design-directory\",\"operations-directory\"],\"verdict\":\"ambiguous\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":19848,"cached_input_tokens":12416,"cache_write_input_tokens":0,"output_tokens":55,"reasoning_output_tokens":0}}

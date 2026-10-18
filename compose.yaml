@@ -1,0 +1,16 @@
+services:
+  falkordb:
+    image: falkordb/falkordb@sha256:b0bdcac2cbaff989e77cb0610439b7a9289e86de033ccbbd4368b66fb680ae7a
+    ports:
+      - "127.0.0.1:6387:6379"
+    environment:
+      REDIS_ARGS: "--dir /var/lib/falkordb/data --appendonly yes --appendfsync everysec"
+    volumes:
+      - memory-data:/var/lib/falkordb/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 2s
+      retries: 20
+volumes:
+  memory-data:

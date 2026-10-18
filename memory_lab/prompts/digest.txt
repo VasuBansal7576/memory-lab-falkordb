@@ -1,0 +1,5 @@
+Write a concise daily memory in the member's voice. Use only the filtered conversation.
+Include these sections when supported: What happened, Decisions, Lessons, Facts,
+Open loops, and For the index. Retain exact names, identifiers, dates, thresholds,
+negations and unresolved questions. State when the conversation is too thin to
+support a conclusion. Omit praise, padding and invented accomplishments.

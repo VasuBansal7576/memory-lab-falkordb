@@ -1,0 +1,707 @@
+[
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-1-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 1,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s current delegation as Release Steward.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-1-without_graph.retrieval.json",
+    "run_id": "approval-1-without_graph",
+    "stderr_path": "raw/approval-1-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.33723979187198,
+      "cpu_s": 0.9353259999999999,
+      "retrieval_s": 0.0032703750766813755,
+      "total_s": 7.3464604581240565
+    },
+    "trace_path": "raw/approval-1-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19855,
+      "output_tokens": 58,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-1-with_graph.json",
+    "context_utf8_bytes": 1595,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 1,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-1-with_graph.retrieval.json",
+    "run_id": "approval-1-with_graph",
+    "stderr_path": "raw/approval-1-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 9.948933791136369,
+      "cpu_s": 1.1553559999999998,
+      "retrieval_s": 0.014986500144004822,
+      "total_s": 9.970098500140011
+    },
+    "trace_path": "raw/approval-1-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23783,
+      "output_tokens": 54,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-2-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 2,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s current delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-2-without_graph.retrieval.json",
+    "run_id": "approval-2-without_graph",
+    "stderr_path": "raw/approval-2-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.7545898330863565,
+      "cpu_s": 1.1556920000000002,
+      "retrieval_s": 0.0019169170409440994,
+      "total_s": 7.762577292043716
+    },
+    "trace_path": "raw/approval-2-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23802,
+      "output_tokens": 55,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-2-with_graph.json",
+    "context_utf8_bytes": 1595,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 2,
+    "response": {
+      "answer": "Mira approves Atlas releases under Noah's delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-2-with_graph.retrieval.json",
+    "run_id": "approval-2-with_graph",
+    "stderr_path": "raw/approval-2-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.74771620798856,
+      "cpu_s": 1.1074140000000003,
+      "retrieval_s": 0.011751792160794139,
+      "total_s": 7.767523417016491
+    },
+    "trace_path": "raw/approval-2-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23781,
+      "output_tokens": 54,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-3-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 3,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s current delegation as Release Steward.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-3-without_graph.retrieval.json",
+    "run_id": "approval-3-without_graph",
+    "stderr_path": "raw/approval-3-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.650936959078535,
+      "cpu_s": 1.1316439999999997,
+      "retrieval_s": 0.001262041972950101,
+      "total_s": 7.658249417087063
+    },
+    "trace_path": "raw/approval-3-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23804,
+      "output_tokens": 58,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-3-with_graph.json",
+    "context_utf8_bytes": 1595,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 3,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-3-with_graph.retrieval.json",
+    "run_id": "approval-3-with_graph",
+    "stderr_path": "raw/approval-3-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.886097667040303,
+      "cpu_s": 1.1075039999999996,
+      "retrieval_s": 0.018270374974235892,
+      "total_s": 7.913116500014439
+    },
+    "trace_path": "raw/approval-3-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19836,
+      "output_tokens": 54,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-4-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 4,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s current delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-4-without_graph.retrieval.json",
+    "run_id": "approval-4-without_graph",
+    "stderr_path": "raw/approval-4-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 6.781330874888226,
+      "cpu_s": 1.0100810000000005,
+      "retrieval_s": 0.0020702078472822905,
+      "total_s": 6.7891601249575615
+    },
+    "trace_path": "raw/approval-4-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19853,
+      "output_tokens": 55,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-4-with_graph.json",
+    "context_utf8_bytes": 1595,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 4,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-4-with_graph.retrieval.json",
+    "run_id": "approval-4-with_graph",
+    "stderr_path": "raw/approval-4-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 6.825141584035009,
+      "cpu_s": 0.9782279999999997,
+      "retrieval_s": 0.014724250184372067,
+      "total_s": 6.845548792043701
+    },
+    "trace_path": "raw/approval-4-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19834,
+      "output_tokens": 54,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-5-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 5,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s current delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-5-without_graph.retrieval.json",
+    "run_id": "approval-5-without_graph",
+    "stderr_path": "raw/approval-5-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.183079375186935,
+      "cpu_s": 1.03904,
+      "retrieval_s": 0.002360207960009575,
+      "total_s": 7.191685624886304
+    },
+    "trace_path": "raw/approval-5-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19855,
+      "output_tokens": 55,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-5-with_graph.json",
+    "context_utf8_bytes": 1595,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 5,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-5-with_graph.retrieval.json",
+    "run_id": "approval-5-with_graph",
+    "stderr_path": "raw/approval-5-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.0968464580364525,
+      "cpu_s": 1.0560910000000003,
+      "retrieval_s": 0.009147499920800328,
+      "total_s": 7.109503250103444
+    },
+    "trace_path": "raw/approval-5-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23783,
+      "output_tokens": 54,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/leadership-1-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who leads the team that owns Beacon?",
+    "question_id": "leadership",
+    "repeat": 1,
+    "response": {
+      "answer": "Elena leads Platform, the team that owns Beacon.",
+      "answer_entities": [
+        "Elena"
+      ],
+      "source_ids": [
+        "beacon-ownership",
+        "platform-leadership"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/leadership-1-without_graph.retrieval.json",
+    "run_id": "leadership-1-without_graph",
+    "stderr_path": "raw/leadership-1-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.145605084020644,
+      "cpu_s": 0.9982989999999994,
+      "retrieval_s": 0.0014158748090267181,
+      "total_s": 7.15240095788613
+    },
+    "trace_path": "raw/leadership-1-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 12416,
+      "input_tokens": 19856,
+      "output_tokens": 50,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/leadership-1-with_graph.json",
+    "context_utf8_bytes": 1074,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who leads the team that owns Beacon?",
+    "question_id": "leadership",
+    "repeat": 1,
+    "response": {
+      "answer": "Elena leads Platform, the team that owns Beacon.",
+      "answer_entities": [
+        "Elena"
+      ],
+      "source_ids": [
+        "beacon-ownership",
+        "platform-leadership"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/leadership-1-with_graph.retrieval.json",
+    "run_id": "leadership-1-with_graph",
+    "stderr_path": "raw/leadership-1-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 8.186716708121821,
+      "cpu_s": 1.0293279999999996,
+      "retrieval_s": 0.011760541005060077,
+      "total_s": 8.204338500043377
+    },
+    "trace_path": "raw/leadership-1-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19705,
+      "output_tokens": 50,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/missing-1-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "repeat": 1,
+    "response": {
+      "answer": "The supplied context does not establish who owns Nimbus.",
+      "answer_entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "retrieval_trace_path": "raw/missing-1-without_graph.retrieval.json",
+    "run_id": "missing-1-without_graph",
+    "stderr_path": "raw/missing-1-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 6.7392084170132875,
+      "cpu_s": 1.0435490000000005,
+      "retrieval_s": 0.001995750004425645,
+      "total_s": 6.746378332842141
+    },
+    "trace_path": "raw/missing-1-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23803,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/missing-1-with_graph.json",
+    "context_utf8_bytes": 54,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "repeat": 1,
+    "response": {
+      "answer": "The supplied context does not establish who owns Nimbus.",
+      "answer_entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "retrieval_trace_path": "raw/missing-1-with_graph.retrieval.json",
+    "run_id": "missing-1-with_graph",
+    "stderr_path": "raw/missing-1-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 5.738204000052065,
+      "cpu_s": 0.9793610000000008,
+      "retrieval_s": 0.003414333099499345,
+      "total_s": 5.747400041902438
+    },
+    "trace_path": "raw/missing-1-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19452,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/ambiguous-1-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "repeat": 1,
+    "response": {
+      "answer": "Alex could refer to Alex Morgan in the design practice or Alex Rivera in operations.",
+      "answer_entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "source_ids": [
+        "design-directory",
+        "operations-directory"
+      ],
+      "verdict": "ambiguous"
+    },
+    "retrieval_trace_path": "raw/ambiguous-1-without_graph.retrieval.json",
+    "run_id": "ambiguous-1-without_graph",
+    "stderr_path": "raw/ambiguous-1-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 6.4662250420078635,
+      "cpu_s": 0.8710219999999982,
+      "retrieval_s": 0.0027302501257508993,
+      "total_s": 6.4746644999831915
+    },
+    "trace_path": "raw/ambiguous-1-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 12416,
+      "input_tokens": 19848,
+      "output_tokens": 55,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/ambiguous-1-with_graph.json",
+    "context_utf8_bytes": 373,
+    "correct": false,
+    "error": null,
+    "grade": {
+      "correct": false,
+      "reasons": [
+        "invented ambiguity candidate"
+      ]
+    },
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "repeat": 1,
+    "response": {
+      "answer": "Alex is ambiguous: two distinct people match, Alex Morgan (design) and Alex Rivera (operations).",
+      "answer_entities": [
+        "Alex",
+        "Alex"
+      ],
+      "source_ids": [],
+      "verdict": "ambiguous"
+    },
+    "retrieval_trace_path": "raw/ambiguous-1-with_graph.retrieval.json",
+    "run_id": "ambiguous-1-with_graph",
+    "stderr_path": "raw/ambiguous-1-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 8.171120708109811,
+      "cpu_s": 0.9753120000000024,
+      "retrieval_s": 0.00425033294595778,
+      "total_s": 8.180170291103423
+    },
+    "trace_path": "raw/ambiguous-1-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19543,
+      "output_tokens": 52,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "method": "Memory.ask",
+  "snapshot": "a30af6cb5d28baae8cc2e5fd32667caa684873385339dce953eb1b280de2f5ba",
+  "trace": {
+    "facts_returned": 2,
+    "hop_count": 2,
+    "query": "MATCH p=(n0:Entity)<-[r0:OWNS]-(n1:Entity)<-[r1:LEADS]-(n2:Entity) WHERE n0.id=$seed AND n0.kind IN [\"Project\",\"Service\"] AND n1.kind IN [\"Person\",\"Team\"] AND n1.kind IN [\"Team\"] AND n2.kind IN [\"Person\"] RETURN nodes(p), relationships(p) LIMIT 64",
+    "retrieval_ms": 9.583,
+    "seeds": [
+      "beacon"
+    ]
+  }
+}

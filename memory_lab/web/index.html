@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>Memory Lab · Source-backed company knowledge</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Memory Lab home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i></span>Memory Lab<span class="version">01</span></a>
+    <div class="header-context"><span class="context-dot"></span>OrbitWorks <span class="slash">/</span> <span>Synthetic demo data</span></div>
+    <button class="button quiet" id="refresh-button" type="button">Refresh data <span aria-hidden="true">↻</span></button>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">A workspace for connected knowledge</p><h1 id="page-title">Ask a question.<br><span>Follow the evidence.</span></h1></div>
+      <p class="intro-copy">Explore the people, projects, and policies at OrbitWorks. Every supported answer links back to a source and the relationships behind it.</p>
+    </section>
+
+    <div class="system-strip" aria-label="Workspace status">
+      <span id="database-status" class="status-indicator"><span class="status-dot"></span>Connecting to FalkorDB</span>
+      <span id="snapshot-label">Snapshot pending</span>
+      <span id="data-counts">Reading workspace</span>
+      <span class="mode-note">Evidence mode · no model call</span>
+    </div>
+    <div id="global-error" class="notice error" role="alert" hidden></div>
+
+    <div class="workspace">
+      <aside class="question-rail" aria-label="Questions and saved investigations">
+        <div class="section-top"><h2>Start exploring</h2><span class="section-index">01</span></div>
+        <p class="small muted">Try a question about the graph.</p>
+        <div id="sample-questions" class="sample-list"></div>
+        <section class="saved-section" aria-labelledby="saved-title">
+          <div class="section-top"><h2 id="saved-title">Saved investigations</h2><span id="saved-count" class="count"></span></div>
+          <div id="saved-list"><p class="small muted">Loading saved questions…</p></div>
+          <p class="caption muted">Resume a question against the current graph.</p>
+        </section>
+        <section class="saved-section" aria-labelledby="memory-title">
+          <h2 id="memory-title">Session memory</h2>
+          <p class="small muted">Model conversations can become source-backed notes for future questions.</p>
+          <button id="close-session" class="button secondary" type="button" disabled>Save session to memory</button>
+          <button id="sync-notes" class="button quiet" type="button">Sync memory notes</button>
+          <button id="retry-memory" class="button quiet" type="button">Retry pending sessions</button>
+          <p id="memory-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+        </section>
+        <div class="rail-note"><span class="tiny-graph" aria-hidden="true">○ → ○ → ○</span><p>Sources become facts.<br>Facts connect the answer.</p></div>
+      </aside>
+
+      <section class="evidence-workspace" aria-label="Ask and inspect evidence">
+        <form id="question-form" class="question-form">
+          <label class="eyebrow" for="question-input">Your question</label>
+          <textarea id="question-input" name="question" rows="2" maxlength="100000" placeholder="Who leads the team that owns Beacon?" required></textarea>
+          <div class="compose-bottom"><div class="mode-control"><label class="sr-only" for="answer-mode">Answer mode</label><select id="answer-mode"><option value="evidence">Evidence mode</option><option value="codex" disabled>Codex · checking local login</option><option value="anthropic" disabled>Anthropic · not configured</option></select><span id="mode-help" class="caption">No model call</span></div><button id="ask-button" class="button primary" type="submit">Ask question <span aria-hidden="true">↗</span></button></div>
+        </form>
+        <p id="model-configuration" class="caption muted">Model answers use your local Codex login, or an Anthropic model configured in .env. Evidence mode retrieves facts without a model call.</p>
+        <p id="question-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+
+        <div id="answer-region" aria-live="polite" aria-busy="false">
+          <div id="empty-state" class="empty-state"><div class="empty-graph" aria-hidden="true"><span>Person</span><b>→</b><span>Team</span><b>→</b><span>Project</span></div><h2>Knowledge you can inspect.</h2><p>Ask about an owner, follow a relationship, or check a policy. The answer, source quotes, and retrieval trace appear here.</p><div class="empty-footer"><span class="status-dot"></span>Only source-backed facts</div></div>
+          <article id="answer-content" hidden>
+            <div class="answer-heading"><div><p class="eyebrow">Answer</p><span id="answer-status" class="answer-status"></span></div><button id="save-button" class="button quiet" type="button">Save investigation <span aria-hidden="true">+</span></button></div>
+            <h2 id="answered-question"></h2>
+            <p id="answer-text" class="answer-text"></p>
+            <div id="answer-meta" class="answer-meta"></div>
+            <div id="candidate-region" hidden><h3>Choose a more specific question</h3><div id="candidate-list"></div></div>
+            <section id="paths-region" class="result-section" hidden><div class="section-top"><h3>Relationship paths</h3><span class="caption muted">Follow the connections</span></div><div id="path-list"></div></section>
+            <section id="citations-region" class="result-section" hidden><div class="section-top"><h3>Source evidence</h3><span id="citation-count" class="count"></span></div><div id="citation-list"></div></section>
+            <details id="trace-region" class="trace"><summary>Inspect retrieval <span id="trace-summary"></span></summary><dl id="trace-facts"></dl><p class="eyebrow">Cypher query</p><pre id="cypher-query"></pre><div id="usage-details" class="caption muted"></div></details>
+          </article>
+        </div>
+      </section>
+
+      <aside class="documents-panel" aria-labelledby="documents-title">
+        <div class="section-top"><h2 id="documents-title">Source documents</h2><span class="section-index">02</span></div>
+        <p class="small muted">The evidence this workspace knows.</p>
+        <label class="sr-only" for="document-select">Select a source document</label>
+        <select id="document-select" disabled><option>Loading documents…</option></select>
+        <div id="document-preview"><div class="document-placeholder">Documents will appear when the database connects.</div></div>
+        <details id="edit-details" class="edit-details" hidden><summary>Edit source & facts <span aria-hidden="true">↗</span></summary><p class="caption muted">Replace this document with explicit text, entities, and facts. Quotes must match the source text. Markdown imports can also extract facts with the local model.</p><form id="document-form"><label for="document-json" class="eyebrow">Document JSON</label><textarea id="document-json" rows="16" spellcheck="false" aria-describedby="edit-help"></textarea><p id="edit-help" class="caption muted">Saving updates the graph. Existing answers keep their original snapshot until you ask again.</p><button id="document-save" class="button secondary" type="submit">Save document</button><p id="document-feedback" class="form-feedback" role="status" aria-live="polite"></p></form></details>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer"><span>Memory Lab <span class="muted">/</span> OrbitWorks</span><span>Explicit evidence. Inspectable answers.</span><span class="muted">A synthetic knowledge workspace</span></footer>
+  <div id="announcements" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

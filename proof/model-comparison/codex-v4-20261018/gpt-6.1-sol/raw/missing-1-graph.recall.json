@@ -1,0 +1,20 @@
+{
+  "answer": "No entity name or alias matched. Name the relevant person, policy, service or project.",
+  "candidates": [],
+  "citations": [],
+  "evidence_text": "No matching graph evidence.",
+  "mode": "evidence",
+  "notes": [],
+  "paths": [],
+  "question": "Who owns Nimbus?",
+  "snapshot": "eae9068eda710353089f87c6768fc1358d103c4db8b82809e8a87453bd6dfe95",
+  "status": "missing",
+  "trace": {
+    "facts_returned": 0,
+    "hop_count": 0,
+    "query": "",
+    "retrieval_ms": 2.882,
+    "seeds": [],
+    "truncated": false
+  }
+}

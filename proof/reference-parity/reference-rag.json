@@ -1,0 +1,280 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-18T15:12:54.339793+00:00",
+  "reference_commit": "496a6e9d9b9578943ec5ed34c2780de5a0fa5510",
+  "scope": "Twelve original raw notes plus three original distilled sidecars. First-hit source and specified distilled-kind checks, not generated-answer accuracy.",
+  "source_count": 12,
+  "sidecar_count": 3,
+  "distilled_question_count": 5,
+  "cases": [
+    {
+      "question": "what is the mileage rate",
+      "expected_first_source_any": [
+        "expenses.md"
+      ],
+      "expected_first_kind": null,
+      "hits": [
+        {
+          "source": "expenses.md",
+          "kind": "chunk",
+          "quote": "# Expenses\n\nKeep receipts for everything. Photos are fine, screenshots of banking apps are not.\n\nAnything under £100: spend it, log it, claim it monthly. Between £100 and £500: log it in advance where you can. Any single expense over £500 needs approval from your manager before you spend, no exceptions, and Dee will bounce claims that skipped it.\n\nMileage at the HMRC rate. No alcohol on expenses at customer meetings.\n",
+          "matched_quote": "# Expenses\n\nKeep receipts for everything. Photos are fine, screenshots of banking apps are not.\n\nAnything under £100: spend it, log it, claim it monthly. Between £100 and £500: log it in advance where you can. Any single expense over £500 needs approval from your manager before you spend, no exceptions, and Dee will bounce claims that skipped it.\n\nMileage at the HMRC rate. No alcohol on expenses at customer meetings.\n",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03333333333333333
+        },
+        {
+          "source": "supplier-notes.md",
+          "kind": "chunk",
+          "quote": "# Suppliers — working notes\n\nCouriers: current contract to September. The January delivery issues are credited on the February invoice; chase if the credit isn't showing.\n\nPackaging: two quotes in, waiting on a third. Anything we commit over £2,000 needs Alex's sign-off first.\n\nHelpdesk software: renews in June, seats increased to 8. Dee has the payment schedule.\n",
+          "matched_quote": "# Suppliers — working notes\n\nCouriers: current contract to September. The January delivery issues are credited on the February invoice; chase if the credit isn't showing.\n\nPackaging: two quotes in, waiting on a third. Anything we commit over £2,000 needs Alex's sign-off first.\n\nHelpdesk software: renews in June, seats increased to 8. Dee has the payment schedule.\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.01639344262295082
+        },
+        {
+          "source": "brand-voice.md",
+          "kind": "chunk",
+          "quote": "# Brand voice, one page\n\nWe sound like a competent friend, not a corporation and not a mate at the pub. Plain words beat clever ones. We never say \"utilise\", \"reach out\", or \"as per\".\n\nWe admit mistakes fast and specifically. \"We sent the wrong size and we're sorry\" beats any apology template ever written.\n\nNumbers over adjectives: \"delivered in 2 days\" not \"lightning-fast delivery\".\n",
+          "matched_quote": "# Brand voice, one page\n\nWe sound like a competent friend, not a corporation and not a mate at the pub. Plain words beat clever ones. We never say \"utilise\", \"reach out\", or \"as per\".\n\nWe admit mistakes fast and specifically. \"We sent the wrong size and we're sorry\" beats any apology template ever written.\n\nNumbers over adjectives: \"delivered in 2 days\" not \"lightning-fast delivery\".\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.016129032258064516
+        },
+        {
+          "source": "incident-log-january.md",
+          "kind": "chunk",
+          "quote": "# Incident log — January 2026\n\n**8 Jan** — Payments provider outage, 40 minutes. Checkout down. Escalated to Alex, status page updated, no refunds needed.\n\n**17 Jan** — Courier mislabelling batch. 61 orders affected. Support handled case-by-case; credits issued where delivery passed 5 days.\n\n**29 Jan** — Helpdesk spam wave, auto-close rule added. No customer impact.\n\nWrite-ups within 48 hours of resolution, always.\n",
+          "matched_quote": "# Incident log — January 2026\n\n**8 Jan** — Payments provider outage, 40 minutes. Checkout down. Escalated to Alex, status page updated, no refunds needed.\n\n**17 Jan** — Courier mislabelling batch. 61 orders affected. Support handled case-by-case; credits issued where delivery passed 5 days.\n\n**29 Jan** — Helpdesk spam wave, auto-close rule added. No customer impact.\n\nWrite-ups within 48 hours of resolution, always.\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.015873015873015872
+        },
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "chunk",
+          "quote": "Last reviewed: January 2026. Owner: operations.\n\n## Our promise\n\nWe answer every customer like a human being who has read their message. No canned openers, no \"we apologise for any inconvenience caused\". If we got it wrong, we say so and fix it.\n\n## Tickets\n\nEvery ticket gets a first reply within one business day. If you can resolve it in the first reply, do. If a ticket needs someone else's input, say who you're asking and when you'll be back. Nothing sits unanswered over a weekend without a holding reply.\n\nTag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n## Refunds and credits\n\nWe'd rather refund quickly than argue slowly. If the product didn't do what we said it would, the customer gets their money back, no forms.\n\nFor amounts up to £500, any support agent can process the refund directly, and it should be done within 48 hours of the request. Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment. Refunds always go back to the original payment method; we don't do bank transfers or credit-in-lieu unless the original method no longer exists.\n\n",
+          "matched_quote": "## Tickets\n\nEvery ticket gets a first reply within one business day. If you can resolve it in the first reply, do. If a ticket needs someone else's input, say who you're asking and when you'll be back. Nothing sits unanswered over a weekend without a holding reply.\n\nTag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.015625
+        }
+      ]
+    },
+    {
+      "question": "how do we talk to customers in writing",
+      "expected_first_source_any": [
+        "customer-ops-handbook.md",
+        "brand-voice.md"
+      ],
+      "expected_first_kind": null,
+      "hits": [
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "chunk",
+          "quote": "Partial refunds follow the same thresholds as full ones. Goodwill credits under £50 are at the agent's discretion, once per customer per quarter.\n\n## Complaints\n\nA complaint that isn't resolved after two replies escalates to the support lead. If a customer uses the word \"legal\" or mentions a regulator, escalate immediately regardless of reply count.\n\n## Tone of voice\n\nPlain words. Short sentences. Never blame the customer, the courier, or \"the system\". Read your reply out loud before sending; if you wouldn't say it across a counter, rewrite it.\n",
+          "matched_quote": "## Tone of voice\n\nPlain words. Short sentences. Never blame the customer, the courier, or \"the system\". Read your reply out loud before sending; if you wouldn't say it across a counter, rewrite it.\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.016666666666666666
+        },
+        {
+          "source": "it-setup.md",
+          "kind": "chunk",
+          "quote": "# New starter IT setup\n\nDay one: email, helpdesk seat, shared drive, password manager. Ask Marcus for the checklist; don't improvise access levels.\n\nLaptops are ordered the week before start date. Everyone gets the standard build; exceptions need a reason in writing.\n\nLeavers: access revoked same day, hardware back within a week.\n",
+          "matched_quote": "# New starter IT setup\n\nDay one: email, helpdesk seat, shared drive, password manager. Ask Marcus for the checklist; don't improvise access levels.\n\nLaptops are ordered the week before start date. Everyone gets the standard build; exceptions need a reason in writing.\n\nLeavers: access revoked same day, hardware back within a week.\n",
+          "found_by": [
+            "keyword"
+          ],
+          "score": 0.016666666666666666
+        },
+        {
+          "source": "brand-voice.md",
+          "kind": "chunk",
+          "quote": "# Brand voice, one page\n\nWe sound like a competent friend, not a corporation and not a mate at the pub. Plain words beat clever ones. We never say \"utilise\", \"reach out\", or \"as per\".\n\nWe admit mistakes fast and specifically. \"We sent the wrong size and we're sorry\" beats any apology template ever written.\n\nNumbers over adjectives: \"delivered in 2 days\" not \"lightning-fast delivery\".\n",
+          "matched_quote": "# Brand voice, one page\n\nWe sound like a competent friend, not a corporation and not a mate at the pub. Plain words beat clever ones. We never say \"utilise\", \"reach out\", or \"as per\".\n\nWe admit mistakes fast and specifically. \"We sent the wrong size and we're sorry\" beats any apology template ever written.\n\nNumbers over adjectives: \"delivered in 2 days\" not \"lightning-fast delivery\".\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.01639344262295082
+        },
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "chunk",
+          "quote": "# Customer Operations Handbook\n\nLast reviewed: January 2026. Owner: operations.\n\n## Our promise\n\nWe answer every customer like a human being who has read their message. No canned openers, no \"we apologise for any inconvenience caused\". If we got it wrong, we say so and fix it.\n\n## Tickets\n\nEvery ticket gets a first reply within one business day. If you can resolve it in the first reply, do. If a ticket needs someone else's input, say who you're asking and when you'll be back. Nothing sits unanswered over a weekend without a holding reply.\n\nTag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n",
+          "matched_quote": "## Our promise\n\nWe answer every customer like a human being who has read their message. No canned openers, no \"we apologise for any inconvenience caused\". If we got it wrong, we say so and fix it.\n\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.016129032258064516
+        },
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "chunk",
+          "quote": "Last reviewed: January 2026. Owner: operations.\n\n## Our promise\n\nWe answer every customer like a human being who has read their message. No canned openers, no \"we apologise for any inconvenience caused\". If we got it wrong, we say so and fix it.\n\n## Tickets\n\nEvery ticket gets a first reply within one business day. If you can resolve it in the first reply, do. If a ticket needs someone else's input, say who you're asking and when you'll be back. Nothing sits unanswered over a weekend without a holding reply.\n\nTag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n## Refunds and credits\n\nWe'd rather refund quickly than argue slowly. If the product didn't do what we said it would, the customer gets their money back, no forms.\n\nFor amounts up to £500, any support agent can process the refund directly, and it should be done within 48 hours of the request. Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment. Refunds always go back to the original payment method; we don't do bank transfers or credit-in-lieu unless the original method no longer exists.\n\n",
+          "matched_quote": "## Tickets\n\nEvery ticket gets a first reply within one business day. If you can resolve it in the first reply, do. If a ticket needs someone else's input, say who you're asking and when you'll be back. Nothing sits unanswered over a weekend without a holding reply.\n\nTag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n",
+          "found_by": [
+            "meaning"
+          ],
+          "score": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "question": "who has sign-off while Sarah is away",
+      "expected_first_source_any": [
+        "ooo-march-sarah.md"
+      ],
+      "expected_first_kind": "distilled",
+      "hits": [
+        {
+          "source": "ooo-march-sarah.md",
+          "kind": "distilled",
+          "quote": "Subject: Out of office — March\n\nHi all,\n\nI'm away from the 1st to the 31st of March (finally taking the sabbatical month).\n\nWhile I'm out, anything that needs my sign-off goes to Marcus — he has full authority on ops decisions for the month, so please don't queue things up waiting for me. Genuine emergencies: Alex knows how to reach me.\n\nSupplier renewals for Q2 are already approved and with Dee.\n\nSee you in April,\nSarah\n",
+          "matched_quote": "anything that needs my sign-off goes to Marcus",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03333333333333333
+        },
+        {
+          "source": "ooo-march-sarah.md",
+          "kind": "distilled",
+          "quote": "Subject: Out of office — March\n\nHi all,\n\nI'm away from the 1st to the 31st of March (finally taking the sabbatical month).\n\nWhile I'm out, anything that needs my sign-off goes to Marcus — he has full authority on ops decisions for the month, so please don't queue things up waiting for me. Genuine emergencies: Alex knows how to reach me.\n\nSupplier renewals for Q2 are already approved and with Dee.\n\nSee you in April,\nSarah\n",
+          "matched_quote": "anything that needs my sign-off goes to Marcus",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03252247488101534
+        },
+        {
+          "source": "ooo-march-sarah.md",
+          "kind": "chunk",
+          "quote": "Subject: Out of office — March\n\nHi all,\n\nI'm away from the 1st to the 31st of March (finally taking the sabbatical month).\n\nWhile I'm out, anything that needs my sign-off goes to Marcus — he has full authority on ops decisions for the month, so please don't queue things up waiting for me. Genuine emergencies: Alex knows how to reach me.\n\nSupplier renewals for Q2 are already approved and with Dee.\n\nSee you in April,\nSarah\n",
+          "matched_quote": "Subject: Out of office — March\n\nHi all,\n\nI'm away from the 1st to the 31st of March (finally taking the sabbatical month).\n\nWhile I'm out, anything that needs my sign-off goes to Marcus — he has full authority on ops decisions for the month, so please don't queue things up waiting for me. Genuine emergencies: Alex knows how to reach me.\n\nSupplier renewals for Q2 are already approved and with Dee.\n\nSee you in April,\nSarah\n",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03252247488101534
+        },
+        {
+          "source": "team.md",
+          "kind": "chunk",
+          "quote": "# Who's who\n\n- Alex Doyle — founder. Pricing, partnerships, anything customer-facing that commits us publicly.\n- Sarah Chen — runs operations day to day (the Operations Manager). Budgets, sign-offs, supplier relationships.\n- Priya Patel — support lead. Owns the rota, handles escalations, writes the monthly support report.\n- Marcus Webb — operations analyst. Reporting, process docs, covers for Sarah when she's away.\n- Dee (freelance) — bookkeeping, two days a week.\n",
+          "matched_quote": "# Who's who\n\n- Alex Doyle — founder. Pricing, partnerships, anything customer-facing that commits us publicly.\n- Sarah Chen — runs operations day to day (the Operations Manager). Budgets, sign-offs, supplier relationships.\n- Priya Patel — support lead. Owns the rota, handles escalations, writes the monthly support report.\n- Marcus Webb — operations analyst. Reporting, process docs, covers for Sarah when she's away.\n- Dee (freelance) — bookkeeping, two days a week.\n",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03125763125763126
+        },
+        {
+          "source": "meeting-notes-2026-02-14.md",
+          "kind": "chunk",
+          "quote": "# Ops sync — 14 Feb 2026\n\nPresent: Sarah, Priya, Marcus. Apologies: Alex.\n\n- Refund volumes up 12% in January, mostly the courier issue. Priya to include a breakdown in the monthly report.\n- Q2 supplier renewals: Sarah approving before her leave; Dee to schedule payments.\n- March cover: Sarah to send the out-of-office plan this week so nobody is guessing.\n- Helpdesk macros need a cleanup; Marcus volunteered.\n- Next sync: 28 Feb.\n",
+          "matched_quote": "# Ops sync — 14 Feb 2026\n\nPresent: Sarah, Priya, Marcus. Apologies: Alex.\n\n- Refund volumes up 12% in January, mostly the courier issue. Priya to include a breakdown in the monthly report.\n- Q2 supplier renewals: Sarah approving before her leave; Dee to schedule payments.\n- March cover: Sarah to send the out-of-office plan this week so nobody is guessing.\n- Helpdesk macros need a cleanup; Marcus volunteered.\n- Next sync: 28 Feb.\n",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.030330882352941176
+        }
+      ]
+    },
+    {
+      "question": "A customer wants an £800 refund in March. Who signs it off?",
+      "expected_first_source_any": [
+        "customer-ops-handbook.md"
+      ],
+      "expected_first_kind": null,
+      "hits": [
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "distilled",
+          "quote": "Tag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n## Refunds and credits\n\nWe'd rather refund quickly than argue slowly. If the product didn't do what we said it would, the customer gets their money back, no forms.\n\nFor amounts up to £500, any support agent can process the refund directly, and it should be done within 48 hours of the request. Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment. Refunds always go back to the original payment method; we don't do bank transfers or credit-in-lieu unless the original method no longer exists.\n\nPartial refunds follow the same thresholds as full ones. Goodwill credits under £50 are at the agent's discretion, once per customer per quarter.\n\n## Complaints\n\nA complaint that isn't resolved after two replies escalates to the support lead. If a customer uses the word \"legal\" or mentions a regulator, escalate immediately regardless of reply count.\n",
+          "matched_quote": "Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment.",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03333333333333333
+        },
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "distilled",
+          "quote": "Tag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n## Refunds and credits\n\nWe'd rather refund quickly than argue slowly. If the product didn't do what we said it would, the customer gets their money back, no forms.\n\nFor amounts up to £500, any support agent can process the refund directly, and it should be done within 48 hours of the request. Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment. Refunds always go back to the original payment method; we don't do bank transfers or credit-in-lieu unless the original method no longer exists.\n\nPartial refunds follow the same thresholds as full ones. Goodwill credits under £50 are at the agent's discretion, once per customer per quarter.\n\n## Complaints\n\nA complaint that isn't resolved after two replies escalates to the support lead. If a customer uses the word \"legal\" or mentions a regulator, escalate immediately regardless of reply count.\n",
+          "matched_quote": "Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment.",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03225806451612903
+        },
+        {
+          "source": "newsletter-march-draft.md",
+          "kind": "chunk",
+          "quote": "# March newsletter — draft 2\n\nSubject line options:\n- \"Spring cleaning, the useful kind\"\n- \"What we fixed in February\"\n\nBody: lead with the courier fix and the new refund guarantee (\"if it's our fault, your money's back within 48 hours, no forms\"). Middle section: customer story (the bakery, pending their sign-off on the quote). Close: April webinar plug.\n\nDo not send before the pricing page is updated. Check with Alex.\n",
+          "matched_quote": "# March newsletter — draft 2\n\nSubject line options:\n- \"Spring cleaning, the useful kind\"\n- \"What we fixed in February\"\n\nBody: lead with the courier fix and the new refund guarantee (\"if it's our fault, your money's back within 48 hours, no forms\"). Middle section: customer story (the bakery, pending their sign-off on the quote). Close: April webinar plug.\n\nDo not send before the pricing page is updated. Check with Alex.\n",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.032018442622950824
+        },
+        {
+          "source": "customer-ops-handbook.md",
+          "kind": "chunk",
+          "quote": "## Tickets\n\nEvery ticket gets a first reply within one business day. If you can resolve it in the first reply, do. If a ticket needs someone else's input, say who you're asking and when you'll be back. Nothing sits unanswered over a weekend without a holding reply.\n\nTag tickets properly. The monthly report is built from tags and untagged tickets make the numbers lie.\n\n## Refunds and credits\n\nWe'd rather refund quickly than argue slowly. If the product didn't do what we said it would, the customer gets their money back, no forms.\n\nFor amounts up to £500, any support agent can process the refund directly, and it should be done within 48 hours of the request. Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment. Refunds always go back to the original payment method; we don't do bank transfers or credit-in-lieu unless the original method no longer exists.\n\nPartial refunds follow the same thresholds as full ones. Goodwill credits under £50 are at the agent's discretion, once per customer per quarter.\n\n## Complaints\n\nA complaint that isn't resolved after two replies escalates to the support lead. If a customer uses the word \"legal\" or mentions a regulator, escalate immediately regardless of reply count.\n\n## Tone of voice\n\n",
+          "matched_quote": "## Refunds and credits\n\nWe'd rather refund quickly than argue slowly. If the product didn't do what we said it would, the customer gets their money back, no forms.\n\nFor amounts up to £500, any support agent can process the refund directly, and it should be done within 48 hours of the request. Any refund exceeding £500 must be signed off by the Operations Manager before Finance releases the payment. Refunds always go back to the original payment method; we don't do bank transfers or credit-in-lieu unless the original method no longer exists.\n\nPartial refunds follow the same thresholds as full ones. Goodwill credits under £50 are at the agent's discretion, once per customer per quarter.\n\n",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03177805800756621
+        },
+        {
+          "source": "ooo-march-sarah.md",
+          "kind": "distilled",
+          "quote": "Subject: Out of office — March\n\nHi all,\n\nI'm away from the 1st to the 31st of March (finally taking the sabbatical month).\n\nWhile I'm out, anything that needs my sign-off goes to Marcus — he has full authority on ops decisions for the month, so please don't queue things up waiting for me. Genuine emergencies: Alex knows how to reach me.\n\nSupplier renewals for Q2 are already approved and with Dee.\n\nSee you in April,\nSarah\n",
+          "matched_quote": "anything that needs my sign-off goes to Marcus",
+          "found_by": [
+            "keyword",
+            "meaning"
+          ],
+          "score": 0.03125763125763126
+        }
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/brand-voice.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/customer-ops-handbook.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/expenses.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/holiday-rota-2026.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/incident-log-january.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/it-setup.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/meeting-notes-2026-02-14.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/newsletter-march-draft.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/ooo-march-sarah.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/refunds-policy-2024-superseded.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/supplier-notes.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus-before/team.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/rag/distilled/customer-ops-handbook.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/rag/distilled/ooo-march-sarah.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/rag/distilled/supplier-notes.md"
+  ],
+  "reference_data_license": {
+    "url": "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/LICENSE",
+    "notice": "MIT License\n\nCopyright (c) 2026 Glitch Cat Club\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  }
+}

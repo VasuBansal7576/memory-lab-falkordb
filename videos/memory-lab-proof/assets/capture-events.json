@@ -1,0 +1,18 @@
+[
+  {
+    "at": 0,
+    "event": "Loaded live application"
+  },
+  {
+    "at": 4.676,
+    "event": "Submitted real Codex question"
+  },
+  {
+    "at": 13.982,
+    "event": "Real answer rendered"
+  },
+  {
+    "at": 39.535,
+    "event": "Inspected paths, source quotations and Cypher"
+  }
+]

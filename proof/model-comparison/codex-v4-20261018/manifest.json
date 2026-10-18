@@ -1,0 +1,31 @@
+{
+  "completed_at": "2026-10-18T15:11:38.306524+00:00",
+  "created_at": "2026-10-18T15:06:50.962800+00:00",
+  "fixture_sha256": "807f877e2fc29bc0797f4a0bc3ba218b37bb3421f31de7b15f54af69f4ad27de",
+  "harness_sha256": "6fc160ed6f0431f32a0cbf396d5cf20842e1e705543d85bb98d59659b9329d53",
+  "models": {
+    "gpt-6-luna": {
+      "directory": "gpt-6-luna"
+    },
+    "gpt-6.1-sol": {
+      "directory": "gpt-6.1-sol"
+    }
+  },
+  "parameters": {
+    "fixture": "<LOCAL_HOME>/.t3/scratch/2026-10-18-use-tinyfish-and-browser-use-0115788b/data/operations.json",
+    "models": "gpt-6.1-sol,gpt-6-luna",
+    "output": "proof/model-comparison/codex-v4-20261018",
+    "port": 6387,
+    "repeats": 3,
+    "timeout": 120
+  },
+  "provider": "Codex CLI / authenticated ChatGPT subscription",
+  "reasoning_effort": "low",
+  "requested_models": [
+    "gpt-6.1-sol",
+    "gpt-6-luna"
+  ],
+  "retrieval": "graph-only vs actual local search/read",
+  "status": "complete",
+  "version": 4
+}

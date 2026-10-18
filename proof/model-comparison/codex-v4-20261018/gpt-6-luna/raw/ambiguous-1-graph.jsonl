@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14f91-1bba-7191-b730-19b8a12ef1ba"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"entities\":[\"Alex Morgan\",\"Alex Rivera\"],\"source_ids\":[],\"verdict\":\"ambiguous\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":15527,"cached_input_tokens":14464,"cache_write_input_tokens":0,"output_tokens":30,"reasoning_output_tokens":0}}

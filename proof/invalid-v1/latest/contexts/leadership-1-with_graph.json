@@ -1,0 +1,54 @@
+{
+  "candidates": [],
+  "paths": [
+    {
+      "edges": [
+        {
+          "object": "beacon",
+          "predicate": "OWNS",
+          "source_ids": [
+            "beacon-ownership"
+          ],
+          "subject": "platform"
+        },
+        {
+          "object": "platform",
+          "predicate": "LEADS",
+          "source_ids": [
+            "platform-leadership"
+          ],
+          "subject": "elena"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "beacon",
+          "kind": "Service",
+          "name": "Beacon"
+        },
+        {
+          "id": "platform",
+          "kind": "Team",
+          "name": "Platform"
+        },
+        {
+          "id": "elena",
+          "kind": "Person",
+          "name": "Elena"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "document_id": "beacon-ownership",
+      "quote": "Platform owns Beacon.",
+      "title": "Beacon ownership register"
+    },
+    {
+      "document_id": "platform-leadership",
+      "quote": "Elena leads Platform.",
+      "title": "Platform leadership memo"
+    }
+  ]
+}

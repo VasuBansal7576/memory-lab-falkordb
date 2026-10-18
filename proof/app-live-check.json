@@ -1,0 +1,157 @@
+{
+  "question": "Who signs off a \u00a3900 customer refund on 15 November 2026?",
+  "status": "recalled",
+  "mode": "codex",
+  "answer": "Noah Chen signs off the \u00a3900 refund on 15 November 2026. Refunds above \u00a3750 require Payments Lead approval [S4], and Noah holds that role [S2]. His delegation to Mira Shah ended on 31 October 2026, so he retains approval on the requested date [S5].",
+  "snapshot": "1e7ed215af64586e8238ae65cc64a55ade195dc0ed40bdea06a09567e4c4a906",
+  "citations": [
+    {
+      "id": "S1",
+      "document_id": "customer-handbook",
+      "title": "Customer operations handbook",
+      "quote": "Refunds above \u00a3750 require approval from the Payments Lead.",
+      "revision": "35205da37cdf4ba74a9755e76fee847115cf2aeb6fd9566e603daae792f246ea"
+    },
+    {
+      "id": "S2",
+      "document_id": "staffing-register",
+      "title": "Operations staffing register",
+      "quote": "The Payments Lead role is held by Noah Chen.",
+      "revision": "40cad3086b51ebff02f8403be5744e6fc65867faea38420e2af815accbc3071d"
+    },
+    {
+      "id": "S3",
+      "document_id": "october-cover",
+      "title": "October cover notice",
+      "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive.",
+      "revision": "b1b538c7b32c7fd29d9cbe5c5ed5d8526b200f52ddf42526eb0ceaf56f375c73"
+    },
+    {
+      "id": "S4",
+      "document_id": "customer-handbook",
+      "title": "Customer operations handbook",
+      "quote": "Refunds above \u00a3750 require approval from the Payments Lead. Refunds of \u00a3750 or less can be processed by a Support Agent without further approval.",
+      "revision": "35205da37cdf4ba74a9755e76fee847115cf2aeb6fd9566e603daae792f246ea"
+    },
+    {
+      "id": "S5",
+      "document_id": "october-cover",
+      "title": "October cover notice",
+      "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+      "revision": "b1b538c7b32c7fd29d9cbe5c5ed5d8526b200f52ddf42526eb0ceaf56f375c73"
+    }
+  ],
+  "paths": [
+    {
+      "nodes": [
+        {
+          "id": "refunds",
+          "name": "Customer refunds",
+          "kind": "Policy"
+        },
+        {
+          "id": "payments-lead",
+          "name": "Payments Lead",
+          "kind": "Role"
+        }
+      ],
+      "edges": [
+        {
+          "subject": "refunds",
+          "predicate": "APPROVED_BY",
+          "object": "payments-lead",
+          "citation_ids": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "nodes": [
+        {
+          "id": "payments-lead",
+          "name": "Payments Lead",
+          "kind": "Role"
+        },
+        {
+          "id": "noah",
+          "name": "Noah Chen",
+          "kind": "Person"
+        }
+      ],
+      "edges": [
+        {
+          "subject": "payments-lead",
+          "predicate": "HELD_BY",
+          "object": "noah",
+          "citation_ids": [
+            "S2"
+          ]
+        }
+      ]
+    },
+    {
+      "nodes": [
+        {
+          "id": "noah",
+          "name": "Noah Chen",
+          "kind": "Person"
+        },
+        {
+          "id": "mira",
+          "name": "Mira Shah",
+          "kind": "Person"
+        }
+      ],
+      "edges": [
+        {
+          "subject": "noah",
+          "predicate": "DELEGATES_TO",
+          "object": "mira",
+          "citation_ids": [
+            "S3"
+          ]
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "notes": [
+    {
+      "entity_id": "refunds",
+      "name": "Customer refunds",
+      "text": "Refunds above \u00a3750 require approval from the Payments Lead. Refunds of \u00a3750 or less can be processed by a Support Agent without further approval.",
+      "document_id": "customer-handbook",
+      "citation_id": "S4"
+    },
+    {
+      "entity_id": "noah",
+      "name": "Noah Chen",
+      "text": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+      "document_id": "october-cover",
+      "citation_id": "S5"
+    }
+  ],
+  "trace": {
+    "seeds": [
+      "refunds"
+    ],
+    "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY depth, r.fact_id LIMIT $limit",
+    "retrieval_ms": 9.626,
+    "hop_count": 3,
+    "facts_returned": 3,
+    "truncated": false
+  },
+  "evidence_text": "[S1] Customer refunds --APPROVED_BY--> Payments Lead\n[S2] Payments Lead --HELD_BY--> Noah Chen\n[S3] Noah Chen --DELEGATES_TO--> Mira Shah\n[S4] Customer refunds: Refunds above \u00a3750 require approval from the Payments Lead. Refunds of \u00a3750 or less can be processed by a Support Agent without further approval.\n[S5] Noah Chen: Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+  "model": "gpt-6.1-sol",
+  "usage": {
+    "input_tokens": 16614,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 92,
+    "reasoning_output_tokens": 0,
+    "total_input_tokens": 16614
+  },
+  "grounding": "Source markers validated; source entailment is not mechanically established.",
+  "elapsed_ms": 9189.92
+}

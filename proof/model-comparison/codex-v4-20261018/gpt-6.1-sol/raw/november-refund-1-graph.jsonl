@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14f8e-0afc-72a0-8a2c-a27bcff115de"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"entities\":[\"Noah Chen\"],\"source_ids\":[\"customer-handbook\",\"staffing-register\",\"october-cover\"],\"verdict\":\"supported\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":16760,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":39,"reasoning_output_tokens":0}}

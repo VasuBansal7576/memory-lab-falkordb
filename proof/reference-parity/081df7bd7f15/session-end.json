@@ -1,0 +1,11 @@
+{
+  "event": "SessionEnd",
+  "input": {
+    "session_id": "reference-session-081df7bd7f15",
+    "transcript_path": "<LOCAL_HOME>/.t3/scratch/2026-10-18-use-tinyfish-and-browser-use-0115788b/.memory/reference-parity/081df7bd7f15/transcript.jsonl",
+    "cwd": "<LOCAL_HOME>/.t3/scratch/2026-10-18-use-tinyfish-and-browser-use-0115788b"
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

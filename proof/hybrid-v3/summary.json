@@ -1,0 +1,115 @@
+{
+  "arms": {
+    "graph": {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 15488,
+          "median": 15488,
+          "min": 0
+        },
+        "input_tokens": {
+          "max": 17168,
+          "median": 17168,
+          "min": 17168
+        },
+        "output_tokens": {
+          "max": 39,
+          "median": 39,
+          "min": 39
+        },
+        "prompt_utf8_bytes": {
+          "max": 3908,
+          "median": 3908,
+          "min": 3908
+        },
+        "recall_s": {
+          "max": 0.033225541934370995,
+          "median": 0.01163933309726417,
+          "min": 0.010014083003625274
+        },
+        "tool_calls": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "tool_output_bytes": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "total_s": {
+          "max": 7.7400733339600265,
+          "median": 7.684883916052058,
+          "min": 6.250789999961853
+        }
+      },
+      "approval_repeats": 3,
+      "decisions_correct": 8,
+      "runs": 8,
+      "valid": 8
+    },
+    "search": {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 33920,
+          "median": 33920,
+          "min": 16384
+        },
+        "input_tokens": {
+          "max": 52775,
+          "median": 52735,
+          "min": 52723
+        },
+        "output_tokens": {
+          "max": 156,
+          "median": 156,
+          "min": 149
+        },
+        "prompt_utf8_bytes": {
+          "max": 951,
+          "median": 951,
+          "min": 951
+        },
+        "recall_s": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "tool_calls": {
+          "max": 2,
+          "median": 2,
+          "min": 2
+        },
+        "tool_output_bytes": {
+          "max": 8314,
+          "median": 8252,
+          "min": 8252
+        },
+        "total_s": {
+          "max": 14.579865541076288,
+          "median": 13.783724292181432,
+          "min": 12.768153208075091
+        }
+      },
+      "approval_repeats": 3,
+      "decisions_correct": 7,
+      "runs": 8,
+      "valid": 8
+    }
+  },
+  "failures": 0,
+  "graph_repeated_input_token_range": 0,
+  "limitations": [
+    "16 synthetic documents, six question cases; not production-scale evidence.",
+    "Same requested model and low reasoning effort. No small-versus-large model claim.",
+    "End-to-end timing includes CLI startup, network and generation; graph timing includes recall.",
+    "Both arms have the same raw corpus available; search must use tools, graph must use the recalled packet without tools.",
+    "Plugins, apps, skill discovery, hooks and browser tools are disabled identically. Hidden CLI overhead remains.",
+    "Order is counterbalanced across repeats. Service load and caching remain possible confounders.",
+    "Input token totals include cached input; never add cached tokens again.",
+    "Scoring covers structured entity decisions and required source IDs, not prose entailment.",
+    "Graph annotation and indexing costs are excluded and must be assessed separately."
+  ],
+  "status": "observed_pilot",
+  "total_runs": 16
+}

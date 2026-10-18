@@ -1,0 +1,1504 @@
+[
+  {
+    "arm": "search",
+    "cached_input_tokens": 34176,
+    "cli_s": 13.69393837498501,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/october-refund-1-search.txt",
+    "input_tokens": 52735,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 155,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "october-refund-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 13.70222174981609,
+    "trace_path": "gpt-6.1-sol/raw/october-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 34176,
+      "input_tokens": 52735,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.449931500013918,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/october-refund-1-graph.txt",
+    "input_tokens": 16764,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": "gpt-6.1-sol/raw/october-refund-1-graph.recall.json",
+    "recall_s": 0.019397333031520247,
+    "repeat": 1,
+    "run_id": "october-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.4762523751705885,
+    "trace_path": "gpt-6.1-sol/raw/october-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16764,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 15488,
+    "cli_s": 6.89833170780912,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/october-refund-2-graph.txt",
+    "input_tokens": 16764,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": "gpt-6.1-sol/raw/october-refund-2-graph.recall.json",
+    "recall_s": 0.007974833017215133,
+    "repeat": 2,
+    "run_id": "october-refund-2-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.912698249798268,
+    "trace_path": "gpt-6.1-sol/raw/october-refund-2-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 15488,
+      "input_tokens": 16764,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 33920,
+    "cli_s": 12.674892915878445,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/october-refund-2-search.txt",
+    "input_tokens": 52722,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 149,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 2,
+    "run_id": "october-refund-2-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 12.685662375064567,
+    "trace_path": "gpt-6.1-sol/raw/october-refund-2-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33920,
+      "input_tokens": 52722,
+      "output_tokens": 149,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 33920,
+    "cli_s": 13.146903917193413,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/october-refund-3-search.txt",
+    "input_tokens": 52729,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 153,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 3,
+    "run_id": "october-refund-3-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 13.152311958139762,
+    "trace_path": "gpt-6.1-sol/raw/october-refund-3-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33920,
+      "input_tokens": 52729,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 16384,
+    "cli_s": 6.676247374853119,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/october-refund-3-graph.txt",
+    "input_tokens": 16764,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": "gpt-6.1-sol/raw/october-refund-3-graph.recall.json",
+    "recall_s": 0.011484874878078699,
+    "repeat": 3,
+    "run_id": "october-refund-3-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.695070708170533,
+    "trace_path": "gpt-6.1-sol/raw/october-refund-3-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 16384,
+      "input_tokens": 16764,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.6674588329624385,
+    "decision": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/november-refund-1-graph.txt",
+    "input_tokens": 16760,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1638,
+    "question": "Who signs off a £900 customer refund on 15 November 2026?",
+    "question_id": "november-refund",
+    "recall_path": "gpt-6.1-sol/raw/november-refund-1-graph.recall.json",
+    "recall_s": 0.010782875120639801,
+    "repeat": 1,
+    "run_id": "november-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.686216041911393,
+    "trace_path": "gpt-6.1-sol/raw/november-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16760,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 49408,
+    "cli_s": 11.995426333043724,
+    "decision": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/november-refund-1-search.txt",
+    "input_tokens": 52669,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 129,
+    "prompt_utf8_bytes": 940,
+    "question": "Who signs off a £900 customer refund on 15 November 2026?",
+    "question_id": "november-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "november-refund-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 12.003225041087717,
+    "trace_path": "gpt-6.1-sol/raw/november-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 49408,
+      "input_tokens": 52669,
+      "output_tokens": 129,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 68480,
+    "cli_s": 19.70976375020109,
+    "decision": {
+      "entities": [
+        "Support Agent"
+      ],
+      "source_ids": [
+        "customer-handbook"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/low-refund-1-search.txt",
+    "input_tokens": 72692,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 196,
+    "prompt_utf8_bytes": 966,
+    "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+    "question_id": "low-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "low-refund-1-search",
+    "tool_calls": 3,
+    "tool_output_bytes": 11747,
+    "total_s": 19.71946395887062,
+    "trace_path": "gpt-6.1-sol/raw/low-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 68480,
+      "input_tokens": 72692,
+      "output_tokens": 196,
+      "reasoning_output_tokens": 8
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 7.665753833949566,
+    "decision": {
+      "entities": [
+        "Support Agent"
+      ],
+      "source_ids": [
+        "customer-handbook"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/low-refund-1-graph.txt",
+    "input_tokens": 16763,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 52,
+    "prompt_utf8_bytes": 1664,
+    "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+    "question_id": "low-refund",
+    "recall_path": "gpt-6.1-sol/raw/low-refund-1-graph.recall.json",
+    "recall_s": 0.015758000081405044,
+    "repeat": 1,
+    "run_id": "low-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 7.6896714579779655,
+    "trace_path": "gpt-6.1-sol/raw/low-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16763,
+      "output_tokens": 52,
+      "reasoning_output_tokens": 20
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 7.0404004589654505,
+    "decision": {
+      "entities": [
+        "Elena Park"
+      ],
+      "source_ids": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/leadership-1-graph.txt",
+    "input_tokens": 16637,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 34,
+    "prompt_utf8_bytes": 1132,
+    "question": "Who leads the team accountable for Beacon?",
+    "question_id": "leadership",
+    "recall_path": "gpt-6.1-sol/raw/leadership-1-graph.recall.json",
+    "recall_s": 0.011429749894887209,
+    "repeat": 1,
+    "run_id": "leadership-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 7.057449833024293,
+    "trace_path": "gpt-6.1-sol/raw/leadership-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16637,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 65792,
+    "cli_s": 14.69550620787777,
+    "decision": {
+      "entities": [
+        "Elena Park"
+      ],
+      "source_ids": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/leadership-1-search.txt",
+    "input_tokens": 68617,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 177,
+    "prompt_utf8_bytes": 924,
+    "question": "Who leads the team accountable for Beacon?",
+    "question_id": "leadership",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "leadership-1-search",
+    "tool_calls": 3,
+    "tool_output_bytes": 4430,
+    "total_s": 14.702458166982979,
+    "trace_path": "gpt-6.1-sol/raw/leadership-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 65792,
+      "input_tokens": 68617,
+      "output_tokens": 177,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 33152,
+    "cli_s": 11.553004499990493,
+    "decision": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "source_ids": [
+        "alex-design",
+        "alex-ops"
+      ],
+      "verdict": "ambiguous"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/ambiguous-1-search.txt",
+    "input_tokens": 50608,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 112,
+    "prompt_utf8_bytes": 894,
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "ambiguous-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 1556,
+    "total_s": 11.55971208284609,
+    "trace_path": "gpt-6.1-sol/raw/ambiguous-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33152,
+      "input_tokens": 50608,
+      "output_tokens": 112,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 8.013201209018007,
+    "decision": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "source_ids": [
+        "alex-design",
+        "alex-ops"
+      ],
+      "verdict": "ambiguous"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/ambiguous-1-graph.txt",
+    "input_tokens": 16578,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 37,
+    "prompt_utf8_bytes": 857,
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "recall_path": "gpt-6.1-sol/raw/ambiguous-1-graph.recall.json",
+    "recall_s": 0.0026749169919639826,
+    "repeat": 1,
+    "run_id": "ambiguous-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 8.024550125002861,
+    "trace_path": "gpt-6.1-sol/raw/ambiguous-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16578,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 5.528111917199567,
+    "decision": {
+      "entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/missing-1-graph.txt",
+    "input_tokens": 16560,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 23,
+    "prompt_utf8_bytes": 792,
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "recall_path": "gpt-6.1-sol/raw/missing-1-graph.recall.json",
+    "recall_s": 0.002957790857180953,
+    "repeat": 1,
+    "run_id": "missing-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.539829707937315,
+    "trace_path": "gpt-6.1-sol/raw/missing-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16560,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 49664,
+    "cli_s": 19.18425645888783,
+    "decision": {
+      "entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6.1-sol/inputs/missing-1-search.txt",
+    "input_tokens": 67318,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 143,
+    "prompt_utf8_bytes": 898,
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "missing-1-search",
+    "tool_calls": 3,
+    "tool_output_bytes": 1129,
+    "total_s": 19.191299166996032,
+    "trace_path": "gpt-6.1-sol/raw/missing-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 49664,
+      "input_tokens": 67318,
+      "output_tokens": 143,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 0,
+    "cli_s": 5.254661875078455,
+    "decision": null,
+    "decision_correct": false,
+    "error": "ValueError: Search arm must actually search and read source files",
+    "grade": null,
+    "input_path": "gpt-6-luna/inputs/october-refund-1-search.txt",
+    "input_tokens": 0,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 0,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "october-refund-1-search",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.260605708928779,
+    "trace_path": "gpt-6-luna/raw/october-refund-1-search.jsonl",
+    "valid": false
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 5.975884082959965,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/october-refund-1-graph.txt",
+    "input_tokens": 15713,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": "gpt-6-luna/raw/october-refund-1-graph.recall.json",
+    "recall_s": 0.011428792029619217,
+    "repeat": 1,
+    "run_id": "october-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.997013415908441,
+    "trace_path": "gpt-6-luna/raw/october-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15713,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 5.477211375022307,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/october-refund-2-graph.txt",
+    "input_tokens": 15713,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": "gpt-6-luna/raw/october-refund-2-graph.recall.json",
+    "recall_s": 0.008975292090326548,
+    "repeat": 2,
+    "run_id": "october-refund-2-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.492780125001445,
+    "trace_path": "gpt-6-luna/raw/october-refund-2-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15713,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 46720,
+    "cli_s": 9.662878665840253,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/october-refund-2-search.txt",
+    "input_tokens": 50430,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 190,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 2,
+    "run_id": "october-refund-2-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 11221,
+    "total_s": 9.67182575003244,
+    "trace_path": "gpt-6-luna/raw/october-refund-2-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 46720,
+      "input_tokens": 50430,
+      "output_tokens": 190,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 16896,
+    "cli_s": 10.162925833836198,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/october-refund-3-search.txt",
+    "input_tokens": 50336,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 193,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 3,
+    "run_id": "october-refund-3-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 10641,
+    "total_s": 10.170584124978632,
+    "trace_path": "gpt-6-luna/raw/october-refund-3-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 16896,
+      "input_tokens": 50336,
+      "output_tokens": 193,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 5.864153957925737,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/october-refund-3-graph.txt",
+    "input_tokens": 15713,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_path": "gpt-6-luna/raw/october-refund-3-graph.recall.json",
+    "recall_s": 0.015848333947360516,
+    "repeat": 3,
+    "run_id": "october-refund-3-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.885481999954209,
+    "trace_path": "gpt-6-luna/raw/october-refund-3-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15713,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 15488,
+    "cli_s": 5.847791499923915,
+    "decision": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/november-refund-1-graph.txt",
+    "input_tokens": 15709,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1638,
+    "question": "Who signs off a £900 customer refund on 15 November 2026?",
+    "question_id": "november-refund",
+    "recall_path": "gpt-6-luna/raw/november-refund-1-graph.recall.json",
+    "recall_s": 0.0039937919937074184,
+    "repeat": 1,
+    "run_id": "november-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.85644645919092,
+    "trace_path": "gpt-6-luna/raw/november-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 15488,
+      "input_tokens": 15709,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 32256,
+    "cli_s": 8.998865749919787,
+    "decision": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/november-refund-1-search.txt",
+    "input_tokens": 50387,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 181,
+    "prompt_utf8_bytes": 940,
+    "question": "Who signs off a £900 customer refund on 15 November 2026?",
+    "question_id": "november-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "november-refund-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 11205,
+    "total_s": 9.007940500043333,
+    "trace_path": "gpt-6-luna/raw/november-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 32256,
+      "input_tokens": 50387,
+      "output_tokens": 181,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 0,
+    "cli_s": 5.18183666607365,
+    "decision": null,
+    "decision_correct": false,
+    "error": "ValueError: Search arm must actually search and read source files",
+    "grade": null,
+    "input_path": "gpt-6-luna/inputs/low-refund-1-search.txt",
+    "input_tokens": 0,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 0,
+    "prompt_utf8_bytes": 966,
+    "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+    "question_id": "low-refund",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "low-refund-1-search",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.18538475013338,
+    "trace_path": "gpt-6-luna/raw/low-refund-1-search.jsonl",
+    "valid": false
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.0695357080549,
+    "decision": {
+      "entities": [
+        "A Support Agent"
+      ],
+      "source_ids": [
+        "customer-handbook"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": false,
+    "error": null,
+    "grade": {
+      "decision_correct": false,
+      "reasons": [
+        "wrong or ambiguous entity identity"
+      ],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/low-refund-1-graph.txt",
+    "input_tokens": 15712,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 31,
+    "prompt_utf8_bytes": 1664,
+    "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+    "question_id": "low-refund",
+    "recall_path": "gpt-6-luna/raw/low-refund-1-graph.recall.json",
+    "recall_s": 0.016011542174965143,
+    "repeat": 1,
+    "run_id": "low-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.095389625057578,
+    "trace_path": "gpt-6-luna/raw/low-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15712,
+      "output_tokens": 31,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 5.241442291997373,
+    "decision": {
+      "entities": [
+        "Elena Park"
+      ],
+      "source_ids": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/leadership-1-graph.txt",
+    "input_tokens": 15586,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 34,
+    "prompt_utf8_bytes": 1132,
+    "question": "Who leads the team accountable for Beacon?",
+    "question_id": "leadership",
+    "recall_path": "gpt-6-luna/raw/leadership-1-graph.recall.json",
+    "recall_s": 0.010765166953206062,
+    "repeat": 1,
+    "run_id": "leadership-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.260900374967605,
+    "trace_path": "gpt-6-luna/raw/leadership-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15586,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 31360,
+    "cli_s": 9.308648500125855,
+    "decision": {
+      "entities": [
+        "Elena Park"
+      ],
+      "source_ids": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/leadership-1-search.txt",
+    "input_tokens": 48132,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 167,
+    "prompt_utf8_bytes": 924,
+    "question": "Who leads the team accountable for Beacon?",
+    "question_id": "leadership",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "leadership-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 4156,
+    "total_s": 9.316459000110626,
+    "trace_path": "gpt-6-luna/raw/leadership-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 31360,
+      "input_tokens": 48132,
+      "output_tokens": 167,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 0,
+    "cli_s": 5.7066383748315275,
+    "decision": null,
+    "decision_correct": false,
+    "error": "ValueError: Search arm must actually search and read source files",
+    "grade": null,
+    "input_path": "gpt-6-luna/inputs/ambiguous-1-search.txt",
+    "input_tokens": 0,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 0,
+    "prompt_utf8_bytes": 894,
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "ambiguous-1-search",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.71113987499848,
+    "trace_path": "gpt-6-luna/raw/ambiguous-1-search.jsonl",
+    "valid": false
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 14464,
+    "cli_s": 5.505999791901559,
+    "decision": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "source_ids": [],
+      "verdict": "ambiguous"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/ambiguous-1-graph.txt",
+    "input_tokens": 15527,
+    "model": "gpt-6-luna",
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 30,
+    "prompt_utf8_bytes": 857,
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "recall_path": "gpt-6-luna/raw/ambiguous-1-graph.recall.json",
+    "recall_s": 0.003003624966368079,
+    "repeat": 1,
+    "run_id": "ambiguous-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.521608166862279,
+    "trace_path": "gpt-6-luna/raw/ambiguous-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14464,
+      "input_tokens": 15527,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 4.878513457952067,
+    "decision": {
+      "entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/missing-1-graph.txt",
+    "input_tokens": 15509,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 23,
+    "prompt_utf8_bytes": 792,
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "recall_path": "gpt-6-luna/raw/missing-1-graph.recall.json",
+    "recall_s": 0.002587541937828064,
+    "repeat": 1,
+    "run_id": "missing-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 4.888818125007674,
+    "trace_path": "gpt-6-luna/raw/missing-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15509,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 109312,
+    "cli_s": 15.898881540866569,
+    "decision": {
+      "entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "gpt-6-luna/inputs/missing-1-search.txt",
+    "input_tokens": 111570,
+    "model": "gpt-6-luna",
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 306,
+    "prompt_utf8_bytes": 898,
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "recall_path": null,
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "missing-1-search",
+    "tool_calls": 6,
+    "tool_output_bytes": 3144,
+    "total_s": 15.90702487505041,
+    "trace_path": "gpt-6-luna/raw/missing-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 109312,
+      "input_tokens": 111570,
+      "output_tokens": 306,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  }
+]

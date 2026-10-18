@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14ed1-b713-73e0-bc56-2c84a17ce3f6"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answer\":\"Mira approves Atlas releases under Noah's delegation.\",\"answer_entities\":[\"Mira\"],\"source_ids\":[\"atlas-approval\",\"steward-assignment\",\"release-delegation\"],\"verdict\":\"supported\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":23781,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":54,"reasoning_output_tokens":0}}

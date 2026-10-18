@@ -1,0 +1,98 @@
+[
+  {
+    "arm": "search",
+    "cached_input_tokens": 34560,
+    "cli_s": 12.889926957897842,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-1-search.txt",
+    "input_tokens": 53574,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 155,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "october-refund-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 10641,
+    "total_s": 12.89820604189299,
+    "trace_path": "raw/october-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 34560,
+      "input_tokens": 53574,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.541667083045468,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-1-graph.txt",
+    "input_tokens": 16694,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1369,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0.013271417003124952,
+    "repeat": 1,
+    "run_id": "october-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.563978499965742,
+    "trace_path": "raw/october-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16694,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  }
+]

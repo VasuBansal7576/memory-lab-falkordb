@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14ed2-9aa3-73d0-8e5f-5493af182097"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answer\":\"Elena leads Platform, the team that owns Beacon.\",\"answer_entities\":[\"Elena\"],\"source_ids\":[\"beacon-ownership\",\"platform-leadership\"],\"verdict\":\"supported\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":19705,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":50,"reasoning_output_tokens":0}}

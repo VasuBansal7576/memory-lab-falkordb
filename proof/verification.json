@@ -1,0 +1,21 @@
+{
+  "tests_passed": 65,
+  "benchmark_runs": 22,
+  "benchmark_invalid_runs": 0,
+  "cases": 6,
+  "approval_repeats_per_arm": 6,
+  "model": "gpt-6.1-sol",
+  "same_model_both_arms": true,
+  "graph_repeated_input_token_range": 0,
+  "live_app_cases": {
+    "october": "Mira Shah, verified in browser with source citations",
+    "november": "Noah Chen, verified through actual Codex API mode"
+  },
+  "durability": "Original update/saved-investigation check passed; new corpus condition notes and snapshot verified after container recreation.",
+  "mobile_proof_viewport": {
+    "width": 390,
+    "document_scroll_width": 390
+  },
+  "video_files_remaining": [],
+  "limitations": "Synthetic same-model pilot, structured decisions and required sources only; cached input included; annotation cost excluded; no Haiku versus larger-model result."
+}

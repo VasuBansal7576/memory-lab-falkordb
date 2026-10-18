@@ -1,0 +1,146 @@
+{
+  "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+  "candidates": [],
+  "citations": [
+    {
+      "document_id": "customer-handbook",
+      "id": "S1",
+      "quote": "Refunds above £750 require approval from the Payments Lead.",
+      "revision": "33534f2099ab6522eea28bf8b5cb15f1eb311aa8379d8b524906c0b1c6a19049",
+      "title": "Customer operations handbook"
+    },
+    {
+      "document_id": "staffing-register",
+      "id": "S2",
+      "quote": "The Payments Lead role is held by Noah Chen.",
+      "revision": "a77d9eee1e64b95e09ff4f54fd34bf4dcb3a64bf217404401ab756822cbdd925",
+      "title": "Operations staffing register"
+    },
+    {
+      "document_id": "october-cover",
+      "id": "S3",
+      "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive.",
+      "revision": "fb065a7c5293e07422ae77efbd16e26be0b62f0c8e2b9f601a08375219a4fe2a",
+      "title": "October cover notice"
+    },
+    {
+      "document_id": "customer-handbook",
+      "id": "S4",
+      "quote": "Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.",
+      "revision": "33534f2099ab6522eea28bf8b5cb15f1eb311aa8379d8b524906c0b1c6a19049",
+      "title": "Customer operations handbook"
+    },
+    {
+      "document_id": "october-cover",
+      "id": "S5",
+      "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+      "revision": "fb065a7c5293e07422ae77efbd16e26be0b62f0c8e2b9f601a08375219a4fe2a",
+      "title": "October cover notice"
+    }
+  ],
+  "evidence_text": "[S1] Customer refunds --APPROVED_BY--> Payments Lead\n[S1] Source: Refunds above £750 require approval from the Payments Lead.\n[S2] Payments Lead --HELD_BY--> Noah Chen\n[S2] Source: The Payments Lead role is held by Noah Chen.\n[S3] Noah Chen --DELEGATES_TO--> Mira Shah\n[S3] Source: Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive.\n[S4] Source: Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.\n[S5] Source: Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+  "mode": "evidence",
+  "notes": [
+    {
+      "citation_id": "S4",
+      "document_id": "customer-handbook",
+      "entity_id": "refunds",
+      "name": "Customer refunds",
+      "text": "Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval."
+    },
+    {
+      "citation_id": "S5",
+      "document_id": "october-cover",
+      "entity_id": "noah",
+      "name": "Noah Chen",
+      "text": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals."
+    }
+  ],
+  "paths": [
+    {
+      "edges": [
+        {
+          "citation_ids": [
+            "S1"
+          ],
+          "object": "payments-lead",
+          "predicate": "APPROVED_BY",
+          "subject": "refunds"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "refunds",
+          "kind": "Policy",
+          "name": "Customer refunds"
+        },
+        {
+          "id": "payments-lead",
+          "kind": "Role",
+          "name": "Payments Lead"
+        }
+      ]
+    },
+    {
+      "edges": [
+        {
+          "citation_ids": [
+            "S2"
+          ],
+          "object": "noah",
+          "predicate": "HELD_BY",
+          "subject": "payments-lead"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "payments-lead",
+          "kind": "Role",
+          "name": "Payments Lead"
+        },
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah Chen"
+        }
+      ]
+    },
+    {
+      "edges": [
+        {
+          "citation_ids": [
+            "S3"
+          ],
+          "object": "mira",
+          "predicate": "DELEGATES_TO",
+          "subject": "noah"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah Chen"
+        },
+        {
+          "id": "mira",
+          "kind": "Person",
+          "name": "Mira Shah"
+        }
+      ]
+    }
+  ],
+  "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+  "snapshot": "eae9068eda710353089f87c6768fc1358d103c4db8b82809e8a87453bd6dfe95",
+  "status": "recalled",
+  "trace": {
+    "facts_returned": 3,
+    "hop_count": 3,
+    "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY CASE WHEN type(r) = 'REFERENCES' THEN 1 ELSE 0 END, CASE WHEN r.quote STARTS WITH '---' THEN 1 ELSE 0 END, depth, type(r), startNode(r).name, endNode(r).name, r.fact_id LIMIT $limit",
+    "retrieval_ms": 11.359,
+    "seeds": [
+      "refunds"
+    ],
+    "truncated": false
+  }
+}

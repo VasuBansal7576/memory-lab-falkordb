@@ -1,0 +1,51 @@
+{
+  "arms": {
+    "graph": {
+      "approval": {
+        "cached_input_tokens": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "prompt_utf8_bytes": null,
+        "recall_s": null,
+        "tool_calls": null,
+        "tool_output_bytes": null,
+        "total_s": null
+      },
+      "approval_repeats": 0,
+      "decisions_correct": 0,
+      "runs": 1,
+      "valid": 0
+    },
+    "search": {
+      "approval": {
+        "cached_input_tokens": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "prompt_utf8_bytes": null,
+        "recall_s": null,
+        "tool_calls": null,
+        "tool_output_bytes": null,
+        "total_s": null
+      },
+      "approval_repeats": 0,
+      "decisions_correct": 0,
+      "runs": 1,
+      "valid": 0
+    }
+  },
+  "failures": 2,
+  "graph_repeated_input_token_range": null,
+  "limitations": [
+    "16 synthetic documents, six question cases; not production-scale evidence.",
+    "Same requested model and low reasoning effort. No small-versus-large model claim.",
+    "End-to-end timing includes CLI startup, network and generation; graph timing includes recall.",
+    "Both arms have the same raw corpus available; search must use tools, graph must use the recalled packet without tools.",
+    "Plugins, apps, skill discovery, hooks and browser tools are disabled identically. Hidden CLI overhead remains.",
+    "Order is counterbalanced across repeats. Service load and caching remain possible confounders.",
+    "Input token totals include cached input; never add cached tokens again.",
+    "Scoring covers structured entity decisions and required source IDs, not prose entailment.",
+    "Graph annotation and indexing costs are excluded and must be assessed separately."
+  ],
+  "status": "observed_pilot",
+  "total_runs": 2
+}

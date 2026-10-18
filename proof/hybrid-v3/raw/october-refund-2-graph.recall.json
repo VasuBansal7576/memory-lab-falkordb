@@ -1,0 +1,189 @@
+{
+  "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+  "candidates": [],
+  "citations": [
+    {
+      "document_id": "customer-handbook",
+      "id": "S1",
+      "quote": "Refunds above £750 require approval from the Payments Lead.",
+      "revision": "7653c22ca35896fcd30e5d2b295466db9a3fb06c2067086e3877fdcc172ab779",
+      "title": "Customer operations handbook"
+    },
+    {
+      "document_id": "staffing-register",
+      "id": "S2",
+      "quote": "The Payments Lead role is held by Noah Chen.",
+      "revision": "9d07f77a6ba6195b99dc93fcf759860c1476229b10aa52cadace064473cd4650",
+      "title": "Operations staffing register"
+    },
+    {
+      "document_id": "october-cover",
+      "id": "S3",
+      "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive.",
+      "revision": "f3701413fb0a36f8cacaf1aedd9aac8b2e05c6d2b5f9c9bc992cb3ce17d53488",
+      "title": "October cover notice"
+    },
+    {
+      "document_id": "customer-handbook",
+      "id": "S4",
+      "quote": "Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.",
+      "revision": "7653c22ca35896fcd30e5d2b295466db9a3fb06c2067086e3877fdcc172ab779",
+      "title": "Customer operations handbook"
+    },
+    {
+      "document_id": "october-cover",
+      "id": "S5",
+      "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+      "revision": "f3701413fb0a36f8cacaf1aedd9aac8b2e05c6d2b5f9c9bc992cb3ce17d53488",
+      "title": "October cover notice"
+    },
+    {
+      "document_id": "october-cover",
+      "found_by": [
+        "keyword",
+        "meaning"
+      ],
+      "id": "S6",
+      "quote": "Subject: planned leave and operational cover\n\nNoah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.\n\nMira has the necessary operational access during the cover window. The change is temporary and does not replace Noah's role appointment. Approval requests must still satisfy the policy threshold and be recorded in the normal ticket. The covering person should not change the refund method or split a request.\n\nJun Patel is available for incident coordination, but is not delegated approval authority by this notice. Contacting Jun about a delayed request does not authorize Jun to sign it. On return, Noah resumes the normal approval queue. This notice concerns operational approvals, not supplier invoice approvals.",
+      "revision": "f3701413fb0a36f8cacaf1aedd9aac8b2e05c6d2b5f9c9bc992cb3ce17d53488",
+      "section": "October cover notice",
+      "title": "October cover notice"
+    },
+    {
+      "document_id": "refund-archive",
+      "found_by": [
+        "keyword",
+        "meaning"
+      ],
+      "id": "S7",
+      "quote": "Archived guidance, superseded by the current customer operations handbook. The former approval threshold was £500. Do not use this archived threshold for 2026 transactions. This page is retained to explain historic tickets and is not the current policy. Historic references to a duty manager should not be interpreted as the current role appointment. Audit enquiries should use the policy in force on the transaction date and the relevant approval record, rather than applying the latest threshold retroactively.",
+      "revision": "c9afb9de877c6fbe273d92a28ecaf4859cba50b07b954526d693774bdbafa5d4",
+      "section": "Archived 2024 refund guidance",
+      "title": "Archived 2024 refund guidance"
+    },
+    {
+      "document_id": "customer-handbook",
+      "found_by": [
+        "keyword",
+        "meaning"
+      ],
+      "id": "S8",
+      "quote": "Orbit Works customer operations handbook. Reviewed 7 October 2026.\n\nOur support team owns the first response to customer requests. A first reply should acknowledge the issue, identify the order and explain the next action. The daily queue rotates between the regional shifts; a queue owner is not automatically an approver.\n\nRefunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.\n\nAll refunds return to the original payment method. Partial refunds use the amount being returned, not the original invoice total. A refund must not be split to avoid the approval threshold. Keep the customer informed while approval is pending. Record the approval in the ticket before asking Finance to release funds.\n\nFor account access problems, send a password reset rather than requesting credentials. Complaints about billing accuracy go to the reconciliation queue. This handbook describes the approval role; consult the staffing register to identify its current holder.",
+      "revision": "7653c22ca35896fcd30e5d2b295466db9a3fb06c2067086e3877fdcc172ab779",
+      "section": "Customer operations handbook",
+      "title": "Customer operations handbook"
+    }
+  ],
+  "evidence_text": "[S1] Customer refunds --APPROVED_BY--> Payments Lead\n[S2] Payments Lead --HELD_BY--> Noah Chen\n[S3] Noah Chen --DELEGATES_TO--> Mira Shah\n[S4] Customer refunds: Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.\n[S5] Noah Chen: Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.\n[S2] Source: The Payments Lead role is held by Noah Chen.\n[S6] Source: Subject: planned leave and operational cover\n\nNoah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.\n\nMira has the necessary operational access during the cover window. The change is temporary and does not replace Noah's role appointment. Approval requests must still satisfy the policy threshold and be recorded in the normal ticket. The covering person should not change the refund method or split a request.\n\nJun Patel is available for incident coordination, but is not delegated approval authority by this notice. Contacting Jun about a delayed request does not authorize Jun to sign it. On return, Noah resumes the normal approval queue. This notice concerns operational approvals, not supplier invoice approvals.\n[S7] Source: Archived guidance, superseded by the current customer operations handbook. The former approval threshold was £500. Do not use this archived threshold for 2026 transactions. This page is retained to explain historic tickets and is not the current policy. Historic references to a duty manager should not be interpreted as the current role appointment. Audit enquiries should use the policy in force on the transaction date and the relevant approval record, rather than applying the latest threshold retroactively.\n[S8] Source: Orbit Works customer operations handbook. Reviewed 7 October 2026.\n\nOur support team owns the first response to customer requests. A first reply should acknowledge the issue, identify the order and explain the next action. The daily queue rotates between the regional shifts; a queue owner is not automatically an approver.\n\nRefunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.\n\nAll refunds return to the original payment method. Partial refunds use the amount being returned, not the original invoice total. A refund must not be split to avoid the approval threshold. Keep the customer informed while approval is pending. Record the approval in the ticket before asking Finance to release funds.\n\nFor account access problems, send a password reset rather than requesting credentials. Complaints about billing accuracy go to the reconciliation queue. This handbook describes the approval role; consult the staffing register to identify its current holder.",
+  "mode": "evidence",
+  "notes": [
+    {
+      "citation_id": "S4",
+      "document_id": "customer-handbook",
+      "entity_id": "refunds",
+      "name": "Customer refunds",
+      "text": "Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval."
+    },
+    {
+      "citation_id": "S5",
+      "document_id": "october-cover",
+      "entity_id": "noah",
+      "name": "Noah Chen",
+      "text": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals."
+    }
+  ],
+  "paths": [
+    {
+      "edges": [
+        {
+          "citation_ids": [
+            "S1"
+          ],
+          "object": "payments-lead",
+          "predicate": "APPROVED_BY",
+          "subject": "refunds"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "refunds",
+          "kind": "Policy",
+          "name": "Customer refunds"
+        },
+        {
+          "id": "payments-lead",
+          "kind": "Role",
+          "name": "Payments Lead"
+        }
+      ]
+    },
+    {
+      "edges": [
+        {
+          "citation_ids": [
+            "S2"
+          ],
+          "object": "noah",
+          "predicate": "HELD_BY",
+          "subject": "payments-lead"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "payments-lead",
+          "kind": "Role",
+          "name": "Payments Lead"
+        },
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah Chen"
+        }
+      ]
+    },
+    {
+      "edges": [
+        {
+          "citation_ids": [
+            "S3"
+          ],
+          "object": "mira",
+          "predicate": "DELEGATES_TO",
+          "subject": "noah"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah Chen"
+        },
+        {
+          "id": "mira",
+          "kind": "Person",
+          "name": "Mira Shah"
+        }
+      ]
+    }
+  ],
+  "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+  "snapshot": "3fcf4c1f9835d9b6a20f8e39e7adfd902a2dfa7fa5b2aa4515850f2499fc69ef",
+  "status": "recalled",
+  "trace": {
+    "facts_returned": 3,
+    "hop_count": 3,
+    "note_hits": 3,
+    "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY depth, r.fact_id LIMIT $limit\nCALL db.idx.vector.queryNodes('Chunk','embedding',10,vecf32($vector)) YIELD node,score RETURN node.id,score ORDER BY score ASC",
+    "retrieval_ms": 9.972,
+    "search_legs": [
+      "keyword",
+      "meaning"
+    ],
+    "seeds": [
+      "refunds"
+    ],
+    "semantic_error": null,
+    "semantic_model": "BAAI/bge-small-en-v1.5",
+    "truncated": false
+  }
+}

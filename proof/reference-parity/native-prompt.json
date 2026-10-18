@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Actual trusted Codex exec lifecycle; capture disabled for this probe",
+  "events": [
+    {
+      "event": "SessionStart",
+      "assistant": "codex",
+      "at": "2026-10-18T13:45:51.482644+00:00",
+      "session_hash": "1178a507d7839821",
+      "context_chars": 0,
+      "verification": false
+    },
+    {
+      "event": "UserPromptSubmit",
+      "assistant": "codex",
+      "at": "2026-10-18T13:45:52.037812+00:00",
+      "session_hash": "1178a507d7839821",
+      "context_chars": 1176,
+      "verification": false
+    },
+    {
+      "event": "SessionEnd",
+      "assistant": "codex",
+      "at": "2026-10-18T13:45:53.970730+00:00",
+      "session_hash": "1178a507d7839821",
+      "context_chars": 0,
+      "verification": false
+    }
+  ],
+  "trace": "{\"type\":\"thread.started\",\"thread_id\":\"01a14f42-e90a-7343-ad14-39dcc9518eb8\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"error\",\"message\":\"Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\\n  user (<LOCAL_HOME>/.codex/config.toml): `features.child_agents_md` is ignored.\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_1\",\"type\":\"error\",\"message\":\"Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\\n  user (<LOCAL_HOME>/.codex/config.toml): `features.child_agents_md` is ignored.\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_2\",\"type\":\"error\",\"message\":\"clamping SessionEnd hook timeout to 3s in <LOCAL_HOME>/.t3/scratch/2026-10-18-use-tinyfish-and-browser-use-0115788b/.codex/hooks.json\"}}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_3\",\"type\":\"agent_message\",\"text\":\"Elena Park leads Platform, the team accountable for Beacon. [S1][S2]\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":19054,\"cached_input_tokens\":12160,\"cache_write_input_tokens\":0,\"output_tokens\":23,\"reasoning_output_tokens\":0}}\n"
+}

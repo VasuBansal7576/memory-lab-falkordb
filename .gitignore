@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+.DS_Store
+
+.memory/
+
+# Generated hook definitions contain checkout-specific interpreter paths.
+.codex/hooks.json
+.claude/settings.json
+
+node_modules/
+.hyperframes/
+.media/
+videos/**/renders/
+submission-export/

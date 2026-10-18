@@ -1,0 +1,493 @@
+{
+  "attempts": 32,
+  "calls": [
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 34176,
+          "input_tokens": 52735,
+          "output_tokens": 155,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "october-refund-1-search",
+      "trace_sha256": "66bd8955ddbef7dd1831473584b6f6a89430ec77246f4c60eb2553482c4b5a67",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 16764,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "october-refund-1-graph",
+      "trace_sha256": "9ff644bbc8e0bba6a94d848a529bd777349f1e84f1ff2b61b52a9e6e1dfa358a",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 15488,
+          "input_tokens": 16764,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "october-refund-2-graph",
+      "trace_sha256": "9d9894a8d368cc39e6b5348b5bfc28f11aa57386cda49d5449678190978cea06",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 33920,
+          "input_tokens": 52722,
+          "output_tokens": 149,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "october-refund-2-search",
+      "trace_sha256": "65f67e26d6b2e30a44454b8a45fff478fa2eeb1e92236a99a51ec79458951432",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 33920,
+          "input_tokens": 52729,
+          "output_tokens": 153,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "october-refund-3-search",
+      "trace_sha256": "9e074e41a9663e7b609b50e376f8e027e08422a18501b8ea6ec71d1399e0a155",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 16384,
+          "input_tokens": 16764,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "october-refund-3-graph",
+      "trace_sha256": "706d9aafe765e94ddb2cb4af56a2fbd48bdae9785e3a80db1b0167bb1442d312",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 16760,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "november-refund-1-graph",
+      "trace_sha256": "b1411a104310ac2c5364b49f5029a299a7036712b0605b51774802a027f8a9e5",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 49408,
+          "input_tokens": 52669,
+          "output_tokens": 129,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "november-refund-1-search",
+      "trace_sha256": "dfeeea2523aace1ea97f214c6824242d53520143fd9f8ef4641f1da6683abaea",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 68480,
+          "input_tokens": 72692,
+          "output_tokens": 196,
+          "reasoning_output_tokens": 8
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "low-refund-1-search",
+      "trace_sha256": "fa5b125aa5500fec43bdd3e311e014b50c2483d077b5730c3eeee818af4faa14",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 16763,
+          "output_tokens": 52,
+          "reasoning_output_tokens": 20
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "low-refund-1-graph",
+      "trace_sha256": "743ae06951a13c05b6b7d52969b822fb958e43a2b2f2e0f1788cf2681b2f39f2",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 16637,
+          "output_tokens": 34,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "leadership-1-graph",
+      "trace_sha256": "ebbbdfcd1c1e75c9779d827971a2f951ee33dc95a27bd1660c85760c872374f1",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 65792,
+          "input_tokens": 68617,
+          "output_tokens": 177,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "leadership-1-search",
+      "trace_sha256": "aa9c1dd8b77bffb02877c99baed965d89e5796166e480ec01b8daef96a6be400",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 33152,
+          "input_tokens": 50608,
+          "output_tokens": 112,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "ambiguous-1-search",
+      "trace_sha256": "b662f2005f7a9b339a0a2c098254b9711dd09a5c9bf9ed6d328cdba174fac3c8",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 16578,
+          "output_tokens": 37,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "ambiguous-1-graph",
+      "trace_sha256": "0adad15d34a21c1fd0dbbe346f03ba4a13b989c85fb37b8d0fc1bc83ee6588d3",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 16560,
+          "output_tokens": 23,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "missing-1-graph",
+      "trace_sha256": "20b0c06ca312a33b97a24e21c16ecb9dc8a9db59ae1e8d8db82c419b4384e75a",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 49664,
+          "input_tokens": 67318,
+          "output_tokens": 143,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "run_id": "missing-1-search",
+      "trace_sha256": "2c4f3c50f3937f2924294a8c21320343b478d7855eeed0778bd240d95a1ba02f",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15554,
+          "output_tokens": 23,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "october-refund-1-search",
+      "trace_sha256": "33c31f6f05a5f2d93d58cd850f439c87a60b7dc1cb2459afd7f9a3f2b62e21ca",
+      "valid": false
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15713,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "october-refund-1-graph",
+      "trace_sha256": "0e2182f65c1a6d1845116c7279465aeca0ff475d728afeb298388931d0c12f65",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15713,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "october-refund-2-graph",
+      "trace_sha256": "904ef5a4a55ee676964cc15ef373ed6a4bc1a858761f69233db54c6014ed3e31",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 46720,
+          "input_tokens": 50430,
+          "output_tokens": 190,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "october-refund-2-search",
+      "trace_sha256": "0e21d82f99f7d7238e3b0f3263f10f040588760e4602d73c8c286959f00c0f78",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 16896,
+          "input_tokens": 50336,
+          "output_tokens": 193,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "october-refund-3-search",
+      "trace_sha256": "d4c8894b1d2155add2bededd35f8e7da4c03edea1949fbce678bd82e0d722930",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15713,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "october-refund-3-graph",
+      "trace_sha256": "e6f016d9993db0e6f8a2a9fad89fcf22c2fc40bc4aa5aad657f13b37bddd5979",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 15488,
+          "input_tokens": 15709,
+          "output_tokens": 39,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "november-refund-1-graph",
+      "trace_sha256": "409c12d8a967deb08d92cdb1cc4fd5ac1a4c9bcbc8d5d56f2395605f93dd6f01",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 32256,
+          "input_tokens": 50387,
+          "output_tokens": 181,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "november-refund-1-search",
+      "trace_sha256": "ffbf3ea210950633608bec2d64997236cb0e14917ffa189e81f04da185842af3",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15553,
+          "output_tokens": 23,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "low-refund-1-search",
+      "trace_sha256": "841bc94f183ae6e9dca74c300b058369e346b748ff50a84942bb91dd9804840d",
+      "valid": false
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15712,
+          "output_tokens": 31,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "low-refund-1-graph",
+      "trace_sha256": "0bcede5ac3f9b90c536e38a9a58053ac494745f385a2618afa3a56c5e6dab050",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15586,
+          "output_tokens": 34,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "leadership-1-graph",
+      "trace_sha256": "d9667d04f4c2fdf3349d0b1be474a04044a83cd1bd658b54e8cb7d39d4dd25b0",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 31360,
+          "input_tokens": 48132,
+          "output_tokens": 167,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "leadership-1-search",
+      "trace_sha256": "29968994f54ab4ab77ce2d70fb65fa50497c85883d6cad6cd19402f9a7a786c1",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15538,
+          "output_tokens": 23,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "ambiguous-1-search",
+      "trace_sha256": "307c83355576bd6abf62c753ab2c99ecfdeecb0b4400df3c413dbc3437a2f7c2",
+      "valid": false
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 14464,
+          "input_tokens": 15527,
+          "output_tokens": 30,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "ambiguous-1-graph",
+      "trace_sha256": "797805bfb5c838b325a8a7750e07ee772dee18fd948dbea48a2d0be3d78057b3",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 15509,
+          "output_tokens": 23,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "missing-1-graph",
+      "trace_sha256": "b35763660f3c3f74e4f170bbe2f57c34abee0a71c56911d08b3f98fa1a6644be",
+      "valid": true
+    },
+    {
+      "completed_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 109312,
+          "input_tokens": 111570,
+          "output_tokens": 306,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "model": "gpt-6-luna",
+      "run_id": "missing-1-search",
+      "trace_sha256": "a60bf7a703ba1440e43366013c6e8c6742726bd97770c7a78ecc059a91a29e09",
+      "valid": true
+    }
+  ],
+  "completed_provider_turns": 32,
+  "reported_token_totals": {
+    "cached_input_tokens": 666880,
+    "input_tokens": 1086362,
+    "output_tokens": 2896
+  },
+  "scope": "Derived from original raw traces, including invalid attempts. Grades and raw evidence are unchanged. Totals include only reported usage; missing usage is explicitly unknown.",
+  "usage_unavailable_for": []
+}

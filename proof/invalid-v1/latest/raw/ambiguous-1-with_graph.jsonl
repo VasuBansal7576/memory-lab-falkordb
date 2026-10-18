@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14ed3-0498-79c3-9d88-5f4d6b7e9ec5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answer\":\"Alex is ambiguous: two distinct people match, Alex Morgan (design) and Alex Rivera (operations).\",\"answer_entities\":[\"Alex\",\"Alex\"],\"source_ids\":[],\"verdict\":\"ambiguous\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":19543,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":52,"reasoning_output_tokens":0}}

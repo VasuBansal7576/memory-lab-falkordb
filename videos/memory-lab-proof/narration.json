@@ -1,0 +1,26 @@
+[
+  {
+    "id": "01-intro",
+    "text": "An agent should remember a decision after the conversation ends, and show the source behind its next answer. Memory Lab gives Codex that memory, using FalkorDB as its central context layer. This is a local working prototype for Graph Hacks."
+  },
+  {
+    "id": "02-graph",
+    "text": "Here is a nine hundred pound refund on October fifteenth. The graph connects the refund policy to the Payments Lead, the role to Noah Chen, and Noah to Mira Shah through a temporary delegation. The source keeps the October expiry. The application shows the query, each relationship and its original quotation. The answering model receives this evidence before it speaks."
+  },
+  {
+    "id": "03-memory",
+    "text": "This is recorded evidence from two real native Codex sessions. The first session states a new approval rule. On exit, a hook captures the filtered conversation. A detached worker summarizes it, distils searchable questions, extracts typed facts and publishes a new FalkorDB snapshot. A separate later session recalls Noor Desai, the six hundred and forty pound threshold, and the December fifteenth expiry, with source citations."
+  },
+  {
+    "id": "04-method",
+    "text": "The comparison uses two Codex models and two methods. Each model gets both real local search and read, and graph-only recall. Both methods use the same sixteen synthetic source documents. Graph mode excludes keyword search, embeddings and distilled-note retrieval. Thirty-two attempts are recorded, with exact prompts, source packets, provider token usage and raw tool traces."
+  },
+  {
+    "id": "05-results",
+    "text": "For the repeated approval question, Sol without graph took a median thirteen point one five seconds and fifty-two thousand seven hundred twenty-nine input tokens. Luna with graph took five point eight nine seconds and fifteen thousand seven hundred thirteen input tokens, with zero retrieval tools. That is two point two three times faster in this pilot. The failures stay visible: three Luna baselines skipped retrieval, and one graph answer failed exact role-label grading. Caching, service load and write-time costs limit the conclusion."
+  },
+  {
+    "id": "06-close",
+    "text": "The project runs locally with Docker, Python and uv. FalkorDB stores the graph and passage index; source changes publish atomically, and saved knowledge survives database recreation. All one hundred twenty-three tests pass, alongside the original graph and RAG compatibility checks. This is an independently rebuilt, substantially AI-assisted project, credited to the reference design. The repository includes setup instructions, the graph model, Cypher queries and all supporting evidence."
+  }
+]

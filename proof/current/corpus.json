@@ -1,0 +1,392 @@
+{
+  "documents": [
+    {
+      "entities": [
+        {
+          "aliases": [
+            "refund",
+            "refunds"
+          ],
+          "description": "Refunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.",
+          "id": "refunds",
+          "kind": "Policy",
+          "name": "Customer refunds"
+        },
+        {
+          "aliases": [
+            "payments lead"
+          ],
+          "description": "",
+          "id": "payments-lead",
+          "kind": "Role",
+          "name": "Payments Lead"
+        },
+        {
+          "aliases": [
+            "support agent"
+          ],
+          "description": "",
+          "id": "support-agent",
+          "kind": "Role",
+          "name": "Support Agent"
+        }
+      ],
+      "facts": [
+        {
+          "object": "payments-lead",
+          "predicate": "APPROVED_BY",
+          "quote": "Refunds above £750 require approval from the Payments Lead.",
+          "subject": "refunds"
+        }
+      ],
+      "id": "customer-handbook",
+      "text": "Orbit Works customer operations handbook. Reviewed 7 October 2026.\n\nOur support team owns the first response to customer requests. A first reply should acknowledge the issue, identify the order and explain the next action. The daily queue rotates between the regional shifts; a queue owner is not automatically an approver.\n\nRefunds above £750 require approval from the Payments Lead. Refunds of £750 or less can be processed by a Support Agent without further approval.\n\nAll refunds return to the original payment method. Partial refunds use the amount being returned, not the original invoice total. A refund must not be split to avoid the approval threshold. Keep the customer informed while approval is pending. Record the approval in the ticket before asking Finance to release funds.\n\nFor account access problems, send a password reset rather than requesting credentials. Complaints about billing accuracy go to the reconciliation queue. This handbook describes the approval role; consult the staffing register to identify its current holder.",
+      "title": "Customer operations handbook"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "payments lead"
+          ],
+          "description": "",
+          "id": "payments-lead",
+          "kind": "Role",
+          "name": "Payments Lead"
+        },
+        {
+          "aliases": [
+            "Noah"
+          ],
+          "description": "",
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah Chen"
+        }
+      ],
+      "facts": [
+        {
+          "object": "noah",
+          "predicate": "HELD_BY",
+          "quote": "The Payments Lead role is held by Noah Chen.",
+          "subject": "payments-lead"
+        }
+      ],
+      "id": "staffing-register",
+      "text": "Staffing register, updated 25 September 2026.\n\nThe Payments Lead role is held by Noah Chen. This appointment continues throughout 2026; temporary cover is recorded separately.\n\nA role appointment identifies accountability, not attendance. When a holder is away, a separate cover notice determines who may exercise delegated authority. A person listed as available backup does not receive approval authority automatically.\n\nThe support queue has rotating coverage; the Support Agent role is shared across the roster. The staffing register is reviewed monthly and changes require an entry from operations. The payroll team uses a separate reporting structure. Do not infer refund authority from payroll reporting lines.",
+      "title": "Operations staffing register"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "Noah"
+          ],
+          "description": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.",
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah Chen"
+        },
+        {
+          "aliases": [
+            "Mira"
+          ],
+          "description": "",
+          "id": "mira",
+          "kind": "Person",
+          "name": "Mira Shah"
+        }
+      ],
+      "facts": [
+        {
+          "object": "mira",
+          "predicate": "DELEGATES_TO",
+          "quote": "Noah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive.",
+          "subject": "noah"
+        }
+      ],
+      "id": "october-cover",
+      "text": "Subject: planned leave and operational cover\n\nNoah Chen delegates his approvals to Mira Shah only from 1 October 2026 through 31 October 2026 inclusive. Outside those dates Noah Chen retains the approvals.\n\nMira has the necessary operational access during the cover window. The change is temporary and does not replace Noah's role appointment. Approval requests must still satisfy the policy threshold and be recorded in the normal ticket. The covering person should not change the refund method or split a request.\n\nJun Patel is available for incident coordination, but is not delegated approval authority by this notice. Contacting Jun about a delayed request does not authorize Jun to sign it. On return, Noah resumes the normal approval queue. This notice concerns operational approvals, not supplier invoice approvals.",
+      "title": "October cover notice"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "Platform team"
+          ],
+          "description": "",
+          "id": "platform",
+          "kind": "Team",
+          "name": "Platform"
+        },
+        {
+          "aliases": [
+            "Beacon service"
+          ],
+          "description": "",
+          "id": "beacon",
+          "kind": "Service",
+          "name": "Beacon"
+        }
+      ],
+      "facts": [
+        {
+          "object": "beacon",
+          "predicate": "OWNS",
+          "quote": "Platform owns Beacon.",
+          "subject": "platform"
+        }
+      ],
+      "id": "service-register",
+      "text": "Service accountability register, reviewed 9 October 2026.\n\nPlatform owns Beacon. Beacon delivers notifications for application teams; it is not itself a team or an approval role. Service ownership means operational accountability for reliability, access reviews and incident follow-up. It does not transfer customer refund approval rights.\n\nThe accountable team maintains the service runbook and decides how incident work is assigned. To identify its team lead, consult the leadership directory. On-call participation and team leadership are separate responsibilities. Application developers may contribute changes without becoming owners.",
+      "title": "Service accountability register"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "Elena"
+          ],
+          "description": "",
+          "id": "elena",
+          "kind": "Person",
+          "name": "Elena Park"
+        },
+        {
+          "aliases": [
+            "Platform team"
+          ],
+          "description": "",
+          "id": "platform",
+          "kind": "Team",
+          "name": "Platform"
+        }
+      ],
+      "facts": [
+        {
+          "object": "platform",
+          "predicate": "LEADS",
+          "quote": "Elena Park leads Platform.",
+          "subject": "elena"
+        }
+      ],
+      "id": "leadership-directory",
+      "text": "Engineering leadership directory.\n\nElena Park leads Platform. The team covers service reliability, developer infrastructure and operational tooling. The leader is accountable for team planning; current on-call assignments are recorded in the incident rota.\n\nEngineering team leads do not automatically hold finance approval roles. When investigating a service, start from its accountable team in the service register, then consult this directory. A service name and a person's informal project involvement are not sufficient to infer ownership.",
+      "title": "Engineering leadership directory"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "supplier payment",
+            "supplier payments"
+          ],
+          "description": "",
+          "id": "supplier",
+          "kind": "Policy",
+          "name": "Supplier payments"
+        },
+        {
+          "aliases": [
+            "finance lead"
+          ],
+          "description": "",
+          "id": "finance-lead",
+          "kind": "Role",
+          "name": "Finance Lead"
+        }
+      ],
+      "facts": [
+        {
+          "object": "finance-lead",
+          "predicate": "APPROVED_BY",
+          "quote": "Supplier payments require approval from the Finance Lead.",
+          "subject": "supplier"
+        }
+      ],
+      "id": "supplier-rules",
+      "text": "Supplier invoices are reconciled against purchase orders before payment. Supplier payments require approval from the Finance Lead. The refund threshold in the customer handbook does not apply to supplier invoices.\n\nFinance checks the invoice reference, tax treatment and bank details. Bank detail changes require independent confirmation using the existing contact record. A team's service ownership does not grant supplier approval rights. Rejected invoices stay in the reconciliation queue until the discrepancy is documented.",
+      "title": "Supplier invoice workflow"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "finance lead"
+          ],
+          "description": "",
+          "id": "finance-lead",
+          "kind": "Role",
+          "name": "Finance Lead"
+        },
+        {
+          "aliases": [
+            "Elena"
+          ],
+          "description": "",
+          "id": "elena",
+          "kind": "Person",
+          "name": "Elena Park"
+        }
+      ],
+      "facts": [
+        {
+          "object": "elena",
+          "predicate": "HELD_BY",
+          "quote": "The Finance Lead role is held by Elena Park.",
+          "subject": "finance-lead"
+        }
+      ],
+      "id": "finance-appointments",
+      "text": "The Finance Lead role is held by Elena Park. This is a separate responsibility from Elena's engineering leadership role. The register records role appointments rather than individual payment decisions.\n\nOperational cover for Noah Chen does not change the Finance Lead appointment. Supplier payments continue through their own workflow. Questions about a specific invoice need its purchase order and approval record; this register does not establish that any particular invoice has been approved.",
+      "title": "Finance role appointments"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "Alex"
+          ],
+          "description": "Alex Morgan works in the design practice. Colleagues sometimes use the short name Alex.",
+          "id": "alex-design",
+          "kind": "Person",
+          "name": "Alex Morgan"
+        }
+      ],
+      "facts": [],
+      "id": "alex-design",
+      "text": "Alex Morgan works in the design practice. Colleagues sometimes use the short name Alex.\n\nDirectory names distinguish people who share a short name. Use the full name or directory ID when assigning work. An informal mention of Alex alone is insufficient to identify the intended person.",
+      "title": "Alex Morgan directory entry"
+    },
+    {
+      "entities": [
+        {
+          "aliases": [
+            "Alex"
+          ],
+          "description": "Alex Rivera works in the operations. Colleagues sometimes use the short name Alex.",
+          "id": "alex-ops",
+          "kind": "Person",
+          "name": "Alex Rivera"
+        }
+      ],
+      "facts": [],
+      "id": "alex-ops",
+      "text": "Alex Rivera works in the operations. Colleagues sometimes use the short name Alex.\n\nDirectory names distinguish people who share a short name. Use the full name or directory ID when assigning work. An informal mention of Alex alone is insufficient to identify the intended person.",
+      "title": "Alex Rivera directory entry"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "incident-runbook",
+      "text": "For a production incident, identify the affected service and its accountable team before paging. The incident coordinator records timestamps, decisions and customer impact. An emergency response does not itself change financial approval roles. Resolve the incident, then record follow-up work with a named owner. On-call schedules rotate weekly and the coordinator should check the current roster rather than use an old chat message. Customer refunds arising from an outage follow the customer operations handbook; do not infer a payment approver from incident command.",
+      "title": "Incident response runbook"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "onboarding",
+      "text": "Before a new starter arrives, confirm their manager, start date and equipment requirements. On day one the manager checks access to the issue tracker and documentation. Security training is completed during the first week. Shared accounts are prohibited. Access to an approval system does not grant an approval role: consult the relevant appointment and policy documents. New starters should ask for clarification when two people have the same short name. The onboarding checklist is a process record rather than an organization chart.",
+      "title": "New starter onboarding"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "refund-archive",
+      "text": "Archived guidance, superseded by the current customer operations handbook. The former approval threshold was £500. Do not use this archived threshold for 2026 transactions. This page is retained to explain historic tickets and is not the current policy. Historic references to a duty manager should not be interpreted as the current role appointment. Audit enquiries should use the policy in force on the transaction date and the relevant approval record, rather than applying the latest threshold retroactively.",
+      "title": "Archived 2024 refund guidance"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "release-checklist",
+      "text": "A release owner checks tests, rollout controls and rollback instructions before deployment. Record the release identifier and monitor error rates during the rollout. Pause when the release causes unexpected impact. Release ownership and service ownership are related operational concerns but are not customer refund approval roles. An application team can deliver a change to Beacon while Platform remains accountable for the service. Use the service register for that accountability rather than the last person who changed a file.",
+      "title": "Production release checklist"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "retention",
+      "text": "Operational event records are retained for thirty days unless an approved incident investigation requires a longer hold. Support tickets and finance records follow separate schedules. Retention is not an authorization rule for refunds or supplier payments. Delete exported copies after the approved purpose ends, and keep an audit record of any exceptional hold. A staff directory or temporary cover notice should not be treated as evidence that a retention exception has been approved.",
+      "title": "Operational data retention"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "weekly-notes",
+      "text": "The operations team discussed queue backlog, reconciliation delays and the next onboarding batch. Several participants asked how to find approvers. The team agreed to link the customer handbook, staffing register and temporary cover notices from the support dashboard. These notes do not create new approval authority. Proposed changes to the threshold remain proposals until the handbook is revised. The dashboard should distinguish current rules from archived guidance so that search results do not silently mix the two.",
+      "title": "Weekly operations notes"
+    },
+    {
+      "entities": [],
+      "facts": [],
+      "id": "expense-guide",
+      "text": "Employee expenses require receipts and a business purpose. Submit travel costs through the expense workflow rather than the customer refund queue. A manager reviews the expense before reimbursement. Customer refunds return money to customers; supplier payments settle invoices; employee reimbursements repay employees. These categories have separate policies. The presence of a name in an operations directory does not mean that person can approve expenses. Requests missing a receipt should explain the exception rather than changing the transaction category.",
+      "title": "Employee expense guide"
+    }
+  ],
+  "label": "Hand-authored synthetic operations corpus; annotations reviewed against the same raw text. No production-scale claim.",
+  "questions": {
+    "ambiguous": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "question": "Who is Alex?",
+      "sources": [],
+      "verdict": "ambiguous"
+    },
+    "leadership": {
+      "entities": [
+        "Elena Park"
+      ],
+      "question": "Who leads the team accountable for Beacon?",
+      "sources": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "low-refund": {
+      "entities": [
+        "Support Agent"
+      ],
+      "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+      "sources": [
+        "customer-handbook"
+      ],
+      "verdict": "supported"
+    },
+    "missing": {
+      "entities": [],
+      "question": "Who owns Nimbus?",
+      "sources": [],
+      "verdict": "missing"
+    },
+    "november-refund": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "question": "Who signs off a £900 customer refund on 15 November 2026?",
+      "sources": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "october-refund": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+      "sources": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    }
+  }
+}

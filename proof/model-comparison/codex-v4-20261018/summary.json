@@ -1,0 +1,220 @@
+{
+  "cells": [
+    {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 34176,
+          "median": 33920,
+          "min": 33920
+        },
+        "input_tokens": {
+          "max": 52735,
+          "median": 52729,
+          "min": 52722
+        },
+        "output_tokens": {
+          "max": 155,
+          "median": 153,
+          "min": 149
+        },
+        "prompt_utf8_bytes": {
+          "max": 951,
+          "median": 951,
+          "min": 951
+        },
+        "recall_s": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "tool_calls": {
+          "max": 2,
+          "median": 2,
+          "min": 2
+        },
+        "tool_output_bytes": {
+          "max": 8252,
+          "median": 8252,
+          "min": 8252
+        },
+        "total_s": {
+          "max": 13.70222174981609,
+          "median": 13.152311958139762,
+          "min": 12.685662375064567
+        }
+      },
+      "approval_repeats": 3,
+      "arm": "search",
+      "decisions_correct": 8,
+      "model": "gpt-6.1-sol",
+      "runs": 8,
+      "valid": 8
+    },
+    {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 16384,
+          "median": 15488,
+          "min": 0
+        },
+        "input_tokens": {
+          "max": 16764,
+          "median": 16764,
+          "min": 16764
+        },
+        "output_tokens": {
+          "max": 39,
+          "median": 39,
+          "min": 39
+        },
+        "prompt_utf8_bytes": {
+          "max": 1649,
+          "median": 1649,
+          "min": 1649
+        },
+        "recall_s": {
+          "max": 0.019397333031520247,
+          "median": 0.011484874878078699,
+          "min": 0.007974833017215133
+        },
+        "tool_calls": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "tool_output_bytes": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "total_s": {
+          "max": 6.912698249798268,
+          "median": 6.695070708170533,
+          "min": 6.4762523751705885
+        }
+      },
+      "approval_repeats": 3,
+      "arm": "graph",
+      "decisions_correct": 8,
+      "model": "gpt-6.1-sol",
+      "runs": 8,
+      "valid": 8
+    },
+    {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 46720,
+          "median": 31808.0,
+          "min": 16896
+        },
+        "input_tokens": {
+          "max": 50430,
+          "median": 50383.0,
+          "min": 50336
+        },
+        "output_tokens": {
+          "max": 193,
+          "median": 191.5,
+          "min": 190
+        },
+        "prompt_utf8_bytes": {
+          "max": 951,
+          "median": 951.0,
+          "min": 951
+        },
+        "recall_s": {
+          "max": 0,
+          "median": 0.0,
+          "min": 0
+        },
+        "tool_calls": {
+          "max": 2,
+          "median": 2.0,
+          "min": 2
+        },
+        "tool_output_bytes": {
+          "max": 11221,
+          "median": 10931.0,
+          "min": 10641
+        },
+        "total_s": {
+          "max": 10.170584124978632,
+          "median": 9.921204937505536,
+          "min": 9.67182575003244
+        }
+      },
+      "approval_repeats": 2,
+      "arm": "search",
+      "decisions_correct": 5,
+      "model": "gpt-6-luna",
+      "runs": 8,
+      "valid": 5
+    },
+    {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "input_tokens": {
+          "max": 15713,
+          "median": 15713,
+          "min": 15713
+        },
+        "output_tokens": {
+          "max": 39,
+          "median": 39,
+          "min": 39
+        },
+        "prompt_utf8_bytes": {
+          "max": 1649,
+          "median": 1649,
+          "min": 1649
+        },
+        "recall_s": {
+          "max": 0.015848333947360516,
+          "median": 0.011428792029619217,
+          "min": 0.008975292090326548
+        },
+        "tool_calls": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "tool_output_bytes": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "total_s": {
+          "max": 5.997013415908441,
+          "median": 5.885481999954209,
+          "min": 5.492780125001445
+        }
+      },
+      "approval_repeats": 3,
+      "arm": "graph",
+      "decisions_correct": 7,
+      "model": "gpt-6-luna",
+      "runs": 8,
+      "valid": 8
+    }
+  ],
+  "decision_failures": 4,
+  "invalid_runs": 3,
+  "limitations": [
+    "Two requested model IDs, not a measurement of parameter counts or intrinsic model intelligence.",
+    "16 synthetic documents and six structured decision cases; not production-scale evidence.",
+    "Each model runs both methods; approval order alternates search/graph across repeats. Model blocks run sequentially.",
+    "Graph arm is graph-only: no BM25, vectors or distilled note hits. The baseline actually searches and reads the same raw corpus.",
+    "Graph annotations are hand-authored against the raw source. Source presence/schema checks do not prove semantic entailment.",
+    "Latency includes CLI startup, network and generation. Cache and service load can affect it.",
+    "Input tokens include cached input; no subscription-dollar savings are inferred.",
+    "Index build time is separate; write-time model extraction cost is not included in answer-time savings.",
+    "Scoring covers verdict, identity and required source IDs; no free-text answer-quality score.",
+    "Failed runs remain in the denominator. Latency/token medians describe valid approval repeats only."
+  ],
+  "status": "observed_pilot",
+  "total_runs": 32
+}

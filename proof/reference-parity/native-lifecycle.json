@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-18T15:13:39.342541+00:00",
+  "scope": "Actual trusted Codex exec sessions, actual SessionEnd transcript capture, detached worker, and a separate later Codex process.",
+  "namespace": "native_verify_25b072bb2d6a",
+  "source": "For Project Sylvan, only Noor Desai may approve releases above £640 until 15 December 2026.",
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "assistant": "codex",
+      "at": "2026-10-18T15:12:53.774967+00:00",
+      "session_hash": "5a5c449a4c51c72d",
+      "context_chars": 0,
+      "verification": false
+    },
+    {
+      "event": "UserPromptSubmit",
+      "assistant": "codex",
+      "at": "2026-10-18T15:12:54.488334+00:00",
+      "session_hash": "5a5c449a4c51c72d",
+      "context_chars": 1581,
+      "verification": false
+    },
+    {
+      "event": "SessionEnd",
+      "assistant": "codex",
+      "at": "2026-10-18T15:12:56.956613+00:00",
+      "session_hash": "5a5c449a4c51c72d",
+      "context_chars": 0,
+      "verification": false
+    },
+    {
+      "event": "SessionStart",
+      "assistant": "codex",
+      "at": "2026-10-18T15:13:34.782124+00:00",
+      "session_hash": "a50cd6cad9f725b7",
+      "context_chars": 0,
+      "verification": false
+    },
+    {
+      "event": "UserPromptSubmit",
+      "assistant": "codex",
+      "at": "2026-10-18T15:13:35.174388+00:00",
+      "session_hash": "a50cd6cad9f725b7",
+      "context_chars": 1754,
+      "verification": false
+    },
+    {
+      "event": "SessionEnd",
+      "assistant": "codex",
+      "at": "2026-10-18T15:13:38.207851+00:00",
+      "session_hash": "a50cd6cad9f725b7",
+      "context_chars": 0,
+      "verification": false
+    }
+  ],
+  "job": {
+    "key": "7414a67672c64ddf02ab65d0eda9d6db8735dfbddab8c7468cf6021b35745e3b",
+    "session_id": "01a14f92-9981-74f0-a030-c947b62646da",
+    "turns": [
+      {
+        "role": "user",
+        "content": "For Project Sylvan, only Noor Desai may approve releases above £640 until 15 December 2026. Remember this decision for later sessions. Do not call tools. Reply only Recorded."
+      },
+      {
+        "role": "assistant",
+        "content": "Recorded."
+      }
+    ],
+    "created_at": "2026-10-18T15:12:56.954549+00:00",
+    "status": "indexed",
+    "entry": {
+      "summary": "Decisions: For Project Sylvan, only Noor Desai may approve releases above £640 until 15 December 2026.\nOpen loops: I asked for this decision to be remembered for later sessions; the assistant replied “Recorded.” The conversation is too thin to confirm persistence.\nFor the index: Project Sylvan; Noor Desai; release approval; above £640; 15 December 2026.",
+      "quotes": [
+        "For Project Sylvan, only Noor Desai may approve releases above £640 until 15 December 2026.",
+        "Remember this decision for later sessions.",
+        "Recorded."
+      ]
+    },
+    "summary_usage": {
+      "input_tokens": 16566,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 133,
+      "reasoning_output_tokens": 0
+    },
+    "note_path": "<LOCAL_HOME>/.t3/scratch/2026-10-18-use-tinyfish-and-browser-use-0115788b/.memory/native-lifecycle/25b072bb2d6a/notes/2026-10-18.md",
+    "snapshot": "981d6fc49508cb4d77c892e76f798c74b6c9f3ab2227a476dbf58bde63cb083c",
+    "index_usage": [
+      {
+        "input_tokens": 16673,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 182,
+        "reasoning_output_tokens": 0
+      },
+      {
+        "input_tokens": 17029,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 320,
+        "reasoning_output_tokens": 86
+      }
+    ],
+    "reused_index_usage": [],
+    "error": null
+  },
+  "answer": "Only **Noor Desai** may approve the £900 Sylvan release on 20 November 2026: the recorded rule applies to releases **above £640** until **15 December 2026**. [S1–S5]\n\nThis is based on the available workspace memory; omitted conditions may affect authority.",
+  "first_native_trace": "{\"type\":\"thread.started\",\"thread_id\":\"01a14f92-9981-74f0-a030-c947b62646da\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"error\",\"message\":\"Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\\n  user (<LOCAL_HOME>/.codex/config.toml): `features.child_agents_md` is ignored.\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_1\",\"type\":\"error\",\"message\":\"Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\\n  user (<LOCAL_HOME>/.codex/config.toml): `features.child_agents_md` is ignored.\"}}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_2\",\"type\":\"agent_message\",\"text\":\"Recorded.\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":19131,\"cached_input_tokens\":12160,\"cache_write_input_tokens\":0,\"output_tokens\":6,\"reasoning_output_tokens\":0}}\n",
+  "later_native_trace": "{\"type\":\"thread.started\",\"thread_id\":\"01a14f93-3531-7593-b7ea-3942a77c791c\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"error\",\"message\":\"Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\\n  user (<LOCAL_HOME>/.codex/config.toml): `features.child_agents_md` is ignored.\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_1\",\"type\":\"error\",\"message\":\"Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.\\n  user (<LOCAL_HOME>/.codex/config.toml): `features.child_agents_md` is ignored.\"}}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_2\",\"type\":\"agent_message\",\"text\":\"Only **Noor Desai** may approve the £900 Sylvan release on 20 November 2026: the recorded rule applies to releases **above £640** until **15 December 2026**. [S1–S5]\\n\\nThis is based on the available workspace memory; omitted conditions may affect authority.\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":19386,\"cached_input_tokens\":18560,\"cache_write_input_tokens\":0,\"output_tokens\":69,\"reasoning_output_tokens\":0}}\n"
+}

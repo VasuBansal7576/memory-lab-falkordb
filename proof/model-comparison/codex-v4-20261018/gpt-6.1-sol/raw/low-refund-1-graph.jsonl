@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14f8e-9fb0-78d0-94be-58658e06756d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"entities\":[\"Support Agent\"],\"source_ids\":[\"customer-handbook\"],\"verdict\":\"supported\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":16763,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":52,"reasoning_output_tokens":20}}

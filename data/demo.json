@@ -1,0 +1,295 @@
+{
+  "organization": "Orbit Works",
+  "documents": [
+    {
+      "id": "atlas-stack",
+      "title": "Atlas service map",
+      "text": "Orbit Works builds Atlas. Atlas uses Beacon to deliver notifications.",
+      "entities": [
+        {
+          "id": "atlas",
+          "kind": "Project",
+          "name": "Atlas",
+          "aliases": [
+            "Atlas project"
+          ]
+        },
+        {
+          "id": "beacon",
+          "kind": "Service",
+          "name": "Beacon",
+          "aliases": [
+            "Beacon service"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "atlas",
+          "predicate": "USES",
+          "object": "beacon",
+          "quote": "Atlas uses Beacon to deliver notifications."
+        }
+      ]
+    },
+    {
+      "id": "beacon-ownership",
+      "title": "Beacon ownership register",
+      "text": "Platform owns Beacon. This register records the accountable service team.",
+      "entities": [
+        {
+          "id": "beacon",
+          "kind": "Service",
+          "name": "Beacon",
+          "aliases": [
+            "Beacon service"
+          ]
+        },
+        {
+          "id": "platform",
+          "kind": "Team",
+          "name": "Platform",
+          "aliases": [
+            "Platform team"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "platform",
+          "predicate": "OWNS",
+          "object": "beacon",
+          "quote": "Platform owns Beacon."
+        }
+      ]
+    },
+    {
+      "id": "platform-leadership",
+      "title": "Platform leadership memo",
+      "text": "Elena leads Platform. Team leadership is reviewed quarterly.",
+      "entities": [
+        {
+          "id": "elena",
+          "kind": "Person",
+          "name": "Elena",
+          "aliases": [
+            "Elena Park"
+          ]
+        },
+        {
+          "id": "platform",
+          "kind": "Team",
+          "name": "Platform",
+          "aliases": [
+            "Platform team"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "elena",
+          "predicate": "LEADS",
+          "object": "platform",
+          "quote": "Elena leads Platform."
+        }
+      ]
+    },
+    {
+      "id": "beacon-retention",
+      "title": "Beacon retention standard",
+      "text": "Beacon is governed by Retention. Events expire after thirty days.",
+      "entities": [
+        {
+          "id": "beacon",
+          "kind": "Service",
+          "name": "Beacon",
+          "aliases": [
+            "Beacon service"
+          ]
+        },
+        {
+          "id": "retention",
+          "kind": "Policy",
+          "name": "Retention",
+          "aliases": [
+            "Retention policy"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "beacon",
+          "predicate": "GOVERNED_BY",
+          "object": "retention",
+          "quote": "Beacon is governed by Retention."
+        }
+      ]
+    },
+    {
+      "id": "atlas-approval",
+      "title": "Atlas release approval policy",
+      "text": "Atlas releases are approved by Release Steward. Release approval is a recorded role decision.",
+      "entities": [
+        {
+          "id": "atlas-releases",
+          "kind": "Policy",
+          "name": "Atlas releases",
+          "aliases": [
+            "Atlas release policy"
+          ]
+        },
+        {
+          "id": "release-steward",
+          "kind": "Role",
+          "name": "Release Steward",
+          "aliases": [
+            "release steward role"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "atlas-releases",
+          "predicate": "APPROVED_BY",
+          "object": "release-steward",
+          "quote": "Atlas releases are approved by Release Steward."
+        }
+      ]
+    },
+    {
+      "id": "steward-assignment",
+      "title": "Release Steward assignment",
+      "text": "Release Steward is held by Noah. The appointment covers this release cycle.",
+      "entities": [
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah",
+          "aliases": [
+            "Noah Chen"
+          ]
+        },
+        {
+          "id": "release-steward",
+          "kind": "Role",
+          "name": "Release Steward",
+          "aliases": [
+            "release steward role"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "release-steward",
+          "predicate": "HELD_BY",
+          "object": "noah",
+          "quote": "Release Steward is held by Noah."
+        }
+      ]
+    },
+    {
+      "id": "release-delegation",
+      "title": "Release delegation notice",
+      "text": "Noah delegates to Mira. Jun is available as a future backup and has no current delegation.",
+      "entities": [
+        {
+          "id": "jun",
+          "kind": "Person",
+          "name": "Jun",
+          "aliases": [
+            "Jun Lee"
+          ]
+        },
+        {
+          "id": "mira",
+          "kind": "Person",
+          "name": "Mira",
+          "aliases": [
+            "Mira Shah"
+          ]
+        },
+        {
+          "id": "noah",
+          "kind": "Person",
+          "name": "Noah",
+          "aliases": [
+            "Noah Chen"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "noah",
+          "predicate": "DELEGATES_TO",
+          "object": "mira",
+          "quote": "Noah delegates to Mira."
+        }
+      ]
+    },
+    {
+      "id": "beacon-dependency",
+      "title": "Beacon dependency note",
+      "text": "Beacon depends on Harbor for event transport.",
+      "entities": [
+        {
+          "id": "beacon",
+          "kind": "Service",
+          "name": "Beacon",
+          "aliases": [
+            "Beacon service"
+          ]
+        },
+        {
+          "id": "harbor",
+          "kind": "Service",
+          "name": "Harbor",
+          "aliases": [
+            "Harbor service"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "subject": "beacon",
+          "predicate": "DEPENDS_ON",
+          "object": "harbor",
+          "quote": "Beacon depends on Harbor for event transport."
+        }
+      ]
+    },
+    {
+      "id": "design-directory",
+      "title": "Design directory",
+      "text": "Alex Morgan works with the design practice. This entry uses the short name Alex.",
+      "entities": [
+        {
+          "id": "alex-design",
+          "kind": "Person",
+          "name": "Alex",
+          "aliases": [
+            "Alex design",
+            "Alex Morgan"
+          ]
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "operations-directory",
+      "title": "Operations directory",
+      "text": "Alex Rivera works in operations. This entry also uses the short name Alex.",
+      "entities": [
+        {
+          "id": "alex-ops",
+          "kind": "Person",
+          "name": "Alex",
+          "aliases": [
+            "Alex operations",
+            "Alex Rivera"
+          ]
+        }
+      ],
+      "facts": []
+    }
+  ]
+}

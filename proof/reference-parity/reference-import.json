@@ -1,0 +1,1319 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-18T15:12:52.951835+00:00",
+  "reference_commit": "496a6e9d9b9578943ec5ed34c2780de5a0fa5510",
+  "scope": "Pinned original data compatibility; no upstream source code copied. Tests retrieved facts, not a new model-tier benchmark.",
+  "reference_data_license": {
+    "url": "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/LICENSE",
+    "notice": "MIT License\n\nCopyright (c) 2026 Glitch Cat Club\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "source_urls": [
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/customer-support-sop.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/delegation-memo.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/incident-response.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/onboarding-process.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/org-chart.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/refund-policy.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/supplier-payments.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/corpus/tooling-inventory.md",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/customer-support-sop.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/delegation-memo.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/incident-response.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/onboarding-process.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/org-chart.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/refund-policy.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/supplier-payments.json",
+    "https://raw.githubusercontent.com/Glitch-Cat-Club/graph-memory-starter/496a6e9d9b9578943ec5ed34c2780de5a0fa5510/extraction/tooling-inventory.json"
+  ],
+  "document_count": 8,
+  "cases": [
+    {
+      "question": "A customer wants an £800 refund in March. Who signs it off?",
+      "required_context": [
+        "Marcus Webb",
+        "DELEGATES_TO"
+      ],
+      "evidence": {
+        "question": "A customer wants an £800 refund in March. Who signs it off?",
+        "status": "recalled",
+        "mode": "evidence",
+        "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+        "snapshot": "f16d7350b7da135ebd48603430b14c5b5bd7dad19bcd6f608fc2e90718e03cb2",
+        "citations": [
+          {
+            "id": "S1",
+            "document_id": "note-bb6e2c7f9d7f586187ec5b5e243d6128",
+            "title": "Refund approvals",
+            "quote": "Refunds over £500 require approval by the **Ops Manager** before payment is released.\nStandard refunds under £500 are processed by any support agent within 48 hours.\nApproved refunds are paid back to the original payment method only.\n",
+            "revision": "4bfcd002bc1790b66e6ef4417fb01d4aac793377dac156fced479a4c752bd9cf"
+          },
+          {
+            "id": "S2",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "**Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S3",
+            "document_id": "note-d7d4d3e0bfbc50229661102927499b68",
+            "title": "Supplier payments",
+            "quote": "Supplier invoices are paid on 30-day terms.\nAny payment over £2,000 requires **Founder** sign-off before it is scheduled.\nNew suppliers must be added to the tooling inventory before their first invoice.\n",
+            "revision": "d60850594167416650124142301420b9e51287c27aeb60030f9ae50636332572"
+          },
+          {
+            "id": "S4",
+            "document_id": "note-8040665cfd0c562387d692184941e932",
+            "title": "Delegation memo",
+            "quote": "Sarah Chen is on leave from 1 to 31 March.\nDuring this period all of her sign-offs and approvals are delegated to **Marcus Webb**.\nMarcus has full authority on operational decisions while the cover is in place.\n",
+            "revision": "675230fa7a0d5d44d30fcdfd123ebf74266e0475c1ffcd4beea2ed34f87a735b"
+          },
+          {
+            "id": "S5",
+            "document_id": "note-7697e60187cf54029d2e51bc36bcb446",
+            "title": "Customer support SOP",
+            "quote": "Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n",
+            "revision": "a0382c4120e21e4d6e3136fb2d0e10757d3ce46f229e22e7ab2a624cf05707da"
+          },
+          {
+            "id": "S6",
+            "document_id": "note-ae134b5016bb58ff998beeb483033320",
+            "title": "Onboarding process",
+            "quote": "New starters are onboarded over their first week, owned by the **Ops Manager**.\nDay one covers accounts and access, using the tooling inventory as the checklist.\nWeek one ends with a shadowing shift alongside the support team.\n",
+            "revision": "8a2154b5b735185bc76bd65e97966dfb0fc80c05bf9c009e976045fa0de86105"
+          },
+          {
+            "id": "S7",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Support Lead",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S8",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Owns day-to-day operations, budgets and sign-offs",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S9",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Ops Manager",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S10",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Runs the support rota and handles escalations",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S11",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Sets pricing, signs anything customer-facing",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          }
+        ],
+        "paths": [
+          {
+            "nodes": [
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              },
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "predicate": "APPROVED_BY",
+                "object": "981438d4-2f39-5928-a91e-395896dddf05",
+                "citation_ids": [
+                  "S1"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              },
+              {
+                "id": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "name": "Sarah Chen",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "981438d4-2f39-5928-a91e-395896dddf05",
+                "predicate": "HELD_BY",
+                "object": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "citation_ids": [
+                  "S2"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "name": "Supplier payments",
+                "kind": "Policy"
+              },
+              {
+                "id": "df18101d-5820-53eb-aad5-9196048f177a",
+                "name": "Founder",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "predicate": "APPROVED_BY",
+                "object": "df18101d-5820-53eb-aad5-9196048f177a",
+                "citation_ids": [
+                  "S3"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "name": "Sarah Chen",
+                "kind": "Person"
+              },
+              {
+                "id": "2283ff4e-a54f-5d0f-b5d8-8da309923f0a",
+                "name": "Marcus Webb",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "predicate": "DELEGATES_TO",
+                "object": "2283ff4e-a54f-5d0f-b5d8-8da309923f0a",
+                "citation_ids": [
+                  "S4"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "name": "Support Lead",
+                "kind": "Role"
+              },
+              {
+                "id": "57f964fc-7667-5824-98e4-c93d04afed00",
+                "name": "Priya Patel",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "predicate": "HELD_BY",
+                "object": "57f964fc-7667-5824-98e4-c93d04afed00",
+                "citation_ids": [
+                  "S2"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "citation_ids": [
+                  "S5"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "name": "Support Lead",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "citation_ids": [
+                  "S5"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "name": "Onboarding process",
+                "kind": "Process"
+              },
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "predicate": "REFERENCES",
+                "object": "981438d4-2f39-5928-a91e-395896dddf05",
+                "citation_ids": [
+                  "S6"
+                ]
+              }
+            ]
+          }
+        ],
+        "candidates": [],
+        "notes": [
+          {
+            "entity_id": "57f964fc-7667-5824-98e4-c93d04afed00",
+            "name": "Priya Patel",
+            "text": "Support Lead",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S7"
+          },
+          {
+            "entity_id": "981438d4-2f39-5928-a91e-395896dddf05",
+            "name": "Ops Manager",
+            "text": "Owns day-to-day operations, budgets and sign-offs",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S8"
+          },
+          {
+            "entity_id": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+            "name": "Sarah Chen",
+            "text": "Ops Manager",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S9"
+          },
+          {
+            "entity_id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+            "name": "Support Lead",
+            "text": "Runs the support rota and handles escalations",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S10"
+          },
+          {
+            "entity_id": "df18101d-5820-53eb-aad5-9196048f177a",
+            "name": "Founder",
+            "text": "Sets pricing, signs anything customer-facing",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S11"
+          }
+        ],
+        "trace": {
+          "seeds": [
+            "b4c72727-bb97-5070-b955-ede9867b0537"
+          ],
+          "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY CASE WHEN type(r) = 'REFERENCES' THEN 1 ELSE 0 END, CASE WHEN r.quote STARTS WITH '---' THEN 1 ELSE 0 END, depth, type(r), startNode(r).name, endNode(r).name, r.fact_id LIMIT $limit",
+          "retrieval_ms": 5.191,
+          "hop_count": 3,
+          "facts_returned": 8,
+          "truncated": true
+        },
+        "evidence_text": "[S1] Refund approvals --APPROVED_BY--> Ops Manager\n[S1] Source: Refunds over £500 require approval by the **Ops Manager** before payment is released.\nStandard refunds under £500 are processed by any support agent within 48 hours.\nApproved refunds are paid back to the original payment method only.\n\n[S2] Ops Manager --HELD_BY--> Sarah Chen\n[S2] Support Lead --HELD_BY--> Priya Patel\n[S2] Source: **Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n\n[S3] Supplier payments --APPROVED_BY--> Founder\n[S3] Source: Supplier invoices are paid on 30-day terms.\nAny payment over £2,000 requires **Founder** sign-off before it is scheduled.\nNew suppliers must be added to the tooling inventory before their first invoice.\n\n[S4] Sarah Chen --DELEGATES_TO--> Marcus Webb\n[S4] Source: Sarah Chen is on leave from 1 to 31 March.\nDuring this period all of her sign-offs and approvals are delegated to **Marcus Webb**.\nMarcus has full authority on operational decisions while the cover is in place.\n\n[S5] Customer support SOP --REFERENCES--> Refund approvals\n[S5] Customer support SOP --REFERENCES--> Support Lead\n[S5] Source: Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n\n[S6] Onboarding process --REFERENCES--> Ops Manager\n[S6] Source: New starters are onboarded over their first week, owned by the **Ops Manager**.\nDay one covers accounts and access, using the tooling inventory as the checklist.\nWeek one ends with a shadowing shift alongside the support team.\n\n[S7] Source: Support Lead\n[S8] Source: Owns day-to-day operations, budgets and sign-offs\n[S9] Source: Ops Manager\n[S10] Source: Runs the support rota and handles escalations\n[S11] Source: Sets pricing, signs anything customer-facing\nWARNING: context is incomplete; omitted evidence or conditions may change the answer. Do not infer unconditional authority or absence."
+      }
+    },
+    {
+      "question": "Who approves supplier payments over £2,000?",
+      "required_context": [
+        "Alex Doyle",
+        "APPROVED_BY"
+      ],
+      "evidence": {
+        "question": "Who approves supplier payments over £2,000?",
+        "status": "recalled",
+        "mode": "evidence",
+        "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+        "snapshot": "f16d7350b7da135ebd48603430b14c5b5bd7dad19bcd6f608fc2e90718e03cb2",
+        "citations": [
+          {
+            "id": "S1",
+            "document_id": "note-d7d4d3e0bfbc50229661102927499b68",
+            "title": "Supplier payments",
+            "quote": "Supplier invoices are paid on 30-day terms.\nAny payment over £2,000 requires **Founder** sign-off before it is scheduled.\nNew suppliers must be added to the tooling inventory before their first invoice.\n",
+            "revision": "d60850594167416650124142301420b9e51287c27aeb60030f9ae50636332572"
+          },
+          {
+            "id": "S2",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "**Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S3",
+            "document_id": "note-bb6e2c7f9d7f586187ec5b5e243d6128",
+            "title": "Refund approvals",
+            "quote": "Refunds over £500 require approval by the **Ops Manager** before payment is released.\nStandard refunds under £500 are processed by any support agent within 48 hours.\nApproved refunds are paid back to the original payment method only.\n",
+            "revision": "4bfcd002bc1790b66e6ef4417fb01d4aac793377dac156fced479a4c752bd9cf"
+          },
+          {
+            "id": "S4",
+            "document_id": "note-606b2edfc58e5d6ca8681a3eacabb9f0",
+            "title": "Incident response",
+            "quote": "Incidents are raised in the ops channel and triaged by the **Support Lead**.\nSeverity-1 incidents (site down, payments failing) escalate to the **Founder** immediately.\nEvery incident gets a short write-up within 48 hours of being resolved.\n",
+            "revision": "5dec785e72bf2265094cec128cde85fb37f99beee83b0e885f121484f2687215"
+          },
+          {
+            "id": "S5",
+            "document_id": "note-ae134b5016bb58ff998beeb483033320",
+            "title": "Onboarding process",
+            "quote": "New starters are onboarded over their first week, owned by the **Ops Manager**.\nDay one covers accounts and access, using the tooling inventory as the checklist.\nWeek one ends with a shadowing shift alongside the support team.\n",
+            "revision": "8a2154b5b735185bc76bd65e97966dfb0fc80c05bf9c009e976045fa0de86105"
+          },
+          {
+            "id": "S6",
+            "document_id": "note-7697e60187cf54029d2e51bc36bcb446",
+            "title": "Customer support SOP",
+            "quote": "Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n",
+            "revision": "a0382c4120e21e4d6e3136fb2d0e10757d3ce46f229e22e7ab2a624cf05707da"
+          },
+          {
+            "id": "S7",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Founder",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S8",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Owns day-to-day operations, budgets and sign-offs",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S9",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Runs the support rota and handles escalations",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S10",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Sets pricing, signs anything customer-facing",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          }
+        ],
+        "paths": [
+          {
+            "nodes": [
+              {
+                "id": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "name": "Supplier payments",
+                "kind": "Policy"
+              },
+              {
+                "id": "df18101d-5820-53eb-aad5-9196048f177a",
+                "name": "Founder",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "predicate": "APPROVED_BY",
+                "object": "df18101d-5820-53eb-aad5-9196048f177a",
+                "citation_ids": [
+                  "S1"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "df18101d-5820-53eb-aad5-9196048f177a",
+                "name": "Founder",
+                "kind": "Role"
+              },
+              {
+                "id": "304353d8-18ab-58dd-9cbc-d115e5010f5b",
+                "name": "Alex Doyle",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "df18101d-5820-53eb-aad5-9196048f177a",
+                "predicate": "HELD_BY",
+                "object": "304353d8-18ab-58dd-9cbc-d115e5010f5b",
+                "citation_ids": [
+                  "S2"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              },
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "predicate": "APPROVED_BY",
+                "object": "981438d4-2f39-5928-a91e-395896dddf05",
+                "citation_ids": [
+                  "S3"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "name": "Supplier payments",
+                "kind": "Policy"
+              },
+              {
+                "id": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "name": "Tooling inventory",
+                "kind": "Document"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "predicate": "REFERENCES",
+                "object": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "citation_ids": [
+                  "S1"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "name": "Incident response",
+                "kind": "Process"
+              },
+              {
+                "id": "df18101d-5820-53eb-aad5-9196048f177a",
+                "name": "Founder",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "predicate": "REFERENCES",
+                "object": "df18101d-5820-53eb-aad5-9196048f177a",
+                "citation_ids": [
+                  "S4"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "name": "Onboarding process",
+                "kind": "Process"
+              },
+              {
+                "id": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "name": "Tooling inventory",
+                "kind": "Document"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "predicate": "REFERENCES",
+                "object": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "citation_ids": [
+                  "S5"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "citation_ids": [
+                  "S6"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "name": "Support Lead",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "citation_ids": [
+                  "S6"
+                ]
+              }
+            ]
+          }
+        ],
+        "candidates": [],
+        "notes": [
+          {
+            "entity_id": "304353d8-18ab-58dd-9cbc-d115e5010f5b",
+            "name": "Alex Doyle",
+            "text": "Founder",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S7"
+          },
+          {
+            "entity_id": "981438d4-2f39-5928-a91e-395896dddf05",
+            "name": "Ops Manager",
+            "text": "Owns day-to-day operations, budgets and sign-offs",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S8"
+          },
+          {
+            "entity_id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+            "name": "Support Lead",
+            "text": "Runs the support rota and handles escalations",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S9"
+          },
+          {
+            "entity_id": "df18101d-5820-53eb-aad5-9196048f177a",
+            "name": "Founder",
+            "text": "Sets pricing, signs anything customer-facing",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S10"
+          }
+        ],
+        "trace": {
+          "seeds": [
+            "4ab99c58-af81-56e7-9f62-aa915222217d"
+          ],
+          "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY CASE WHEN type(r) = 'REFERENCES' THEN 1 ELSE 0 END, CASE WHEN r.quote STARTS WITH '---' THEN 1 ELSE 0 END, depth, type(r), startNode(r).name, endNode(r).name, r.fact_id LIMIT $limit",
+          "retrieval_ms": 3.76,
+          "hop_count": 3,
+          "facts_returned": 8,
+          "truncated": true
+        },
+        "evidence_text": "[S1] Supplier payments --APPROVED_BY--> Founder\n[S1] Supplier payments --REFERENCES--> Tooling inventory\n[S1] Source: Supplier invoices are paid on 30-day terms.\nAny payment over £2,000 requires **Founder** sign-off before it is scheduled.\nNew suppliers must be added to the tooling inventory before their first invoice.\n\n[S2] Founder --HELD_BY--> Alex Doyle\n[S2] Source: **Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n\n[S3] Refund approvals --APPROVED_BY--> Ops Manager\n[S3] Source: Refunds over £500 require approval by the **Ops Manager** before payment is released.\nStandard refunds under £500 are processed by any support agent within 48 hours.\nApproved refunds are paid back to the original payment method only.\n\n[S4] Incident response --REFERENCES--> Founder\n[S4] Source: Incidents are raised in the ops channel and triaged by the **Support Lead**.\nSeverity-1 incidents (site down, payments failing) escalate to the **Founder** immediately.\nEvery incident gets a short write-up within 48 hours of being resolved.\n\n[S5] Onboarding process --REFERENCES--> Tooling inventory\n[S5] Source: New starters are onboarded over their first week, owned by the **Ops Manager**.\nDay one covers accounts and access, using the tooling inventory as the checklist.\nWeek one ends with a shadowing shift alongside the support team.\n\n[S6] Customer support SOP --REFERENCES--> Refund approvals\n[S6] Customer support SOP --REFERENCES--> Support Lead\n[S6] Source: Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n\n[S7] Source: Founder\n[S8] Source: Owns day-to-day operations, budgets and sign-offs\n[S9] Source: Runs the support rota and handles escalations\n[S10] Source: Sets pricing, signs anything customer-facing\nWARNING: context is incomplete; omitted evidence or conditions may change the answer. Do not infer unconditional authority or absence."
+      }
+    },
+    {
+      "question": "What is the onboarding process?",
+      "required_context": [
+        "Ops Manager",
+        "Day one"
+      ],
+      "evidence": {
+        "question": "What is the onboarding process?",
+        "status": "recalled",
+        "mode": "evidence",
+        "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+        "snapshot": "f16d7350b7da135ebd48603430b14c5b5bd7dad19bcd6f608fc2e90718e03cb2",
+        "citations": [
+          {
+            "id": "S1",
+            "document_id": "note-bb6e2c7f9d7f586187ec5b5e243d6128",
+            "title": "Refund approvals",
+            "quote": "Refunds over £500 require approval by the **Ops Manager** before payment is released.\nStandard refunds under £500 are processed by any support agent within 48 hours.\nApproved refunds are paid back to the original payment method only.\n",
+            "revision": "4bfcd002bc1790b66e6ef4417fb01d4aac793377dac156fced479a4c752bd9cf"
+          },
+          {
+            "id": "S2",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "**Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S3",
+            "document_id": "note-d7d4d3e0bfbc50229661102927499b68",
+            "title": "Supplier payments",
+            "quote": "Supplier invoices are paid on 30-day terms.\nAny payment over £2,000 requires **Founder** sign-off before it is scheduled.\nNew suppliers must be added to the tooling inventory before their first invoice.\n",
+            "revision": "d60850594167416650124142301420b9e51287c27aeb60030f9ae50636332572"
+          },
+          {
+            "id": "S4",
+            "document_id": "note-8040665cfd0c562387d692184941e932",
+            "title": "Delegation memo",
+            "quote": "Sarah Chen is on leave from 1 to 31 March.\nDuring this period all of her sign-offs and approvals are delegated to **Marcus Webb**.\nMarcus has full authority on operational decisions while the cover is in place.\n",
+            "revision": "675230fa7a0d5d44d30fcdfd123ebf74266e0475c1ffcd4beea2ed34f87a735b"
+          },
+          {
+            "id": "S5",
+            "document_id": "note-ae134b5016bb58ff998beeb483033320",
+            "title": "Onboarding process",
+            "quote": "New starters are onboarded over their first week, owned by the **Ops Manager**.\nDay one covers accounts and access, using the tooling inventory as the checklist.\nWeek one ends with a shadowing shift alongside the support team.\n",
+            "revision": "8a2154b5b735185bc76bd65e97966dfb0fc80c05bf9c009e976045fa0de86105"
+          },
+          {
+            "id": "S6",
+            "document_id": "note-7697e60187cf54029d2e51bc36bcb446",
+            "title": "Customer support SOP",
+            "quote": "Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n",
+            "revision": "a0382c4120e21e4d6e3136fb2d0e10757d3ce46f229e22e7ab2a624cf05707da"
+          },
+          {
+            "id": "S7",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Owns day-to-day operations, budgets and sign-offs",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S8",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Ops Manager",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S9",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Sets pricing, signs anything customer-facing",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          }
+        ],
+        "paths": [
+          {
+            "nodes": [
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              },
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "predicate": "APPROVED_BY",
+                "object": "981438d4-2f39-5928-a91e-395896dddf05",
+                "citation_ids": [
+                  "S1"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              },
+              {
+                "id": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "name": "Sarah Chen",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "981438d4-2f39-5928-a91e-395896dddf05",
+                "predicate": "HELD_BY",
+                "object": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "citation_ids": [
+                  "S2"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "name": "Supplier payments",
+                "kind": "Policy"
+              },
+              {
+                "id": "df18101d-5820-53eb-aad5-9196048f177a",
+                "name": "Founder",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "predicate": "APPROVED_BY",
+                "object": "df18101d-5820-53eb-aad5-9196048f177a",
+                "citation_ids": [
+                  "S3"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "name": "Sarah Chen",
+                "kind": "Person"
+              },
+              {
+                "id": "2283ff4e-a54f-5d0f-b5d8-8da309923f0a",
+                "name": "Marcus Webb",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+                "predicate": "DELEGATES_TO",
+                "object": "2283ff4e-a54f-5d0f-b5d8-8da309923f0a",
+                "citation_ids": [
+                  "S4"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "name": "Onboarding process",
+                "kind": "Process"
+              },
+              {
+                "id": "981438d4-2f39-5928-a91e-395896dddf05",
+                "name": "Ops Manager",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "predicate": "REFERENCES",
+                "object": "981438d4-2f39-5928-a91e-395896dddf05",
+                "citation_ids": [
+                  "S5"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "name": "Onboarding process",
+                "kind": "Process"
+              },
+              {
+                "id": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "name": "Tooling inventory",
+                "kind": "Document"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "ff57244e-dde3-576a-bf55-108f8614f742",
+                "predicate": "REFERENCES",
+                "object": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "citation_ids": [
+                  "S5"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "name": "Supplier payments",
+                "kind": "Policy"
+              },
+              {
+                "id": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "name": "Tooling inventory",
+                "kind": "Document"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "4ab99c58-af81-56e7-9f62-aa915222217d",
+                "predicate": "REFERENCES",
+                "object": "be128c17-8a48-5124-b6c0-f6bcba6dcb74",
+                "citation_ids": [
+                  "S3"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "citation_ids": [
+                  "S6"
+                ]
+              }
+            ]
+          }
+        ],
+        "candidates": [],
+        "notes": [
+          {
+            "entity_id": "981438d4-2f39-5928-a91e-395896dddf05",
+            "name": "Ops Manager",
+            "text": "Owns day-to-day operations, budgets and sign-offs",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S7"
+          },
+          {
+            "entity_id": "a4b0a4ed-b6ef-513a-8ac2-dc113abc39d6",
+            "name": "Sarah Chen",
+            "text": "Ops Manager",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S8"
+          },
+          {
+            "entity_id": "df18101d-5820-53eb-aad5-9196048f177a",
+            "name": "Founder",
+            "text": "Sets pricing, signs anything customer-facing",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S9"
+          }
+        ],
+        "trace": {
+          "seeds": [
+            "ff57244e-dde3-576a-bf55-108f8614f742"
+          ],
+          "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY CASE WHEN type(r) = 'REFERENCES' THEN 1 ELSE 0 END, CASE WHEN r.quote STARTS WITH '---' THEN 1 ELSE 0 END, depth, type(r), startNode(r).name, endNode(r).name, r.fact_id LIMIT $limit",
+          "retrieval_ms": 3.812,
+          "hop_count": 3,
+          "facts_returned": 8,
+          "truncated": true
+        },
+        "evidence_text": "[S1] Refund approvals --APPROVED_BY--> Ops Manager\n[S1] Source: Refunds over £500 require approval by the **Ops Manager** before payment is released.\nStandard refunds under £500 are processed by any support agent within 48 hours.\nApproved refunds are paid back to the original payment method only.\n\n[S2] Ops Manager --HELD_BY--> Sarah Chen\n[S2] Source: **Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n\n[S3] Supplier payments --APPROVED_BY--> Founder\n[S3] Supplier payments --REFERENCES--> Tooling inventory\n[S3] Source: Supplier invoices are paid on 30-day terms.\nAny payment over £2,000 requires **Founder** sign-off before it is scheduled.\nNew suppliers must be added to the tooling inventory before their first invoice.\n\n[S4] Sarah Chen --DELEGATES_TO--> Marcus Webb\n[S4] Source: Sarah Chen is on leave from 1 to 31 March.\nDuring this period all of her sign-offs and approvals are delegated to **Marcus Webb**.\nMarcus has full authority on operational decisions while the cover is in place.\n\n[S5] Onboarding process --REFERENCES--> Ops Manager\n[S5] Onboarding process --REFERENCES--> Tooling inventory\n[S5] Source: New starters are onboarded over their first week, owned by the **Ops Manager**.\nDay one covers accounts and access, using the tooling inventory as the checklist.\nWeek one ends with a shadowing shift alongside the support team.\n\n[S6] Customer support SOP --REFERENCES--> Refund approvals\n[S6] Source: Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n\n[S7] Source: Owns day-to-day operations, budgets and sign-offs\n[S8] Source: Ops Manager\n[S9] Source: Sets pricing, signs anything customer-facing\nWARNING: context is incomplete; omitted evidence or conditions may change the answer. Do not infer unconditional authority or absence."
+      }
+    },
+    {
+      "question": "What does Priya do?",
+      "required_context": [
+        "Support Lead",
+        "Priya Patel"
+      ],
+      "evidence": {
+        "question": "What does Priya do?",
+        "status": "recalled",
+        "mode": "evidence",
+        "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+        "snapshot": "f16d7350b7da135ebd48603430b14c5b5bd7dad19bcd6f608fc2e90718e03cb2",
+        "citations": [
+          {
+            "id": "S1",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "**Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S2",
+            "document_id": "note-7697e60187cf54029d2e51bc36bcb446",
+            "title": "Customer support SOP",
+            "quote": "Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n",
+            "revision": "a0382c4120e21e4d6e3136fb2d0e10757d3ce46f229e22e7ab2a624cf05707da"
+          },
+          {
+            "id": "S3",
+            "document_id": "note-606b2edfc58e5d6ca8681a3eacabb9f0",
+            "title": "Incident response",
+            "quote": "Incidents are raised in the ops channel and triaged by the **Support Lead**.\nSeverity-1 incidents (site down, payments failing) escalate to the **Founder** immediately.\nEvery incident gets a short write-up within 48 hours of being resolved.\n",
+            "revision": "5dec785e72bf2265094cec128cde85fb37f99beee83b0e885f121484f2687215"
+          },
+          {
+            "id": "S4",
+            "document_id": "note-7697e60187cf54029d2e51bc36bcb446",
+            "title": "Customer support SOP",
+            "quote": "---\ntype: process\ntitle: Customer support SOP\nentities: [Customer support SOP, Support Lead]\nlinks: [refund-policy, org-chart]\n---\n",
+            "revision": "a0382c4120e21e4d6e3136fb2d0e10757d3ce46f229e22e7ab2a624cf05707da"
+          },
+          {
+            "id": "S5",
+            "document_id": "note-606b2edfc58e5d6ca8681a3eacabb9f0",
+            "title": "Incident response",
+            "quote": "---\ntype: process\ntitle: Incident response\nentities: [Incident response, Support Lead, Founder]\nlinks: [org-chart]\n---\n",
+            "revision": "5dec785e72bf2265094cec128cde85fb37f99beee83b0e885f121484f2687215"
+          },
+          {
+            "id": "S6",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Support Lead",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S7",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Runs the support rota and handles escalations",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          },
+          {
+            "id": "S8",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "title": "Org chart",
+            "quote": "Sets pricing, signs anything customer-facing",
+            "revision": "aa2e589defa3c608e0c52df7e2e29e7e9eaa7bbe34fb3ec74570ee42c7c11d40"
+          }
+        ],
+        "paths": [
+          {
+            "nodes": [
+              {
+                "id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "name": "Support Lead",
+                "kind": "Role"
+              },
+              {
+                "id": "57f964fc-7667-5824-98e4-c93d04afed00",
+                "name": "Priya Patel",
+                "kind": "Person"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "predicate": "HELD_BY",
+                "object": "57f964fc-7667-5824-98e4-c93d04afed00",
+                "citation_ids": [
+                  "S1"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "name": "Support Lead",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "citation_ids": [
+                  "S2"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "name": "Incident response",
+                "kind": "Process"
+              },
+              {
+                "id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "name": "Support Lead",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "predicate": "REFERENCES",
+                "object": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+                "citation_ids": [
+                  "S3"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "citation_ids": [
+                  "S2"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "name": "Incident response",
+                "kind": "Process"
+              },
+              {
+                "id": "df18101d-5820-53eb-aad5-9196048f177a",
+                "name": "Founder",
+                "kind": "Role"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "predicate": "REFERENCES",
+                "object": "df18101d-5820-53eb-aad5-9196048f177a",
+                "citation_ids": [
+                  "S3"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+                "name": "Org chart",
+                "kind": "Document"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+                "citation_ids": [
+                  "S4"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "name": "Customer support SOP",
+                "kind": "Process"
+              },
+              {
+                "id": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "name": "Refund approvals",
+                "kind": "Policy"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "6910f2a3-39bf-50cb-9f85-66ceeae69e3d",
+                "predicate": "REFERENCES",
+                "object": "b4c72727-bb97-5070-b955-ede9867b0537",
+                "citation_ids": [
+                  "S4"
+                ]
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "id": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "name": "Incident response",
+                "kind": "Process"
+              },
+              {
+                "id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+                "name": "Org chart",
+                "kind": "Document"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "163d986b-f472-5ded-b40d-108e0abfac94",
+                "predicate": "REFERENCES",
+                "object": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+                "citation_ids": [
+                  "S5"
+                ]
+              }
+            ]
+          }
+        ],
+        "candidates": [],
+        "notes": [
+          {
+            "entity_id": "57f964fc-7667-5824-98e4-c93d04afed00",
+            "name": "Priya Patel",
+            "text": "Support Lead",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S6"
+          },
+          {
+            "entity_id": "cefae68c-d811-5a2f-93cc-c7fc7ff8fd76",
+            "name": "Support Lead",
+            "text": "Runs the support rota and handles escalations",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S7"
+          },
+          {
+            "entity_id": "df18101d-5820-53eb-aad5-9196048f177a",
+            "name": "Founder",
+            "text": "Sets pricing, signs anything customer-facing",
+            "document_id": "note-aaeffaee51445c27a8d2cf3f04b6a54e",
+            "citation_id": "S8"
+          }
+        ],
+        "trace": {
+          "seeds": [
+            "57f964fc-7667-5824-98e4-c93d04afed00"
+          ],
+          "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY CASE WHEN type(r) = 'REFERENCES' THEN 1 ELSE 0 END, CASE WHEN r.quote STARTS WITH '---' THEN 1 ELSE 0 END, depth, type(r), startNode(r).name, endNode(r).name, r.fact_id LIMIT $limit",
+          "retrieval_ms": 3.477,
+          "hop_count": 3,
+          "facts_returned": 8,
+          "truncated": true
+        },
+        "evidence_text": "[S1] Support Lead --HELD_BY--> Priya Patel\n[S1] Source: **Founder:** Alex Doyle. Sets pricing, signs anything customer-facing.\n**Ops Manager:** Sarah Chen. Owns day-to-day operations, budgets and sign-offs.\n**Support Lead:** Priya Patel. Runs the support rota and handles escalations.\n\n[S2] Customer support SOP --REFERENCES--> Support Lead\n[S2] Customer support SOP --REFERENCES--> Refund approvals\n[S2] Source: Support agents answer tickets within one business day.\nRefunds under £500 are processed directly by the agent, per the refund approvals policy.\nComplaints and anything unresolved after two replies escalate to the **Support Lead**.\n\n[S3] Incident response --REFERENCES--> Support Lead\n[S3] Incident response --REFERENCES--> Founder\n[S3] Source: Incidents are raised in the ops channel and triaged by the **Support Lead**.\nSeverity-1 incidents (site down, payments failing) escalate to the **Founder** immediately.\nEvery incident gets a short write-up within 48 hours of being resolved.\n\n[S4] Customer support SOP --REFERENCES--> Org chart\n[S4] Customer support SOP --REFERENCES--> Refund approvals\n[S4] Source: ---\ntype: process\ntitle: Customer support SOP\nentities: [Customer support SOP, Support Lead]\nlinks: [refund-policy, org-chart]\n---\n\n[S5] Incident response --REFERENCES--> Org chart\n[S5] Source: ---\ntype: process\ntitle: Incident response\nentities: [Incident response, Support Lead, Founder]\nlinks: [org-chart]\n---\n\n[S6] Source: Support Lead\n[S7] Source: Runs the support rota and handles escalations\n[S8] Source: Sets pricing, signs anything customer-facing\nWARNING: context is incomplete; omitted evidence or conditions may change the answer. Do not infer unconditional authority or absence."
+      }
+    }
+  ],
+  "unmatched_case": {
+    "question": "Who is in charge when the boss is away?",
+    "status": "missing",
+    "mode": "evidence",
+    "answer": "No entity name or alias matched. Name the relevant person, policy, service or project.",
+    "snapshot": "f16d7350b7da135ebd48603430b14c5b5bd7dad19bcd6f608fc2e90718e03cb2",
+    "citations": [],
+    "paths": [],
+    "candidates": [],
+    "notes": [],
+    "trace": {
+      "seeds": [],
+      "query": "",
+      "retrieval_ms": 0.918,
+      "hop_count": 0,
+      "facts_returned": 0,
+      "truncated": false
+    },
+    "evidence_text": "No matching graph evidence."
+  },
+  "reimport_changed": false
+}

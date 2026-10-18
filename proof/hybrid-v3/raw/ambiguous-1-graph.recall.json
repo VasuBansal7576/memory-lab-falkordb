@@ -1,0 +1,39 @@
+{
+  "answer": "Several entities match this name. Choose a unique name or entity ID.",
+  "candidates": [
+    {
+      "aliases": [
+        "Alex"
+      ],
+      "description": "Alex Morgan works in the design practice. Colleagues sometimes use the short name Alex.",
+      "id": "alex-design",
+      "kind": "Person",
+      "name": "Alex Morgan"
+    },
+    {
+      "aliases": [
+        "Alex"
+      ],
+      "description": "Alex Rivera works in the operations. Colleagues sometimes use the short name Alex.",
+      "id": "alex-ops",
+      "kind": "Person",
+      "name": "Alex Rivera"
+    }
+  ],
+  "citations": [],
+  "evidence_text": "Candidate alex-design: Alex Morgan; aliases: Alex\nCandidate alex-ops: Alex Rivera; aliases: Alex",
+  "mode": "evidence",
+  "notes": [],
+  "paths": [],
+  "question": "Who is Alex?",
+  "snapshot": "3fcf4c1f9835d9b6a20f8e39e7adfd902a2dfa7fa5b2aa4515850f2499fc69ef",
+  "status": "ambiguous",
+  "trace": {
+    "facts_returned": 0,
+    "hop_count": 0,
+    "query": "",
+    "retrieval_ms": 6.738,
+    "seeds": [],
+    "truncated": false
+  }
+}

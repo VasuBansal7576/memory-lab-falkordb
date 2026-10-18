@@ -1,0 +1,86 @@
+{
+  "reviewer": "Assistant review of all recorded response prose against the frozen source corpus; not a blinded human evaluation",
+  "scope": "Checks substantive answer prose separately from strict structured entity fields. No broad quality claim.",
+  "runs": [
+    {
+      "run_id": "approval-1-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-1-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-2-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-2-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-3-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-3-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-4-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-4-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-5-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "approval-5-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "leadership-1-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "leadership-1-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "missing-1-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "missing-1-with_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "ambiguous-1-without_graph",
+      "prose_grounded": true,
+      "note": "Answer prose agrees with the supplied source evidence."
+    },
+    {
+      "run_id": "ambiguous-1-with_graph",
+      "prose_grounded": true,
+      "note": "Names both people and refuses to disambiguate. Duplicate canonical Alex labels in answer_entities fail the gold full-name check; this is a naming-contract mismatch."
+    }
+  ]
+}

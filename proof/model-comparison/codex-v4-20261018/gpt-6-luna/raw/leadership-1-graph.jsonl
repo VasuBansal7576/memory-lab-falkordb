@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14f90-cc7f-76d3-a49e-68f126c0cc53"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"entities\":[\"Elena Park\"],\"source_ids\":[\"service-register\",\"leadership-directory\"],\"verdict\":\"supported\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":15586,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":34,"reasoning_output_tokens":0}}

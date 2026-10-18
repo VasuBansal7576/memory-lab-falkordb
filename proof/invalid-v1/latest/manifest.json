@@ -1,0 +1,101 @@
+{
+  "artifact_notes": [
+    "summary.json includes post-run review limitations. Measured values and raw records were not edited.",
+    "audit.json records a separate assistant review of substantive prose; it is not a blinded human evaluation."
+  ],
+  "completed_at": "2026-10-18T11:43:42.456139+00:00",
+  "created_at": "2026-10-18T11:41:43.513365+00:00",
+  "document_body_sha256": {
+    "atlas-approval": "0ff2666bc1ab64855622495c766a6449b7c6c7c3a752578c52fd3eb038651152",
+    "atlas-stack": "522893eb9ad04a622ff904efefb3d4c0428b92a7a3bcac0223058e3450f94fba",
+    "beacon-dependency": "59a7670e3d2098d9573b9e01b28713076d5e71a661a60c6d20c43e5d5b6d49be",
+    "beacon-ownership": "66184a11431de50a4844e00760457672b94d1a97ec7d0ba0d9bed5c8321f0991",
+    "beacon-retention": "950a2292c8c53422c319f8d14a1240da2461ead3a10b0cfb99afe91b8f01c35b",
+    "design-directory": "fa00b93a74304cd2065648594c002a4737372bcc6c0249efb89050c806483109",
+    "operations-directory": "a8973bad97e10f97b911de37321ac5591f196813e235757dd9f055d6a4b14220",
+    "platform-leadership": "2ba71ba48a1ecf975939c11b21e2b9b29e0361a572792d6bc8355da0cb54e940",
+    "release-delegation": "4b9d06cda4910580b0c5c6c84837d4275ea7545efa2663d1b577851ab469493f",
+    "steward-assignment": "db0d8b289cb28707c1e9b4aef3e22f095565e53e9f44dd48421aa691c523baec"
+  },
+  "documents_sha256": "e96ae07f526d774f310106275b9ef872d61e27627a38086dd721bbb6aa438255",
+  "environment": {
+    "codex_version": "codex-cli 0.163.0",
+    "cpu_count": 10,
+    "load_average": [
+      2.35595703125,
+      2.42724609375,
+      2.76904296875
+    ],
+    "platform": "macOS-26.2-arm64-arm-64bit",
+    "python": "3.12.12"
+  },
+  "fixture_path": "<LOCAL_HOME>/.t3/scratch/2026-10-18-use-tinyfish-and-browser-use-0115788b/data/demo.json",
+  "fixture_sha256": "117f2ed0f33a314fdf10dc2c5c4afd0bc624c285d2ad689ed6b08dca269b1655",
+  "gold": {
+    "ambiguous": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "question": "Who is Alex?",
+      "sources": [],
+      "verdict": "ambiguous"
+    },
+    "approval": {
+      "entities": [
+        "Mira"
+      ],
+      "question": "Who approves Atlas releases?",
+      "sources": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "leadership": {
+      "entities": [
+        "Elena"
+      ],
+      "question": "Who leads the team that owns Beacon?",
+      "sources": [
+        "beacon-ownership",
+        "platform-leadership"
+      ],
+      "verdict": "supported"
+    },
+    "missing": {
+      "entities": [],
+      "question": "Who owns Nimbus?",
+      "sources": [],
+      "verdict": "missing"
+    }
+  },
+  "harness_sha256_at_delivery": "4c94cb312f8bc7a23633b910758c67a296af35f1721386c7e7c76952b901259e",
+  "label": "Observed pilot",
+  "namespace": "proof_979909f90edc4896a7b337cb5fb6b074",
+  "parameters": {
+    "approval_repeats": 5,
+    "concurrency": 1,
+    "instruction_sha256": "d12e303068dce3f8901640472dafc69526101f11dfeb18a77c274336b70e4737",
+    "max_answer_words": 100,
+    "model": "gpt-6.1-sol",
+    "order": [
+      "without_graph",
+      "with_graph"
+    ],
+    "question_ids": [
+      "approval",
+      "leadership",
+      "missing",
+      "ambiguous"
+    ],
+    "reasoning_effort": "low",
+    "schema_sha256": "20459f0ce3667b73d8713b5917389dc14ed090ac92f42c2c83030f72a1cb4206",
+    "timeout_s": 90,
+    "tools_allowed": false
+  },
+  "snapshot": "a30af6cb5d28baae8cc2e5fd32667caa684873385339dce953eb1b280de2f5ba",
+  "status": "complete",
+  "usage_notes": "Actual turn.completed usage. Cached input and reasoning output are subsets, not added totals. CLI stderr diagnostics are not model calls."
+}

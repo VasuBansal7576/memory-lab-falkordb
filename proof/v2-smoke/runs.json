@@ -1,0 +1,56 @@
+[
+  {
+    "arm": "search",
+    "cached_input_tokens": 0,
+    "cli_s": 15.191887042019516,
+    "decision": null,
+    "decision_correct": false,
+    "error": "ValueError: Unexpected tool: error",
+    "grade": null,
+    "input_path": "inputs/october-refund-1-search.txt",
+    "input_tokens": 0,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 0,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "october-refund-1-search",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 15.196849792031571,
+    "trace_path": "raw/october-refund-1-search.jsonl",
+    "valid": false
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.525365041801706,
+    "decision": null,
+    "decision_correct": false,
+    "error": "ValueError: Unexpected tool: error",
+    "grade": null,
+    "input_path": "inputs/october-refund-1-graph.txt",
+    "input_tokens": 0,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 0,
+    "prompt_utf8_bytes": 1369,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0.01088941702619195,
+    "repeat": 1,
+    "run_id": "october-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.542746624909341,
+    "trace_path": "raw/october-refund-1-graph.jsonl",
+    "valid": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "implementation_revision": 3,
+  "manifest_format": 2,
+  "retrieval": "Typed graph plus BM25 and native 384-dimensional vector note retrieval; full supporting source quotes",
+  "harness_copy": "harness.py",
+  "historical_run": "../current",
+  "current_workspace_graph_code_matches_receipt": false,
+  "archived_implementation_intact": true,
+  "superseded_reason": "Later reference-parity fixes change context budgets, neighboring context, metadata and retrieval controls. Preserved measurements describe the archived implementation."
+}

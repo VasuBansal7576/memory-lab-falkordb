@@ -1,0 +1,1 @@
+The comparison uses two Codex models and two methods. Each model gets both real local search and read, and graph-only recall. Both methods use the same sixteen synthetic source documents. Graph mode excludes keyword search, embeddings and distilled-note retrieval. Thirty-two attempts are recorded, with exact prompts, source packets, provider token usage and raw tool traces.

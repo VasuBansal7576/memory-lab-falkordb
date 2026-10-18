@@ -1,0 +1,1 @@
+An agent should remember a decision after the conversation ends, and show the source behind its next answer. Memory Lab gives Codex that memory, using FalkorDB as its central context layer. This is a local working prototype for Graph Hacks.

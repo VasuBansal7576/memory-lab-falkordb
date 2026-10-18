@@ -1,0 +1,146 @@
+{
+  "arms": {
+    "with_graph": {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "cli_s": {
+          "max": 6.494073625188321,
+          "median": 6.494073625188321,
+          "min": 6.494073625188321
+        },
+        "context_utf8_bytes": {
+          "max": 1595,
+          "median": 1595,
+          "min": 1595
+        },
+        "count": 1,
+        "cpu_s": {
+          "max": 1.031677,
+          "median": 1.031677,
+          "min": 1.031677
+        },
+        "input_tokens": {
+          "max": 19832,
+          "median": 19832,
+          "min": 19832
+        },
+        "output_tokens": {
+          "max": 54,
+          "median": 54,
+          "min": 54
+        },
+        "reasoning_output_tokens": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "retrieval_s": {
+          "max": 0.013690999941900373,
+          "median": 0.013690999941900373,
+          "min": 0.013690999941900373
+        },
+        "total_s": {
+          "max": 6.512843749951571,
+          "median": 6.512843749951571,
+          "min": 6.512843749951571
+        }
+      },
+      "correct": 1,
+      "quality": {
+        "correct": 1,
+        "total": 1
+      },
+      "runs": 1,
+      "valid": 1
+    },
+    "without_graph": {
+      "approval": {
+        "cached_input_tokens": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "cli_s": {
+          "max": 7.496009833179414,
+          "median": 7.496009833179414,
+          "min": 7.496009833179414
+        },
+        "context_utf8_bytes": {
+          "max": 1791,
+          "median": 1791,
+          "min": 1791
+        },
+        "count": 1,
+        "cpu_s": {
+          "max": 1.057149,
+          "median": 1.057149,
+          "min": 1.057149
+        },
+        "input_tokens": {
+          "max": 23798,
+          "median": 23798,
+          "min": 23798
+        },
+        "output_tokens": {
+          "max": 55,
+          "median": 55,
+          "min": 55
+        },
+        "reasoning_output_tokens": {
+          "max": 0,
+          "median": 0,
+          "min": 0
+        },
+        "retrieval_s": {
+          "max": 0.00323133310303092,
+          "median": 0.00323133310303092,
+          "min": 0.00323133310303092
+        },
+        "total_s": {
+          "max": 7.505614707944915,
+          "median": 7.505614707944915,
+          "min": 7.505614707944915
+        }
+      },
+      "correct": 1,
+      "quality": {
+        "correct": 1,
+        "total": 1
+      },
+      "runs": 1,
+      "valid": 1
+    }
+  },
+  "failures": 0,
+  "label": "Observed pilot, not a universal benchmark",
+  "limitations": [
+    "Four synthetic questions assess a small quality pilot; only approval is repeated.",
+    "End-to-end latency includes local retrieval, CLI startup, authentication diagnostics, network and generation.",
+    "Shared provider caches and changing service load can affect alternating calls.",
+    "Provider input_tokens already includes cached_input_tokens; context bytes are a separate size metric.",
+    "No billing price or universal speedup is inferred. Five repeats cannot establish general performance."
+  ],
+  "questions": {
+    "approval": {
+      "arms": {
+        "with_graph": {
+          "correct": 1,
+          "runs": 1,
+          "valid": 1
+        },
+        "without_graph": {
+          "correct": 1,
+          "runs": 1,
+          "valid": 1
+        }
+      },
+      "question": "Who approves Atlas releases?"
+    }
+  },
+  "total_runs": 2,
+  "total_valid": 2
+}

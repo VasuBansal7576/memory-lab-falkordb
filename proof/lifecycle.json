@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "elapsed_s": 23.712,
+  "input": "Project Lumen uses cobalt for its release dashboard. Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+  "session_id": "387cef4f3c37452480e2bae07846153c",
+  "job_key": "a55380ca28122dd97bfbbd7a9f0c9a99acc80bbbe359f943c28079d7e51bbc5d",
+  "snapshot": "e6c9f6e230302d513954a23f31e19b3336fda9e80f8f81e065f4bc8cf7dfa883",
+  "model_usage": {
+    "summary": {
+      "input_tokens": 16499,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 82,
+      "reasoning_output_tokens": 0
+    },
+    "index": [
+      {
+        "input_tokens": 16609,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      },
+      {
+        "input_tokens": 16981,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 412,
+        "reasoning_output_tokens": 168
+      }
+    ]
+  },
+  "daily_note": "# Session memory 2026-10-18\n\n<!-- memory:a55380ca28122dd97bfbbd7a9f0c9a99acc80bbbe359f943c28079d7e51bbc5d -->\n## Session 2026-10-18T12:57:03.399637+00:00\nProject Lumen uses cobalt for its release dashboard. Until 31 October 2026, only Priya Raman may approve Lumen releases costing more than £750.\n\n### Source quotations\n\nProject Lumen uses cobalt for its release dashboard.\n\nOnly Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.\n",
+  "query": "For Lumen, who authorises a £900 release on 20 October 2026?",
+  "recalled": {
+    "question": "For Lumen, who authorises a £900 release on 20 October 2026?",
+    "status": "recalled",
+    "mode": "evidence",
+    "answer": "Retrieved related evidence. This is context, not a resolved answer; apply the source conditions when interpreting it.",
+    "snapshot": "e6c9f6e230302d513954a23f31e19b3336fda9e80f8f81e065f4bc8cf7dfa883",
+    "citations": [
+      {
+        "id": "S1",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804"
+      },
+      {
+        "id": "S2",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804"
+      },
+      {
+        "id": "S3",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804"
+      },
+      {
+        "id": "S4",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804"
+      },
+      {
+        "id": "S5",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "Project Lumen uses cobalt for its release dashboard. Until 31 October 2026, only Priya Raman may approve Lumen releases costing more than £750.",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804"
+      },
+      {
+        "id": "S6",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "### Source quotations\n\nProject Lumen uses cobalt for its release dashboard.\n\nOnly Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.\n",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804",
+        "section": "Source quotations",
+        "found_by": [
+          "keyword",
+          "meaning"
+        ]
+      },
+      {
+        "id": "S7",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "title": "Session memory 2026-10-18",
+        "quote": "## Session 2026-10-18T12:57:03.399637+00:00\nProject Lumen uses cobalt for its release dashboard. Until 31 October 2026, only Priya Raman may approve Lumen releases costing more than £750.\n\n",
+        "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804",
+        "section": "Session 2026-10-18T12:57:03.399637+00:00",
+        "found_by": [
+          "keyword",
+          "meaning"
+        ]
+      }
+    ],
+    "paths": [
+      {
+        "nodes": [
+          {
+            "id": "aa20cbf3-ee5f-5d65-9e83-d6a5c7175695",
+            "name": "Project Lumen",
+            "kind": "Project"
+          },
+          {
+            "id": "804fc6cd-70b2-592b-a53f-397f35272038",
+            "name": "Lumen release approval policy",
+            "kind": "Policy"
+          }
+        ],
+        "edges": [
+          {
+            "subject": "aa20cbf3-ee5f-5d65-9e83-d6a5c7175695",
+            "predicate": "GOVERNED_BY",
+            "object": "804fc6cd-70b2-592b-a53f-397f35272038",
+            "citation_ids": [
+              "S1"
+            ]
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "804fc6cd-70b2-592b-a53f-397f35272038",
+            "name": "Lumen release approval policy",
+            "kind": "Policy"
+          },
+          {
+            "id": "26e802b5-26b9-5b57-9122-445d591178b5",
+            "name": "Priya Raman",
+            "kind": "Person"
+          }
+        ],
+        "edges": [
+          {
+            "subject": "804fc6cd-70b2-592b-a53f-397f35272038",
+            "predicate": "APPROVED_BY",
+            "object": "26e802b5-26b9-5b57-9122-445d591178b5",
+            "citation_ids": [
+              "S2"
+            ]
+          }
+        ]
+      }
+    ],
+    "candidates": [],
+    "notes": [
+      {
+        "entity_id": "26e802b5-26b9-5b57-9122-445d591178b5",
+        "name": "Priya Raman",
+        "text": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "citation_id": "S3"
+      },
+      {
+        "entity_id": "804fc6cd-70b2-592b-a53f-397f35272038",
+        "name": "Lumen release approval policy",
+        "text": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "citation_id": "S4"
+      },
+      {
+        "entity_id": "aa20cbf3-ee5f-5d65-9e83-d6a5c7175695",
+        "name": "Project Lumen",
+        "text": "Project Lumen uses cobalt for its release dashboard. Until 31 October 2026, only Priya Raman may approve Lumen releases costing more than £750.",
+        "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+        "citation_id": "S5"
+      }
+    ],
+    "trace": {
+      "seeds": [
+        "aa20cbf3-ee5f-5d65-9e83-d6a5c7175695"
+      ],
+      "query": "MATCH p=(s:Entity)-[*1..3]-(n:Entity) WHERE s.id IN $seeds UNWIND relationships(p) AS r WITH r, min(length(p)) AS depth RETURN startNode(r), r, endNode(r), depth ORDER BY depth, r.fact_id LIMIT $limit\nCALL db.idx.vector.queryNodes('Chunk','embedding',10,vecf32($vector)) YIELD node,score RETURN node.id,score ORDER BY score ASC",
+      "retrieval_ms": 19.583,
+      "hop_count": 2,
+      "facts_returned": 2,
+      "truncated": false,
+      "note_hits": 3,
+      "search_legs": [
+        "keyword",
+        "meaning"
+      ],
+      "semantic_model": "BAAI/bge-small-en-v1.5",
+      "semantic_error": null
+    },
+    "evidence_text": "[S1] Project Lumen --GOVERNED_BY--> Lumen release approval policy\n[S2] Lumen release approval policy --APPROVED_BY--> Priya Raman\n[S3] Priya Raman: Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.\n[S4] Lumen release approval policy: Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.\n[S5] Project Lumen: Project Lumen uses cobalt for its release dashboard. Until 31 October 2026, only Priya Raman may approve Lumen releases costing more than £750.\n[S6] Source: ### Source quotations\n\nProject Lumen uses cobalt for its release dashboard.\n\nOnly Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.\n\n[S7] Source: ## Session 2026-10-18T12:57:03.399637+00:00\nProject Lumen uses cobalt for its release dashboard. Until 31 October 2026, only Priya Raman may approve Lumen releases costing more than £750.\n\n"
+  },
+  "supporting_source": {
+    "id": "S1",
+    "document_id": "note-42b18d6b8d225de589c069def1cb389f",
+    "title": "Session memory 2026-10-18",
+    "quote": "Only Priya Raman may approve Lumen releases costing more than £750 until 31 October 2026.",
+    "revision": "76937e059f2be80172e004221f29ae69f55df8c9e8494348ffbfa01679a96804"
+  },
+  "checks": [
+    "real model summary",
+    "verbatim transcript quote",
+    "daily note written once",
+    "real model distillation",
+    "real typed entity extraction",
+    "FalkorDB snapshot published",
+    "future question recalls note and conditions",
+    "retry performs no duplicate work"
+  ]
+}

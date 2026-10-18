@@ -1,0 +1,752 @@
+[
+  {
+    "arm": "search",
+    "cached_input_tokens": 34176,
+    "cli_s": 13.69393837498501,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-1-search.txt",
+    "input_tokens": 52735,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 155,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "october-refund-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 13.70222174981609,
+    "trace_path": "raw/october-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 34176,
+      "input_tokens": 52735,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.449931500013918,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-1-graph.txt",
+    "input_tokens": 16764,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0.019397333031520247,
+    "repeat": 1,
+    "run_id": "october-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.4762523751705885,
+    "trace_path": "raw/october-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16764,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 15488,
+    "cli_s": 6.89833170780912,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-2-graph.txt",
+    "input_tokens": 16764,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0.007974833017215133,
+    "repeat": 2,
+    "run_id": "october-refund-2-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.912698249798268,
+    "trace_path": "raw/october-refund-2-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 15488,
+      "input_tokens": 16764,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 33920,
+    "cli_s": 12.674892915878445,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-2-search.txt",
+    "input_tokens": 52722,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 149,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0,
+    "repeat": 2,
+    "run_id": "october-refund-2-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 12.685662375064567,
+    "trace_path": "raw/october-refund-2-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33920,
+      "input_tokens": 52722,
+      "output_tokens": 149,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 33920,
+    "cli_s": 13.146903917193413,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-3-search.txt",
+    "input_tokens": 52729,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 153,
+    "prompt_utf8_bytes": 951,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0,
+    "repeat": 3,
+    "run_id": "october-refund-3-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 13.152311958139762,
+    "trace_path": "raw/october-refund-3-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33920,
+      "input_tokens": 52729,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 16384,
+    "cli_s": 6.676247374853119,
+    "decision": {
+      "entities": [
+        "Mira Shah"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/october-refund-3-graph.txt",
+    "input_tokens": 16764,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1649,
+    "question": "A customer needs a £900 refund on 15 October 2026. Who signs it off?",
+    "question_id": "october-refund",
+    "recall_s": 0.011484874878078699,
+    "repeat": 3,
+    "run_id": "october-refund-3-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.695070708170533,
+    "trace_path": "raw/october-refund-3-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 16384,
+      "input_tokens": 16764,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 6.6674588329624385,
+    "decision": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/november-refund-1-graph.txt",
+    "input_tokens": 16760,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 39,
+    "prompt_utf8_bytes": 1638,
+    "question": "Who signs off a £900 customer refund on 15 November 2026?",
+    "question_id": "november-refund",
+    "recall_s": 0.010782875120639801,
+    "repeat": 1,
+    "run_id": "november-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 6.686216041911393,
+    "trace_path": "raw/november-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16760,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 49408,
+    "cli_s": 11.995426333043724,
+    "decision": {
+      "entities": [
+        "Noah Chen"
+      ],
+      "source_ids": [
+        "customer-handbook",
+        "staffing-register",
+        "october-cover"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/november-refund-1-search.txt",
+    "input_tokens": 52669,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 129,
+    "prompt_utf8_bytes": 940,
+    "question": "Who signs off a £900 customer refund on 15 November 2026?",
+    "question_id": "november-refund",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "november-refund-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 8252,
+    "total_s": 12.003225041087717,
+    "trace_path": "raw/november-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 49408,
+      "input_tokens": 52669,
+      "output_tokens": 129,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 68480,
+    "cli_s": 19.70976375020109,
+    "decision": {
+      "entities": [
+        "Support Agent"
+      ],
+      "source_ids": [
+        "customer-handbook"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/low-refund-1-search.txt",
+    "input_tokens": 72692,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 196,
+    "prompt_utf8_bytes": 966,
+    "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+    "question_id": "low-refund",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "low-refund-1-search",
+    "tool_calls": 3,
+    "tool_output_bytes": 11747,
+    "total_s": 19.71946395887062,
+    "trace_path": "raw/low-refund-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 68480,
+      "input_tokens": 72692,
+      "output_tokens": 196,
+      "reasoning_output_tokens": 8
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 7.665753833949566,
+    "decision": {
+      "entities": [
+        "Support Agent"
+      ],
+      "source_ids": [
+        "customer-handbook"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/low-refund-1-graph.txt",
+    "input_tokens": 16763,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 52,
+    "prompt_utf8_bytes": 1664,
+    "question": "Who may process a £200 customer refund on 15 October 2026 without further approval?",
+    "question_id": "low-refund",
+    "recall_s": 0.015758000081405044,
+    "repeat": 1,
+    "run_id": "low-refund-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 7.6896714579779655,
+    "trace_path": "raw/low-refund-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16763,
+      "output_tokens": 52,
+      "reasoning_output_tokens": 20
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 7.0404004589654505,
+    "decision": {
+      "entities": [
+        "Elena Park"
+      ],
+      "source_ids": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/leadership-1-graph.txt",
+    "input_tokens": 16637,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 34,
+    "prompt_utf8_bytes": 1132,
+    "question": "Who leads the team accountable for Beacon?",
+    "question_id": "leadership",
+    "recall_s": 0.011429749894887209,
+    "repeat": 1,
+    "run_id": "leadership-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 7.057449833024293,
+    "trace_path": "raw/leadership-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16637,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 65792,
+    "cli_s": 14.69550620787777,
+    "decision": {
+      "entities": [
+        "Elena Park"
+      ],
+      "source_ids": [
+        "service-register",
+        "leadership-directory"
+      ],
+      "verdict": "supported"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/leadership-1-search.txt",
+    "input_tokens": 68617,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 177,
+    "prompt_utf8_bytes": 924,
+    "question": "Who leads the team accountable for Beacon?",
+    "question_id": "leadership",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "leadership-1-search",
+    "tool_calls": 3,
+    "tool_output_bytes": 4430,
+    "total_s": 14.702458166982979,
+    "trace_path": "raw/leadership-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 65792,
+      "input_tokens": 68617,
+      "output_tokens": 177,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 33152,
+    "cli_s": 11.553004499990493,
+    "decision": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "source_ids": [
+        "alex-design",
+        "alex-ops"
+      ],
+      "verdict": "ambiguous"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/ambiguous-1-search.txt",
+    "input_tokens": 50608,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 112,
+    "prompt_utf8_bytes": 894,
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "ambiguous-1-search",
+    "tool_calls": 2,
+    "tool_output_bytes": 1556,
+    "total_s": 11.55971208284609,
+    "trace_path": "raw/ambiguous-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33152,
+      "input_tokens": 50608,
+      "output_tokens": 112,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 8.013201209018007,
+    "decision": {
+      "entities": [
+        "Alex Morgan",
+        "Alex Rivera"
+      ],
+      "source_ids": [
+        "alex-design",
+        "alex-ops"
+      ],
+      "verdict": "ambiguous"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/ambiguous-1-graph.txt",
+    "input_tokens": 16578,
+    "order": [
+      "search",
+      "graph"
+    ],
+    "output_tokens": 37,
+    "prompt_utf8_bytes": 857,
+    "question": "Who is Alex?",
+    "question_id": "ambiguous",
+    "recall_s": 0.0026749169919639826,
+    "repeat": 1,
+    "run_id": "ambiguous-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 8.024550125002861,
+    "trace_path": "raw/ambiguous-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16578,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "graph",
+    "cached_input_tokens": 0,
+    "cli_s": 5.528111917199567,
+    "decision": {
+      "entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/missing-1-graph.txt",
+    "input_tokens": 16560,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 23,
+    "prompt_utf8_bytes": 792,
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "recall_s": 0.002957790857180953,
+    "repeat": 1,
+    "run_id": "missing-1-graph",
+    "tool_calls": 0,
+    "tool_output_bytes": 0,
+    "total_s": 5.539829707937315,
+    "trace_path": "raw/missing-1-graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 16560,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "search",
+    "cached_input_tokens": 49664,
+    "cli_s": 19.18425645888783,
+    "decision": {
+      "entities": [],
+      "source_ids": [],
+      "verdict": "missing"
+    },
+    "decision_correct": true,
+    "error": null,
+    "grade": {
+      "decision_correct": true,
+      "reasons": [],
+      "scope": "Entity identity, verdict and required evidence; no free-text answer quality score."
+    },
+    "input_path": "inputs/missing-1-search.txt",
+    "input_tokens": 67318,
+    "order": [
+      "graph",
+      "search"
+    ],
+    "output_tokens": 143,
+    "prompt_utf8_bytes": 898,
+    "question": "Who owns Nimbus?",
+    "question_id": "missing",
+    "recall_s": 0,
+    "repeat": 1,
+    "run_id": "missing-1-search",
+    "tool_calls": 3,
+    "tool_output_bytes": 1129,
+    "total_s": 19.191299166996032,
+    "trace_path": "raw/missing-1-search.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 49664,
+      "input_tokens": 67318,
+      "output_tokens": 143,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "answer": "No entity name or alias matched. Name the relevant person, policy, service or project.",
+  "candidates": [],
+  "citations": [],
+  "evidence_text": "No matching graph evidence.",
+  "mode": "evidence",
+  "notes": [],
+  "paths": [],
+  "question": "Who owns Nimbus?",
+  "snapshot": "3fcf4c1f9835d9b6a20f8e39e7adfd902a2dfa7fa5b2aa4515850f2499fc69ef",
+  "status": "missing",
+  "trace": {
+    "facts_returned": 0,
+    "hop_count": 0,
+    "note_hits": 0,
+    "query": "\nCALL db.idx.vector.queryNodes('Chunk','embedding',10,vecf32($vector)) YIELD node,score RETURN node.id,score ORDER BY score ASC",
+    "retrieval_ms": 20.315,
+    "search_legs": [
+      "keyword",
+      "meaning"
+    ],
+    "seeds": [],
+    "semantic_error": null,
+    "semantic_model": "BAAI/bge-small-en-v1.5",
+    "truncated": false
+  }
+}

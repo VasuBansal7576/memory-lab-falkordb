@@ -1,0 +1,133 @@
+{
+  "scope": "Independent project source and reproducible proof publication",
+  "privacy_note": "Only machine home paths in evidence are redacted. Local original evidence is retained. Original file checksums in frozen manifests refer to original bytes; consult this mapping where publication bytes differ. No metric or answer changed.",
+  "excluded": "Private .env, Codex auth/config/trust, .memory state, virtual environments, old ZIP, caches, raw large browser webm. Generated MP4 is a release asset.",
+  "redactions": [
+    {
+      "path": "proof/invalid-v1/smoke/manifest.json",
+      "original_sha256": "59f2024f631892e2992630ffe07e5010e5697d32b213baccc6e208489eec55ff",
+      "published_sha256": "e0e5f41e31372476bdcf0fc07976cbe5a732f568384a9ea8a94d77a12dff9901",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/invalid-v1/latest/manifest.json",
+      "original_sha256": "ad0aca6768d8769392895ef204e294d3131f7a94fafb2f8711fc5d45cd912843",
+      "published_sha256": "41474355315ee37cb3858d464b6f8421dec20e86ed00128d79a73f5460833727",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/v2-smoke/manifest.json",
+      "original_sha256": "bdb699e5ba1950a985e60b890d0add3f6425f8e7ad692a08223d84b539cfb0a2",
+      "published_sha256": "6edefc192bf4e86358b7971df221ca23d8b340ca94032f6bd3dc379e00eb4200",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/v2-smoke/raw/october-refund-1-search.jsonl",
+      "original_sha256": "cf0a2869907cc1160fdc0e218204459683ded32b98be90d768f9c737c0227c2c",
+      "published_sha256": "569f0cf8a15b50c740e067b958878b38b999fd664604e7cf60ebefd978bfebb8",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/v2-smoke/raw/october-refund-1-graph.jsonl",
+      "original_sha256": "aa36fb4c049d2899faeaa36c8163a92bda36f65e4cf3de9a8f7eeb87c189ab78",
+      "published_sha256": "37d5bd13c513d942709faacf861cf1f8ce23b939e9468ed76f1a611028f51c06",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/model-comparison/codex-v4-20261018/manifest.json",
+      "original_sha256": "cdd6fb0a3b5c491aea2d9fb465a9628e9affc0d01084e89bb2224e7f3dfef7dd",
+      "published_sha256": "37e8f46b6e55aa6a7a3a8f99b31ecb19245a1a8c2cfe1c22185c79e8fd47fcb3",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/model-comparison/codex-v4-20261018/gpt-6.1-sol/manifest.json",
+      "original_sha256": "c3075a1c291dd3729478967472d737e0aad9ac4fa5747fa833beccbedb01f01d",
+      "published_sha256": "69397973903326815868dd0ee1c940e45e34a6d021435073b56fccfc691656d9",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/model-comparison/codex-v4-20261018/gpt-6-luna/manifest.json",
+      "original_sha256": "fbd1751ab38bda6474b0736e8b1063dc692df80dde4b78cf69d2f53842afe911",
+      "published_sha256": "69bfbd9ae9126aba5ea72f39e6995d34e8610a4daedfed562d6934cce1b4c32b",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/hybrid-v3/manifest.json",
+      "original_sha256": "12b0261edd0afd3def35eeb193abdc1b3b0e662897fdf8e643a6bdcb3cdfc7b9",
+      "published_sha256": "50c88150811ce43decd6b8834f85a3c1aeacca5debbb8ac584834fa8dcb1ae81",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/native-prompt.json",
+      "original_sha256": "012ff7343f9964b14cd4efb3a1f7b3c6fcf31ddc877e0fe08e6a5475a2f5992b",
+      "published_sha256": "175d3abb78552c5c510f889266b49c2158a8ac4e464149feb3b027e938232503",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/native-lifecycle.json",
+      "original_sha256": "318ac8581ca688806281289588e5825e7952bd8e26096c1c26de0b44eb2d576e",
+      "published_sha256": "6177f3a2f47ba9da7ebe33a8cec9b5affdb9109e3807e912f3bcac5edf00ebef",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/d414e1409725/next-session-start.json",
+      "original_sha256": "92f5a6312d3e7524fe482c7c0e9182d24ebfe3baf18d4454143b2f5fd88fa5e9",
+      "published_sha256": "5a1216d3641df6ac3a957fc1d9c9c97cc722f1e9d7d9d076b9235ffc8614cace",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/d414e1409725/session-end.json",
+      "original_sha256": "d06fe6760b57d6e40d53ed872c3410923adcc52317e771da3c31c7525a8ecb49",
+      "published_sha256": "93a92c38692235707066fda5a01ee6453181bd357c1fa65633a0fa2e2b1593ff",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/d414e1409725/receipt.json",
+      "original_sha256": "4942b4fc2610bf66f91a0ead4f2c9f5a49d940b35cba89cf1a21fc71076dac0a",
+      "published_sha256": "f049465c9b41943062a9d9a34c8a3cc4c3dc0494044ea1e86be9e8cfbfec0477",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/d414e1409725/duplicate-close.json",
+      "original_sha256": "d06fe6760b57d6e40d53ed872c3410923adcc52317e771da3c31c7525a8ecb49",
+      "published_sha256": "93a92c38692235707066fda5a01ee6453181bd357c1fa65633a0fa2e2b1593ff",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/081df7bd7f15/next-session-start.json",
+      "original_sha256": "2da1c743837d32a2d994789bed7fce855c9b12c40a262b0a57f540885b118eef",
+      "published_sha256": "73e752ecda3833c9fb1357ce4e124ce30ed7d498983bc0b61b01240eb533aad2",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/081df7bd7f15/session-end.json",
+      "original_sha256": "f1b08d6bb870669a9767f74f4fe558d0b5fe5f013af59aee74eee57b89dd91c4",
+      "published_sha256": "8d932b447384062158cee1f3f374012de98aa2bd867d9a9382de3f3afc4f7847",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/081df7bd7f15/receipt.json",
+      "original_sha256": "0bf17311bc5258513da9cac191cd3322f7ade65a73cbc4fc2ae970cc1303d607",
+      "published_sha256": "aa7c06ad3c6061e3df6a1ddfe377aa4cddea56147bca958c0750392bd6a57742",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/reference-parity/081df7bd7f15/duplicate-close.json",
+      "original_sha256": "f1b08d6bb870669a9767f74f4fe558d0b5fe5f013af59aee74eee57b89dd91c4",
+      "published_sha256": "8d932b447384062158cee1f3f374012de98aa2bd867d9a9382de3f3afc4f7847",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/v2-smoke-clean/manifest.json",
+      "original_sha256": "5fb3e774c3d62c551327e32cc042a61ad213256b41b8fe310529a9f90b3e3abc",
+      "published_sha256": "2cb075e711734913f4287365ab6029b9a8f9cda5c454df0a39f84675ca6dc76b",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    },
+    {
+      "path": "proof/current/manifest.json",
+      "original_sha256": "5804b1f05a08273c5a16adb25e1fa25971cce61ee190034572d6645de2a16a9c",
+      "published_sha256": "fc0fd392031f5e87e2311f0f2b4abfcf036d813823dd633d03d90c2b125fa430",
+      "reason": "Machine home directory path replaced with <LOCAL_HOME>; provider answers, metrics and events unchanged."
+    }
+  ]
+}

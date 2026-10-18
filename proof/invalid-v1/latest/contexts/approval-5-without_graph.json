@@ -1,0 +1,54 @@
+{
+  "documents": [
+    {
+      "id": "atlas-approval",
+      "text": "Atlas releases are approved by Release Steward. Release approval is a recorded role decision.",
+      "title": "Atlas release approval policy"
+    },
+    {
+      "id": "atlas-stack",
+      "text": "Orbit Works builds Atlas. Atlas uses Beacon to deliver notifications.",
+      "title": "Atlas service map"
+    },
+    {
+      "id": "beacon-dependency",
+      "text": "Beacon depends on Harbor for event transport.",
+      "title": "Beacon dependency note"
+    },
+    {
+      "id": "beacon-ownership",
+      "text": "Platform owns Beacon. This register records the accountable service team.",
+      "title": "Beacon ownership register"
+    },
+    {
+      "id": "beacon-retention",
+      "text": "Beacon is governed by Retention. Events expire after thirty days.",
+      "title": "Beacon retention standard"
+    },
+    {
+      "id": "design-directory",
+      "text": "Alex Morgan works with the design practice. This entry uses the short name Alex.",
+      "title": "Design directory"
+    },
+    {
+      "id": "operations-directory",
+      "text": "Alex Rivera works in operations. This entry also uses the short name Alex.",
+      "title": "Operations directory"
+    },
+    {
+      "id": "platform-leadership",
+      "text": "Elena leads Platform. Team leadership is reviewed quarterly.",
+      "title": "Platform leadership memo"
+    },
+    {
+      "id": "release-delegation",
+      "text": "Noah delegates to Mira. Jun is available as a future backup and has no current delegation.",
+      "title": "Release delegation notice"
+    },
+    {
+      "id": "steward-assignment",
+      "text": "Release Steward is held by Noah. The appointment covers this release cycle.",
+      "title": "Release Steward assignment"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "method": "Memory.ask",
+  "snapshot": "a30af6cb5d28baae8cc2e5fd32667caa684873385339dce953eb1b280de2f5ba",
+  "trace": {
+    "facts_returned": 3,
+    "hop_count": 3,
+    "query": "MATCH p=(n0:Policy)-[:APPROVED_BY|HELD_BY*1..2]->(h:Person) WHERE n0.id=$seed AND type(relationships(p)[0])='APPROVED_BY' AND (length(p)=1 OR (nodes(p)[1].kind='Role' AND type(relationships(p)[1])='HELD_BY')) OPTIONAL MATCH (h)-[delegation:DELEGATES_TO]->(d:Person) RETURN CASE WHEN d IS NULL THEN nodes(p) ELSE nodes(p)+[d] END, CASE WHEN d IS NULL THEN relationships(p) ELSE relationships(p)+[delegation] END LIMIT 64",
+    "retrieval_ms": 15.333,
+    "seeds": [
+      "atlas-releases"
+    ]
+  }
+}

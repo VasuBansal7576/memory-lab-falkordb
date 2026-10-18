@@ -1,0 +1,24 @@
+{
+  "candidates": [
+    {
+      "aliases": [
+        "Alex Morgan",
+        "Alex design"
+      ],
+      "id": "alex-design",
+      "kind": "Person",
+      "name": "Alex"
+    },
+    {
+      "aliases": [
+        "Alex Rivera",
+        "Alex operations"
+      ],
+      "id": "alex-ops",
+      "kind": "Person",
+      "name": "Alex"
+    }
+  ],
+  "paths": [],
+  "sources": []
+}

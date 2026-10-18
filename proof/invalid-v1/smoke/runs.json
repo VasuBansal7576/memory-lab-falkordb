@@ -1,0 +1,92 @@
+[
+  {
+    "arm": "without_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-1-without_graph.json",
+    "context_utf8_bytes": 1791,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 1,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s current delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-1-without_graph.retrieval.json",
+    "run_id": "approval-1-without_graph",
+    "stderr_path": "raw/approval-1-without_graph.stderr.txt",
+    "timing": {
+      "cli_s": 7.496009833179414,
+      "cpu_s": 1.057149,
+      "retrieval_s": 0.00323133310303092,
+      "total_s": 7.505614707944915
+    },
+    "trace_path": "raw/approval-1-without_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 23798,
+      "output_tokens": 55,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  },
+  {
+    "arm": "with_graph",
+    "calls_completed": 1,
+    "context_path": "contexts/approval-1-with_graph.json",
+    "context_utf8_bytes": 1595,
+    "correct": true,
+    "error": null,
+    "grade": {
+      "correct": true,
+      "reasons": []
+    },
+    "question": "Who approves Atlas releases?",
+    "question_id": "approval",
+    "repeat": 1,
+    "response": {
+      "answer": "Mira approves Atlas releases through Noah’s delegation.",
+      "answer_entities": [
+        "Mira"
+      ],
+      "source_ids": [
+        "atlas-approval",
+        "steward-assignment",
+        "release-delegation"
+      ],
+      "verdict": "supported"
+    },
+    "retrieval_trace_path": "raw/approval-1-with_graph.retrieval.json",
+    "run_id": "approval-1-with_graph",
+    "stderr_path": "raw/approval-1-with_graph.stderr.txt",
+    "timing": {
+      "cli_s": 6.494073625188321,
+      "cpu_s": 1.031677,
+      "retrieval_s": 0.013690999941900373,
+      "total_s": 6.512843749951571
+    },
+    "trace_path": "raw/approval-1-with_graph.jsonl",
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 19832,
+      "output_tokens": 54,
+      "reasoning_output_tokens": 0
+    },
+    "valid": true
+  }
+]
