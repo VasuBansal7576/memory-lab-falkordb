@@ -11,7 +11,7 @@ Persistent memory for Codex, backed by FalkorDB. It saves decisions from one ses
 - Retrieves graph context, note passages, or both.
 - Shows the answer’s relationship paths, quotations, source revisions and Cypher query.
 
-For example, “Who approves a £900 refund on 15 October?” requires three connections: policy → approval role → role holder → temporary delegate. The source quotations preserve the amount threshold and delegation dates so the answering model can apply them.
+Example: a refund question follows policy → role → role holder → temporary delegate. The retrieved sources retain the approval threshold and delegation dates.
 
 ## Run locally
 
@@ -25,7 +25,7 @@ uv run python -m memory_lab
 
 Open **http://127.0.0.1:8791**. The included company data is synthetic. Start in **Evidence mode**, which needs no model account. Embeddings download on first use; set `MEMORY_SEMANTIC=0` to skip that download and use keyword search.
 
-For model answers, install the [Codex CLI](https://developers.openai.com/codex/cli/), run `codex login`, then select **Codex · local login** in the app. The default model is `gpt-6.1-sol`; change `MEMORY_CODEX_MODEL` if needed. There is no public deployment: the app runs on loopback and uses your local login.
+For model answers, install the [Codex CLI](https://developers.openai.com/codex/cli/), run `codex login`, then select **Codex · local login**. Set `MEMORY_CODEX_MODEL` to change the default `gpt-6.1-sol`. The app runs locally and uses your login.
 
 Settings are listed in [.env.example](.env.example). Put overrides in an untracked `.env`.
 
@@ -38,13 +38,13 @@ codex
 
 In Codex, run `/hooks` and review/trust the four project hooks. Trust is local to your checkout; it is not carried in this repository.
 
-The hooks retrieve context on prompts and capture filtered conversations on close or compaction. A detached worker writes daily notes, distilled questions and extracted facts, then publishes a new graph snapshot. Tools and analysis are excluded from the captured conversation. Failed jobs can be retried without duplicating the note.
+The hooks retrieve context on prompts and capture conversations on close or compaction. A background worker filters the transcript, writes notes, extracts facts and publishes a graph snapshot. Retries do not duplicate notes.
 
 ```sh
 uv run python -m memory_lab.doctor
 ```
 
-The doctor checks the database, provider login and observed hook events. Private transcripts and pending jobs live in ignored `.memory/` state.
+This checks the database, login and hook events. Private state stays in ignored `.memory/`.
 
 ## Import and retrieve
 
@@ -59,7 +59,7 @@ uv run python -m memory_lab.recall_cli --mode hybrid 'Who approves a £900 refun
 
 Raw imports need no answering model. `--distil` and `--extract` use your local Codex login. Add `--json` to recall commands for the complete evidence and trace.
 
-The importer also accepts the reference project’s extraction JSON (`--extractions DIR`) and distilled Markdown (`--distilled DIR`). It checks quoted text against the source and removes stale imported entries when files change or disappear.
+Reference-format extraction JSON (`--extractions DIR`) and distilled Markdown (`--distilled DIR`) are also supported.
 
 ## FalkorDB model
 
@@ -72,7 +72,7 @@ FalkorDB stores the entities, relationships, source chunks and vectors used for 
 
 Facts carry a source ID, revision, quotation and text offsets. A source update stages an immutable snapshot; compare-and-swap publishes it only after indexing succeeds. Docker’s volume and AOF retain committed state across container recreation.
 
-Graph recall resolves names and aliases, then walks up to three hops. Domain relationships rank ahead of document-reference links. The default budget is eight facts; omitted evidence is flagged.
+Graph recall resolves names/aliases and walks up to three hops, returning eight facts by default. Omitted evidence is flagged.
 
 ```cypher
 MATCH p=(s:Entity)-[*1..3]-(n:Entity)
@@ -101,7 +101,7 @@ Cosine scores here are distances: lower is closer. Graph-only mode skips both no
 
 Open **http://127.0.0.1:8791/proof** to inspect the recorded runs. [Current benchmark](proof/model-comparison/codex-v4-20261018), [native Codex lifecycle](proof/reference-parity/native-lifecycle.json), and [publication details](PUBLICATION.json) are included in the repository.
 
-The benchmark runs Sol and Luna with two methods: actual local search/read, and graph-only context. Both use the same 16 synthetic source documents. There are 32 attempts across six questions, including three approval-question repeats per cell.
+32 attempts compare real local search/read with graph-only context on 16 synthetic documents and six questions. The approval question is repeated three times per cell.
 
 | Model / method | Approval median | Input tokens | Valid approval repeats | Strict checks, all attempts |
 |---|---:|---:|---:|---:|
@@ -112,7 +112,7 @@ The benchmark runs Sol and Luna with two methods: actual local search/read, and 
 
 Three Luna baselines skipped required retrieval. One Luna graph answer returned “A Support Agent” instead of the exact expected label “Support Agent” and failed grading. All failures and raw provider traces remain available.
 
-These are answer-time measurements from a small pilot. Input totals include cached tokens; caching, service load and sequential model blocks affect timing. Graph annotations were prepared in advance, so extraction/indexing costs are excluded. This does not compare graph recall against a strong RAG baseline or establish a general model ranking.
+Small synthetic pilot; cached tokens are included. Cache, service load and model order affect timings. Precomputed graph annotations exclude extraction/indexing costs. A strong RAG baseline was not tested.
 
 ## Verify
 
@@ -133,7 +133,7 @@ uv run python -m scripts.verify_durability
 
 ## Credits and limits
 
-Built on 18 October 2026 with substantial Codex assistance for code, tests, debugging, documentation and demo production. The participant supplied the concept, reference selection, experiment and architecture/review direction. Verification was automated and included real provider calls.
+Built on 18 October 2026 with substantial Codex assistance for implementation, verification, documentation and video. The participant directed the concept, experiment, reference choice and revisions.
 
 The design is inspired by [Glitch Cat Club’s graph-memory-starter](https://github.com/Glitch-Cat-Club/graph-memory-starter/tree/496a6e9d9b9578943ec5ed34c2780de5a0fa5510). This independent implementation uses FalkorDB and Codex. Compatibility checks use its MIT-licensed example data; see [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES).
 
