@@ -19,5 +19,8 @@
   "content": "Real local app interaction, recorded native Codex lifecycle, actual search commands and graph evidence, complete four-cell benchmark, failures and limitations.",
   "source": "videos/memory-lab-proof/",
   "narration": "Locally generated Kokoro am_adam, from included narration.json; no music.",
-  "release": "https://github.com/VasuBansal7576/memory-lab-falkordb/releases/tag/v0.1.0"
+  "release": "https://github.com/VasuBansal7576/memory-lab-falkordb/releases/tag/v0.1.0",
+  "youtube_url": "https://www.youtube.com/watch?v=ub619IC5XKA",
+  "youtube_visibility": "Public",
+  "youtube_publication_confirmed_at": "2026-10-18T16:29:48.159911+00:00"
 }

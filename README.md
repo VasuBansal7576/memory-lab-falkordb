@@ -4,7 +4,7 @@ Persistent memory for Codex, backed by FalkorDB. It saves decisions from one ses
 
 **Graph Hacks 2026 · Solo · Agent Memory and Coordination + Company Brain**
 
-[Watch / download the 2:44 proof demo](https://github.com/VasuBansal7576/memory-lab-falkordb/releases/tag/v0.1.0)
+[Watch the proof demo](https://youtu.be/ub619IC5XKA) · [Download MP4](https://github.com/VasuBansal7576/memory-lab-falkordb/releases/tag/v0.1.0)
 
 ## What it does
 
@@ -100,6 +100,8 @@ ORDER BY score ASC
 Cosine scores here are distances: lower is closer. Graph-only mode skips both note-retrieval legs.
 
 ## Proof
+
+[Submitted](proof/submission.json) on 18 October 2026 at 21:58 IST.
 
 Open **http://127.0.0.1:8791/proof** to inspect the recorded runs. [Current benchmark](proof/model-comparison/codex-v4-20261018), [native Codex lifecycle](proof/reference-parity/native-lifecycle.json), and [publication details](PUBLICATION.json) are included in the repository.
 

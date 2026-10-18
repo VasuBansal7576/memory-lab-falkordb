@@ -1,0 +1,23 @@
+{
+  "status": "submitted",
+  "observed_at": "2026-10-18T16:29:48.159911+00:00",
+  "site": "https://www.wemakedevs.org/hackathons/falkordb/submit",
+  "confirmation_text": "SUBMITTED",
+  "project": "Memory Lab \u2014 source-backed Codex memory with FalkorDB",
+  "entry": "Solo entry \u00b7 Graph Hacks",
+  "tracks": [
+    "Agent Memory and Coordination",
+    "Company Brain"
+  ],
+  "site_filed_time": "18 Oct 2026, 21:58",
+  "site_filed_timezone": "Asia/Kolkata",
+  "repository": "https://github.com/VasuBansal7576/memory-lab-falkordb",
+  "demo_video": "https://www.youtube.com/watch?v=ub619IC5XKA",
+  "video_visibility": "Public",
+  "youtube_confirmation": "Video published; checks complete, no issues found",
+  "screenshots": [
+    "submitted.png",
+    "youtube-published.png"
+  ],
+  "note": "Submission status and filed time observed in the authenticated WeMakeDevs UI. The /submit page displays the signed-in participant\u2019s receipt."
+}
