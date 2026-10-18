@@ -17,6 +17,7 @@
   "youtube_confirmation": "Video published; checks complete, no issues found",
   "screenshots": [
     "submitted.png",
+    "submitted-full.png",
     "youtube-published.png"
   ],
   "note": "Submission status and filed time observed in the authenticated WeMakeDevs UI. The /submit page displays the signed-in participant\u2019s receipt."
