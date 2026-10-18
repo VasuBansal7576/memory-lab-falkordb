@@ -4,6 +4,8 @@ Persistent memory for Codex, backed by FalkorDB. It saves decisions from one ses
 
 **Graph Hacks 2026 · Solo · Agent Memory and Coordination + Company Brain**
 
+[Watch / download the 2:44 proof demo](https://github.com/VasuBansal7576/memory-lab-falkordb/releases/tag/v0.1.0)
+
 ## What it does
 
 - Imports Markdown notes and connects people, projects, policies and decisions.
@@ -123,7 +125,7 @@ uv run python -m scripts.verify_reference_rag
 uv run python -m scripts.verify_native_hooks
 ```
 
-Recorded results: **123 tests passed**, **5/5 original graph cases**, **4/4 original RAG checks**, and native capture → worker → recall in a separate Codex session. The native verifier needs trusted hooks and an authenticated Codex CLI.
+[Publication test receipt](proof/submission-check.json): **123 tests passed**, **5/5 original graph cases**, **4/4 original RAG checks**, and native capture → worker → recall in a separate Codex session. The native verifier needs trusted hooks and an authenticated Codex CLI.
 
 Run the persistence check separately from tests and active workers; it recreates this project’s database container while retaining its volume:
 

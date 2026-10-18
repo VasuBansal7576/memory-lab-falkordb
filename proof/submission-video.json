@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-18T16:19:11.840697+00:00",
+  "file": "memory-lab-demo.mp4",
+  "sha256": "07df728370389820912ac60c5b438ba6bc01bd2f5192f3051c84aa6a40391425",
+  "size_bytes": 8849218,
+  "duration_seconds": 164,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "decode_check": "Full FFmpeg audio/video decode passed",
+  "audio_max_dbfs": -2.1,
+  "composition_check": "0 lint/runtime/layout/motion issues; 82/82 text contrast checks passed",
+  "content": "Real local app interaction, recorded native Codex lifecycle, actual search commands and graph evidence, complete four-cell benchmark, failures and limitations.",
+  "source": "videos/memory-lab-proof/",
+  "narration": "Locally generated Kokoro am_adam, from included narration.json; no music.",
+  "release": "https://github.com/VasuBansal7576/memory-lab-falkordb/releases/tag/v0.1.0"
+}
